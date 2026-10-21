@@ -1,0 +1,93 @@
+[
+  {
+    "id": "yo-cuido-mi-barrio-cartagena",
+    "brecha": "social",
+    "capturada": "2026-10-21",
+    "emerge": "Una generación que crece sintiendo el barrio como algo propio para cuidar, no como algo de lo que huir.",
+    "fecha_pub": "2026-10-17",
+    "fuente": "El Universal",
+    "lugar": "Cartagena, Colombia",
+    "origen": "buscador",
+    "resumen": "Diomar Ríos Batista lleva seis años como voluntario en Olaya Herrera (Cartagena) enseñando a chicos de 5 a 14 años a querer y cuidar su barrio con juegos y dinámicas pedagógicas. Ya pasaron más de 1.200 niños y jóvenes.",
+    "titulo": "Yo Cuido mi Barrio",
+    "url": "https://www.eluniversal.com.co/cartagena/2026/10/17/yo-cuido-mi-barrio-la-iniciativa-que-impacta-en-los-ninos-y-jovenes-de-olaya-herrera/"
+  },
+  {
+    "id": "les-juntes-hospitalet",
+    "brecha": "social",
+    "capturada": "2026-10-21",
+    "emerge": "La casa deja de ser mercancía y vuelve a ser un bien común sostenido entre vecinos.",
+    "fecha_pub": "2026-10-17",
+    "fuente": "Público",
+    "lugar": "L'Hospitalet de Llobregat, Cataluña",
+    "origen": "buscador",
+    "resumen": "Una cooperativa de vivienda de gestión comunitaria compra pisos de fondos de inversión ocupados por familias con pocos recursos en La Florida (l'Hospitalet). Ya adquirió 16 viviendas para frenar desahucios, y una fundación colectiva impide que vuelvan a venderse.",
+    "titulo": "Les Juntes: comprar pisos para sacarlos del mercado",
+    "url": "https://www.publico.es/sociedad/juntes-respuesta-colectiva-desmercantilizar-vivienda-barrio-densamente-poblado-europa.html"
+  },
+  {
+    "id": "chakras-kichwa-jovenes",
+    "brecha": "espiritual",
+    "capturada": "2026-10-21",
+    "emerge": "La sabiduría ancestral como tecnología de futuro, transmitida entre generaciones.",
+    "fecha_pub": "2026-02-04",
+    "fuente": "ThinkLandscape (GLF)",
+    "lugar": "Amazonía, Ecuador",
+    "origen": "buscador",
+    "resumen": "En Ecuador, jóvenes de comunidades kichwas combinan el sistema agroforestal de la chakra con el saber de los mayores para cuidar el agua y la tierra.",
+    "titulo": "Jóvenes kichwas vuelven a la chakra",
+    "url": "https://thinklandscape.globallandscapesforum.org/es/101781/de-las-raices-ancestrales-soberanas-florecen-redes-de-cuidado-visiones-de-futuro-para-los-ecosistemas-latinoamericanos/"
+  },
+  {
+    "id": "bioconstruccion-san-rafael",
+    "brecha": "ecologica",
+    "capturada": "2026-10-21",
+    "emerge": "Habitar de modo que la casa misma regenere el lugar donde se apoya.",
+    "fecha_pub": "2026-02-04",
+    "fuente": "ThinkLandscape (GLF)",
+    "lugar": "San Rafael, Colombia",
+    "origen": "buscador",
+    "resumen": "Daniela Daza y su comunidad en San Rafael (Colombia) construyen con materiales naturales para impulsar un ecoturismo que restaura especies nativas.",
+    "titulo": "Bioconstrucción y especies nativas en San Rafael",
+    "url": "https://thinklandscape.globallandscapesforum.org/es/101781/de-las-raices-ancestrales-soberanas-florecen-redes-de-cuidado-visiones-de-futuro-para-los-ecosistemas-latinoamericanos/"
+  },
+  {
+    "id": "bibliotecas-de-objetos",
+    "brecha": "espiritual",
+    "capturada": "2026-10-21",
+    "emerge": "Pasar de poseer a compartir: menos cosas, más vínculos.",
+    "fecha_pub": "2025-05-28",
+    "fuente": "Resilience.org",
+    "lugar": "Global",
+    "origen": "buscador",
+    "resumen": "En el mundo ya hay más de 2.000 bibliotecas de objetos (herramientas, utensilios, equipos), casi todas sostenidas por voluntarios. En Houston, una se va a integrar a un proyecto de vivienda asequible.",
+    "titulo": "Más de 2.000 bibliotecas de objetos",
+    "url": "https://www.resilience.org/stories/2025-05-28/the-many-innovative-spheres-of-organized-sharing/"
+  },
+  {
+    "id": "baterias-compartidas-oakland",
+    "brecha": "social",
+    "capturada": "2026-10-21",
+    "emerge": "Frente al desastre, la respuesta no es el búnker individual sino la red vecinal.",
+    "fecha_pub": "2025-05-28",
+    "fuente": "Resilience.org",
+    "lugar": "Oakland, EE.UU.",
+    "origen": "buscador",
+    "resumen": "El People Power Battery Collective de Oakland armó, con Shareable, una red de baterías para que el barrio comparta electricidad en apagones o desastres. Desde entonces otros quince grupos replicaron la idea.",
+    "titulo": "Vecinos que comparten la luz en el apagón",
+    "url": "https://www.resilience.org/stories/2025-05-28/the-many-innovative-spheres-of-organized-sharing/"
+  },
+  {
+    "id": "aprospera-cerrado",
+    "brecha": "ecologica",
+    "capturada": "2026-10-21",
+    "emerge": "Producir alimento y sanar el territorio dejan de ser opuestos.",
+    "fecha_pub": "2026-02-04",
+    "fuente": "ThinkLandscape (GLF)",
+    "lugar": "Cerrado, Brasil",
+    "origen": "buscador",
+    "resumen": "APROSPERA, una asociación de productores vinculada al Movimiento Sin Tierra, restaura zonas del Cerrado con especies nativas y arma cajas de comida para ciudades cercanas a Brasilia.",
+    "titulo": "Restaurar el Cerrado y alimentar la ciudad",
+    "url": "https://thinklandscape.globallandscapesforum.org/es/101781/de-las-raices-ancestrales-soberanas-florecen-redes-de-cuidado-visiones-de-futuro-para-los-ecosistemas-latinoamericanos/"
+  }
+]

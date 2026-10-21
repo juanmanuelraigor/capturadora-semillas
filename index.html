@@ -1,0 +1,559 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="Un observatorio de Jardín de Gente que captura cada día señales de vidas nuevas que ya están naciendo más allá del relato del colapso.">
+<meta property="og:title" content="Capturadora de Semillas · Jardín de Gente">
+<meta property="og:description" content="No se termina el mundo. Se termina un mundo. Semillas de vidas nuevas, capturadas cada día.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#0E130F">
+<title>Capturadora de Semillas</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Figtree:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: noche de tierra. Ceniza que cae arriba (el relato del colapso) y semillas que brotan abajo. Recorrido de las 4 escuchas, luego el campo de semillas que crece cada día. Una sola atmósfera oscura, elegida a propósito. */
+:root{
+  --soil:#0E130F; --soil-2:#151C17; --soil-3:#1D2620; --line:#2B362E;
+  --ink:#ECE8DC; --muted:#9BA69C; --ash:#6E746C;
+  --seed:#E4B75C; --seed-dim:#3B3020;
+  --eco:#82C79C; --soc:#E79D8F; --esp:#A8B2EE;
+  --display:"Young Serif",Georgia,"Times New Roman",serif;
+  --body:"Figtree",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{margin:0}
+img{max-width:100%}
+[hidden]{display:none!important}
+.voz-card.oculto{opacity:.4}
+.admin{background:var(--soil-3);border:1px solid var(--line);border-radius:14px;padding:16px;margin-top:24px;display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.admin input{font:14px var(--body);padding:8px 12px;border:1px solid var(--line);border-radius:8px;background:var(--soil);color:var(--ink);flex:1 1 220px;min-width:0}
+.hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+html{scroll-behavior:smooth}
+body{background:var(--soil);color:var(--ink);font-family:var(--body);font-size:15.5px;line-height:1.6}
+.gut{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.inner{max-width:1100px;margin:0 auto}
+.eyebrow{font-family:var(--mono);font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--seed)}
+
+/* HERO */
+.hero{position:relative;overflow:hidden;border-bottom:1px solid var(--line);background:radial-gradient(120% 70% at 50% 110%, #1E2A1F 0%, var(--soil) 60%)}
+#sky{position:absolute;inset:0;width:100%;height:100%;display:block}
+.hero .inner{position:relative;padding-block:clamp(72px,12vw,140px) clamp(64px,10vw,120px);display:flex;flex-direction:column;gap:22px}
+.hero h1{font-family:var(--display);font-weight:400;font-size:clamp(40px,8.4vw,96px);line-height:.98;margin:0;letter-spacing:-.01em;text-wrap:balance;max-width:13ch}
+.hero h1 .ash{color:var(--ash)}
+.hero h1 .glow{color:var(--seed);text-shadow:0 0 38px rgba(228,183,92,.35)}
+.hero .lede{max-width:56ch;font-size:clamp(16px,2vw,19px);color:var(--ink);opacity:.88;margin:0}
+.cta{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.btn{font:600 14px var(--body);padding:11px 18px;border-radius:999px;border:1px solid var(--ink);background:transparent;color:var(--ink);cursor:pointer;text-decoration:none;display:inline-flex;gap:8px;align-items:center}
+.btn.seed{background:var(--seed);border-color:var(--seed);color:var(--soil)}
+.live{font-family:var(--mono);font-size:12px;color:var(--muted)}
+.live b{color:var(--ink);font-weight:500}
+
+/* ESCUCHAS */
+section{padding-block:clamp(56px,9vw,104px)}
+.why{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:clamp(24px,5vw,64px);align-items:start}
+.why h2,.campo h2{font-family:var(--display);font-weight:400;font-size:clamp(30px,4.6vw,50px);line-height:1.05;margin:10px 0 16px;text-wrap:balance}
+.why p{color:var(--muted);max-width:52ch;margin:0 0 14px}
+.why p strong{color:var(--ink);font-weight:600}
+.path{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;position:relative}
+.path::before{content:"";position:absolute;left:19px;top:24px;bottom:24px;width:2px;background:linear-gradient(var(--ash),var(--seed))}
+.step{display:grid;grid-template-columns:40px minmax(0,1fr);gap:18px;padding:14px 0}
+.step .n{width:40px;height:40px;border-radius:50%;display:grid;place-items:center;font-family:var(--mono);font-size:13px;background:var(--soil);border:1px solid var(--line);position:relative;z-index:1;color:var(--muted)}
+.step h3{font-family:var(--display);font-weight:400;font-size:22px;margin:4px 0 2px}
+.step .voz{font-family:var(--display);font-size:16px;color:var(--ink);opacity:.8;margin:0 0 4px}
+.step p{margin:0;color:var(--muted);font-size:14.5px}
+.step.s1 h3{color:var(--ash);text-decoration:line-through;text-decoration-color:rgba(231,157,143,.6);text-decoration-thickness:2px}
+.step.s1 .n{border-color:var(--ash)}
+.step.s4 .n{background:var(--seed);color:var(--soil);border-color:var(--seed);box-shadow:0 0 0 6px rgba(228,183,92,.14),0 0 30px rgba(228,183,92,.35)}
+.step.s4 h3{color:var(--seed)}
+.umbral{margin-top:clamp(40px,6vw,72px);border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding-block:28px;font-family:var(--display);font-size:clamp(22px,3.4vw,34px);line-height:1.25;text-align:center;text-wrap:balance}
+.umbral em{font-style:normal;color:var(--seed)}
+
+/* CAMPO */
+.campo{background:var(--soil-2);border-top:1px solid var(--line)}
+.campo-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:20px;margin-bottom:28px}
+.campo-head p{color:var(--muted);max-width:52ch;margin:0}
+.counter{font-family:var(--mono);font-size:12px;color:var(--muted);text-align:right}
+.counter b{display:block;font-family:var(--display);font-weight:400;font-size:56px;line-height:1;color:var(--seed)}
+.brechas{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-bottom:26px}
+.brecha{border-top:2px solid var(--c);padding-top:10px;font-size:13.5px;color:var(--muted)}
+.brecha strong{display:block;color:var(--ink);font-weight:600;font-size:14.5px}
+.controls{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:22px}
+.chip{font:500 13px var(--body);border:1px solid var(--line);background:var(--soil-3);color:var(--ink);padding:7px 13px;border-radius:999px;cursor:pointer;display:inline-flex;gap:7px;align-items:center}
+.chip .dot{width:8px;height:8px;border-radius:50%;background:var(--muted)}
+.chip[data-b="ecologica"] .dot{background:var(--eco)} .chip[data-b="social"] .dot{background:var(--soc)} .chip[data-b="espiritual"] .dot{background:var(--esp)} .chip[data-b="resuena"] .dot{background:var(--seed)}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--soil);border-color:var(--ink)}
+:focus-visible{outline:2px solid var(--seed);outline-offset:2px}
+#q{flex:1 1 200px;min-width:0;font:14px var(--body);padding:8px 14px;border:1px solid var(--line);border-radius:999px;background:var(--soil);color:var(--ink)}
+.field{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px}
+.card{position:relative;background:var(--soil-3);border:1px solid var(--line);border-radius:14px;padding:20px 20px 14px;display:flex;flex-direction:column;gap:11px;min-width:0;overflow:hidden}
+.card::after{content:"";position:absolute;right:-40px;top:-40px;width:120px;height:120px;border-radius:50%;background:radial-gradient(var(--bc),transparent 70%);opacity:.18;pointer-events:none}
+.card .top{display:flex;justify-content:space-between;gap:8px;align-items:center;font-family:var(--mono);font-size:11px;color:var(--muted)}
+.tag{font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--bc);display:inline-flex;gap:6px;align-items:center}
+.tag::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--bc);box-shadow:0 0 10px var(--bc)}
+.card h3{font-family:var(--display);font-weight:400;font-size:21px;line-height:1.2;margin:0;text-wrap:balance}
+.card p{margin:0;color:var(--ink);opacity:.86;font-size:14.5px}
+.emerge{border-left:2px solid var(--bc);padding-left:11px;opacity:1!important}
+.emerge span{font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--bc);display:block}
+.ref{font-size:13px;color:var(--muted);overflow-wrap:anywhere}
+.ref a{color:var(--ink);text-decoration-color:var(--seed);text-underline-offset:3px}
+.actions{display:flex;gap:8px;border-top:1px dashed var(--line);padding-top:10px;margin-top:auto}
+.act{font:500 12.5px var(--body);background:none;border:1px solid var(--line);color:var(--muted);border-radius:999px;padding:5px 12px;cursor:pointer}
+.act[aria-pressed="true"]{border-color:var(--seed);color:var(--seed);background:var(--seed-dim)}
+.note{font-size:14px;font-family:var(--display);color:var(--ink);background:var(--seed-dim);border-radius:8px;padding:10px 12px}
+.note-edit{display:flex;flex-direction:column;gap:6px}
+textarea,select,.form input{font:14px var(--body);padding:9px 11px;border:1px solid var(--line);border-radius:8px;background:var(--soil);color:var(--ink);width:100%}
+.form{background:var(--soil-3);border:1px solid var(--line);border-radius:14px;padding:18px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-bottom:22px}
+.form label{display:flex;flex-direction:column;gap:4px;font-size:11px;font-family:var(--mono);color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
+.form .full{grid-column:1/-1}
+.empty{border:1px dashed var(--line);border-radius:14px;padding:44px 20px;text-align:center;color:var(--muted);grid-column:1/-1}
+.empty h3{font-family:var(--display);font-weight:400;color:var(--ink);font-size:24px;margin:0 0 6px}
+.msg{font-size:13px;color:var(--soc)}
+.b-ecologica{--bc:var(--eco)} .b-social{--bc:var(--soc)} .b-espiritual{--bc:var(--esp)}
+.concepto h2,.mias h2{font-family:var(--display);font-weight:400;font-size:clamp(30px,4.6vw,50px);line-height:1.05;margin:10px 0 24px;text-wrap:balance}
+.concepto-grid{display:grid;grid-template-columns:minmax(0,6fr) minmax(0,6fr);gap:clamp(24px,5vw,56px);align-items:start}
+.def p{color:var(--muted);margin:0 0 14px;max-width:56ch}
+.def .big{font-family:var(--display);font-size:clamp(21px,2.6vw,27px);line-height:1.35;color:var(--ink)}
+.def .big em{font-style:normal;color:var(--seed)}
+.criterio{background:var(--soil-3);border:1px solid var(--line);border-radius:14px;padding:22px}
+.criterio h3{font-family:var(--display);font-weight:400;font-size:22px;margin:0 0 8px}
+.crit-intro{color:var(--muted);font-size:14.5px;margin:0 0 14px}
+.si-no{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-bottom:14px}
+.si-no h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;margin:0 0 8px;font-weight:500}
+.si-no .si{color:var(--eco)} .si-no .no{color:var(--soc)}
+.si-no ul{margin:0;padding-left:18px;font-size:14px;display:flex;flex-direction:column;gap:6px}
+.mias{background:var(--soil-2);border-top:1px solid var(--line)}
+.mias-intro{color:var(--muted);margin:-12px 0 22px;max-width:56ch}
+.tabla-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:14px;background:var(--soil-3)}
+.tabla-wrap .empty{border:0}
+table{width:100%;border-collapse:collapse;font-size:14px;min-width:760px}
+th{font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:500;text-align:left;padding:12px 14px;border-bottom:1px solid var(--line)}
+td{padding:12px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+tr:last-child td{border-bottom:0}
+td.t{font-family:var(--display);font-size:15.5px;max-width:260px}
+td.t a{color:var(--ink);text-decoration-color:var(--seed);text-underline-offset:3px}
+td .tag{white-space:nowrap}
+td.d{font-family:var(--mono);font-size:12px;color:var(--muted);white-space:nowrap;font-variant-numeric:tabular-nums}
+td textarea{min-width:200px;font-size:13.5px;padding:7px 9px;resize:vertical}
+.saved-ok{font-family:var(--mono);font-size:11px;color:var(--eco)}
+.voces-grid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:clamp(24px,5vw,56px);align-items:start}
+.voces h2{font-family:var(--display);font-weight:400;font-size:clamp(30px,4.6vw,50px);line-height:1.05;margin:10px 0 14px;text-wrap:balance}
+.voces-intro>p{color:var(--muted);margin:0 0 20px}
+.aporte{margin:0}
+.drop{border:1px dashed var(--ash);border-radius:10px;padding:14px;cursor:pointer;text-transform:none!important;letter-spacing:0!important;font-family:var(--body)!important;font-size:13.5px!important;align-items:flex-start}
+.drop.over{border-color:var(--seed);background:var(--seed-dim)}
+.drop input{position:absolute;width:1px;height:1px;opacity:0}
+.drop img{max-height:180px;border-radius:8px;margin-top:8px;object-fit:cover}
+.muro{columns:2 240px;column-gap:14px}
+.voz-card{break-inside:avoid;margin-bottom:14px;background:var(--soil-3);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.voz-card img{display:block;width:100%;height:auto}
+.voz-card .vb{padding:14px 16px;display:flex;flex-direction:column;gap:8px}
+.voz-card p{margin:0;font-family:var(--display);font-size:16px;line-height:1.45;white-space:pre-line;overflow-wrap:anywhere}
+.voz-card .who{font-family:var(--mono);font-size:11px;color:var(--muted);display:flex;justify-content:space-between;gap:8px;align-items:center}
+.voz-card .hide{font:500 11px var(--body);background:none;border:1px solid var(--line);color:var(--muted);border-radius:999px;padding:3px 9px;cursor:pointer}
+.muro .empty{column-span:all}
+@media (max-width:760px){.voces-grid,.concepto-grid,.si-no{grid-template-columns:1fr}}
+footer{padding-block:32px;border-top:1px solid var(--line);font-family:var(--mono);font-size:11.5px;color:var(--muted)}
+@media (max-width:760px){.why{grid-template-columns:1fr}.brechas,.form{grid-template-columns:1fr}.counter{text-align:left}}
+@media (prefers-reduced-motion:no-preference){.card{animation:sprout .5s ease both}@keyframes sprout{from{transform:translateY(6px)}to{transform:none}}}
+</style>
+</head>
+<body>
+
+<header class="hero gut">
+  <canvas id="sky" aria-hidden="true"></canvas>
+  <div class="inner">
+    <div class="eyebrow">Jardín de Gente · Capturadora de Semillas</div>
+    <h1><span class="ash">No se termina el mundo.</span> <span class="glow">Se termina un mundo.</span></h1>
+    <p class="lede">Mientras el relato dominante repite colapso, guerra y distopía, en barrios, montes y cooperativas ya están naciendo otras formas de vivir. Esta página las busca cada día y las junta acá, para entrenar la mirada que las ve.</p>
+    <div class="cta">
+      <a class="btn seed" href="#campo">Ver las semillas</a>
+      <a class="btn" href="#concepto">Qué es una semilla</a>
+      <a class="btn" href="#escucha">Por qué buscarlas</a>
+      <a class="btn" href="#voces">Sumar tu semilla</a>
+      <span class="live"><b id="heroCount">—</b> semillas capturadas · se actualiza cada mañana</span>
+    </div>
+  </div>
+</header>
+
+<section class="gut" id="escucha">
+  <div class="inner">
+    <div class="why">
+      <div>
+        <div class="eyebrow">Teoría U · los cuatro niveles de escucha</div>
+        <h2>Lo que escuchamos decide el futuro que vemos posible</h2>
+        <p>La mayor parte del tiempo escuchamos <strong>descargando</strong>: confirmamos lo que ya pensábamos. Y hoy lo que ya pensamos es que todo se viene abajo. Cada noticia lo confirma, cada scroll lo refuerza.</p>
+        <p>Ver semillas no es negar la crisis. Es <strong>abrir la escucha</strong> para registrar también lo que está emergiendo dentro de ella. Sin esa escucha abierta, el único futuro imaginable es el que nos cuentan.</p>
+      </div>
+      <ol class="path">
+        <li class="step s1"><span class="n">1</span><div><h3>Descargar</h3><p class="voz">«Ya sé cómo termina esto.»</p><p>Escucho para confirmar. El colapso es la única historia.</p></div></li>
+        <li class="step"><span class="n">2</span><div><h3>Escucha fáctica</h3><p class="voz">«Esto no encaja con lo que creía.»</p><p>Aparece un dato que desordena el relato: alguien está haciendo otra cosa.</p></div></li>
+        <li class="step"><span class="n">3</span><div><h3>Escucha empática</h3><p class="voz">«Puedo ver desde sus ojos.»</p><p>Me acerco a quienes sostienen esa semilla y entiendo desde dónde actúan.</p></div></li>
+        <li class="step s4"><span class="n">4</span><div><h3>Escucha generativa</h3><p class="voz">«Algo nuevo quiere nacer, y me incluye.»</p><p>Escucho desde el futuro que emerge. Ya no soy espectador del final, soy parte del comienzo.</p></div></li>
+      </ol>
+    </div>
+    <p class="umbral">La crisis no es el final de la historia. <em>Es el umbral.</em></p>
+  </div>
+</section>
+
+<section class="gut concepto" id="concepto">
+  <div class="inner">
+    <div class="eyebrow">El concepto</div>
+    <h2>¿Qué es una semilla?</h2>
+    <div class="concepto-grid">
+      <div class="def">
+        <p class="big">Una semilla es algo pequeño, concreto y real que <em>ya está pasando</em> y que contiene, en miniatura, otra forma de vivir.</p>
+        <p>No es una promesa ni una opinión: tiene personas, un lugar y una práctica. Todavía no cambió el mundo, pero adentro trae la información del mundo que podría venir. Como en la naturaleza, casi nunca se ve: crece bajo tierra mientras arriba todo parece ceniza.</p>
+        <p>En la Teoría U, las semillas son lo que aparece cuando dejamos de descargar y empezamos a percibir lo que quiere emerger. Mirarlas es un entrenamiento: cuantas más ves, más fácil es reconocerlas en tu propio barrio y en tu propia vida.</p>
+      </div>
+      <div class="criterio">
+        <h3>Cómo las buscamos</h3>
+        <p class="crit-intro">Cada mañana un buscador recorre medios de periodismo de soluciones, revistas y diarios de América Latina y el mundo, en español e inglés, y elige entre 2 y 4 semillas nuevas.</p>
+        <div class="si-no">
+          <div><h4 class="si">Entra si</h4><ul>
+            <li>Ya está ocurriendo, con personas y un lugar reales</li>
+            <li>Es colectivo o abre algo para otros</li>
+            <li>Muestra otra forma de habitar, cuidar, producir, aprender o dar sentido</li>
+            <li>Se puede leer en una fuente con link</li>
+          </ul></div>
+          <div><h4 class="no">Queda afuera</h4><ul>
+            <li>Negocios, startups, productos o inversiones</li>
+            <li>Opiniones o promesas sin experiencia concreta</li>
+            <li>Marketing de empresas con discurso verde</li>
+            <li>Lo que ya está en el campo</li>
+          </ul></div>
+        </div>
+        <p class="crit-intro">Después se clasifica en una de las tres brechas de u.lab y se resume con palabras propias: qué es, dónde pasa y qué vida nueva anuncia.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="campo gut" id="campo">
+  <div class="inner">
+    <div class="campo-head">
+      <div>
+        <div class="eyebrow">El campo</div>
+        <h2>Semillas de vidas nuevas</h2>
+        <p>Cada semilla trae su referencia para que puedas ir a la fuente. Guardá las que te interesan y van a tu tabla personal, más abajo.</p>
+      </div>
+      <div class="counter"><b id="count">0</b>semillas<br><span id="last"></span></div>
+    </div>
+
+    <div class="brechas">
+      <div class="brecha" style="--c:var(--eco)"><strong>Brecha ecológica</strong>Yo y la naturaleza: regenerar suelo, agua y territorio.</div>
+      <div class="brecha" style="--c:var(--soc)"><strong>Brecha social</strong>Yo y el otro: cuidado, comunes, vivir juntos.</div>
+      <div class="brecha" style="--c:var(--esp)"><strong>Brecha espiritual-cultural</strong>Yo y mi Yo: sentido, imaginación, otras formas de ser.</div>
+    </div>
+
+    <div class="controls" role="toolbar" aria-label="Filtrar semillas">
+      <button class="chip" data-b="todas" aria-pressed="true">Todas</button>
+      <button class="chip" data-b="ecologica" aria-pressed="false"><i class="dot"></i>Ecológica</button>
+      <button class="chip" data-b="social" aria-pressed="false"><i class="dot"></i>Social</button>
+      <button class="chip" data-b="espiritual" aria-pressed="false"><i class="dot"></i>Espiritual-cultural</button>
+      <button class="chip" data-b="resuena" aria-pressed="false"><i class="dot"></i>Mis guardadas</button>
+      <input id="q" type="search" placeholder="Buscar por lugar, tema, palabra…" aria-label="Buscar">
+    </div>
+
+
+    <div class="field" id="field">
+      <div class="empty"><h3>La tierra está lista</h3>Acá aparecen las semillas que el buscador encuentra cada mañana. También podés sembrar una a mano.</div>
+    </div>
+  </div>
+</section>
+
+<section class="gut mias" id="mias">
+  <div class="inner">
+    <div class="eyebrow">Tu cosecha</div>
+    <h2>Mis semillas guardadas</h2>
+    <p class="mias-intro">Las semillas que guardás quedan acá, en este dispositivo y solo para vos. Sumales una nota con lo que te despiertan.</p>
+    <div class="tabla-wrap" id="tablaWrap">
+      <div class="empty"><h3>Todavía no guardaste semillas</h3>Tocá "Guardar" en cualquier semilla del campo y va a aparecer en esta tabla.</div>
+    </div>
+  </div>
+</section>
+
+<section class="gut voces" id="voces">
+  <div class="inner">
+    <div class="voces-grid">
+      <div class="voces-intro">
+        <div class="eyebrow">Voces del campo</div>
+        <h2>¿Dónde viste una semilla?</h2>
+        <p>Una huerta en tu cuadra, una conversación que te cambió, un gesto de cuidado, una frase, un dibujo. Subí tu imagen o tu texto y sumalo al campo.</p>
+        <form class="form aporte" id="aporteForm">
+          <label class="full" for="a-texto">Tu semilla<textarea id="a-texto" rows="4" maxlength="1200" placeholder="Contá qué viste, dónde, por qué te parece que anuncia algo nuevo…"></textarea></label>
+          <label for="a-nombre">Tu nombre (opcional)<input id="a-nombre" maxlength="60"></label>
+          <label for="a-lugar">Lugar (opcional)<input id="a-lugar" maxlength="80"></label>
+          <div class="hp" aria-hidden="true"><label for="a-web">Web</label><input id="a-web" tabindex="-1" autocomplete="off"></div>
+          <label class="full drop" for="a-img" id="dropZone"><span id="dropTxt">Sumar una imagen (opcional) · tocá o arrastrá</span><input id="a-img" type="file" accept="image/*"><img id="preview" alt="" hidden></label>
+          <div class="full" style="display:flex;gap:10px;align-items:center;flex-wrap:wrap"><button class="btn seed" type="submit" id="aporteBtn">Sembrar</button><span class="msg" id="aporteMsg"></span></div>
+        </form>
+      </div>
+      <div class="muro" id="muro">
+        <div class="empty"><h3>Todavía no hay voces</h3>La primera semilla puede ser la tuya.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="gut"><div class="inner"><form class="admin" id="adminForm" hidden><label for="adminToken" class="eyebrow">Moderación</label><input id="adminToken" type="password" placeholder="Clave de administración" autocomplete="off"><button class="btn" type="submit">Entrar</button><span class="live" id="adminMsg"></span></form></div></div>
+<footer class="gut"><div class="inner">Inspirado en la Teoría U y u.lab (Presencing Institute). Un proyecto de Jardín de Gente.</div></footer>
+
+<script>
+/* ---------- Cielo: ceniza que cae y semillas que brotan ---------- */
+(() => {
+  const cv = document.getElementById("sky"), ctx = cv.getContext("2d");
+  const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  let W, H, dpr, ash = [], seeds = [], sprouts = [];
+  function size(){
+    dpr = Math.min(devicePixelRatio || 1, 2);
+    W = cv.clientWidth; H = cv.clientHeight;
+    cv.width = W * dpr; cv.height = H * dpr; ctx.setTransform(dpr,0,0,dpr,0,0);
+  }
+  const rnd = (a,b) => a + Math.random()*(b-a);
+  function spawnAsh(y){ return {x:rnd(0,W), y:y ?? rnd(-H,0), r:rnd(.6,1.8), v:rnd(.15,.55), d:rnd(-.2,.2), a:rnd(.12,.4)}; }
+  function spawnSeed(y){ return {x:rnd(W*.04,W*.96), y:y ?? rnd(-H*.6,0), v:rnd(.35,.7), ph:rnd(0,6.28), land:rnd(H*.82,H*.97)}; }
+  function sprout(x, y){
+    const hue = ["130,199,156","231,157,143","168,178,238","228,183,92"][Math.floor(Math.random()*4)];
+    sprouts.push({x, y, h:0, max:rnd(18,46), lean:rnd(-.35,.35), c:hue, life:0});
+    if (sprouts.length > 70) sprouts.shift();
+  }
+  function init(){
+    size();
+    const n = Math.round(W*H/5500);
+    ash = Array.from({length:n}, () => spawnAsh(rnd(0,H)));
+    seeds = Array.from({length:Math.max(6, Math.round(W/120))}, () => spawnSeed(rnd(0,H*.8)));
+    sprouts = [];
+    for (let i=0;i<Math.round(W/60);i++){ sprout(rnd(W*.03,W*.97), rnd(H*.86,H*.98)); const s=sprouts[sprouts.length-1]; s.h=s.max*rnd(.4,1); s.life=1; }
+  }
+  function drawSprout(s){
+    const tipX = s.x + Math.sin(s.lean)*s.h, tipY = s.y - s.h;
+    ctx.strokeStyle = `rgba(${s.c},${.55*s.life})`; ctx.lineWidth = 1.4;
+    ctx.beginPath(); ctx.moveTo(s.x, s.y); ctx.quadraticCurveTo(s.x, s.y - s.h*.6, tipX, tipY); ctx.stroke();
+    if (s.h > 10){
+      ctx.fillStyle = `rgba(${s.c},${.6*s.life})`;
+      ctx.beginPath(); ctx.ellipse(tipX-4, tipY+3, 4.5, 2, -.6, 0, 6.28); ctx.fill();
+      ctx.beginPath(); ctx.ellipse(tipX+4, tipY+3, 4.5, 2, .6, 0, 6.28); ctx.fill();
+    }
+    const g = ctx.createRadialGradient(tipX, tipY, 0, tipX, tipY, 14);
+    g.addColorStop(0, `rgba(${s.c},${.25*s.life})`); g.addColorStop(1, `rgba(${s.c},0)`);
+    ctx.fillStyle = g; ctx.beginPath(); ctx.arc(tipX, tipY, 14, 0, 6.28); ctx.fill();
+  }
+  function frame(t){
+    ctx.clearRect(0,0,W,H);
+    for (const p of ash){
+      p.y += p.v; p.x += p.d + Math.sin((t/2000)+p.y/60)*.15;
+      if (p.y > H*.9){ Object.assign(p, spawnAsh(-5)); }
+      ctx.fillStyle = `rgba(150,156,148,${p.a})`; ctx.beginPath(); ctx.arc(p.x,p.y,p.r,0,6.28); ctx.fill();
+    }
+    for (const s of seeds){
+      s.y += s.v; s.x += Math.sin(t/900 + s.ph)*.35;
+      const g = ctx.createRadialGradient(s.x,s.y,0,s.x,s.y,9);
+      g.addColorStop(0,"rgba(228,183,92,.95)"); g.addColorStop(1,"rgba(228,183,92,0)");
+      ctx.fillStyle = g; ctx.beginPath(); ctx.arc(s.x,s.y,9,0,6.28); ctx.fill();
+      if (s.y >= s.land){ sprout(s.x, s.y); Object.assign(s, spawnSeed(-10)); }
+    }
+    for (const s of sprouts){ if (s.h < s.max) s.h += .25; if (s.life < 1) s.life = Math.min(1, s.life + .02); drawSprout(s); }
+    if (!reduce) requestAnimationFrame(frame);
+  }
+  init(); frame(0);
+  let to; addEventListener("resize", () => { clearTimeout(to); to = setTimeout(() => { init(); if (reduce) frame(0); }, 200); });
+  cv.parentElement.addEventListener("click", e => { if (e.target.closest("a,button")) return; const r = cv.getBoundingClientRect(); sprout(e.clientX - r.left, Math.min(H*.97, e.clientY - r.top + 40)); if (reduce) frame(0); });
+})();
+
+/* ---------- Campo de semillas ---------- */
+const B = {ecologica:"Ecológica", social:"Social", espiritual:"Espiritual-cultural"};
+let docs = [], filtro = "todas", q = "";
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const MS = ["ene","feb","mar","abr","may","jun","jul","ago","sep","oct","nov","dic"];
+const fmt = d => { if(!d) return ""; const [y,m,dd] = String(d).split("-"); return dd ? `${+dd} ${MS[+m-1]} ${y}` : d; };
+const safeUrl = u => /^https?:\/\//i.test(u||"") ? u : "";
+const ls = {
+  get(k, def){ try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : def; } catch { return def; } },
+  set(k, v){ try { localStorage.setItem(k, JSON.stringify(v)); return true; } catch { return false; } }
+};
+
+/* ---------- Mis semillas guardadas (en este navegador) ---------- */
+let saved = ls.get("semillas-guardadas", {});
+function persist(){ ls.set("semillas-guardadas", saved); }
+function toggleSave(d){
+  if (saved[d.id]) delete saved[d.id];
+  else saved[d.id] = {titulo:d.titulo||"", brecha:d.brecha||"", lugar:d.lugar||"", fuente:d.fuente||"", url:d.url||"", guardada:new Date().toISOString().slice(0,10), ts:Date.now(), nota:""};
+  persist(); render(); renderTabla();
+}
+
+function render(){
+  const field = $("#field");
+  $("#count").textContent = docs.length; $("#heroCount").textContent = docs.length;
+  const last = docs.map(d=>d.capturada).filter(Boolean).sort().pop();
+  $("#last").textContent = last ? "última captura: " + fmt(last) : "";
+  if (!docs.length) return;
+  const list = docs.filter(d => {
+    if (filtro === "resuena" && !saved[d.id]) return false;
+    if (filtro !== "todas" && filtro !== "resuena" && d.brecha !== filtro) return false;
+    if (q){ const t = [d.titulo,d.resumen,d.emerge,d.lugar,d.fuente].join(" ").toLowerCase(); if (!t.includes(q)) return false; }
+    return true;
+  });
+  if (!list.length){ field.innerHTML = `<div class="empty"><h3>Nada por acá todavía</h3>${filtro === "resuena" ? "Tocá \"Guardar\" en una semilla y va a aparecer acá." : "Probá con otro filtro o palabra."}</div>`; return; }
+  field.innerHTML = list.map(d => {
+    const url = safeUrl(d.url), s = saved[d.id];
+    const ref = [esc(d.lugar), url ? `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(d.fuente||"ver fuente")} ↗</a>` : esc(d.fuente), d.fecha_pub ? esc(fmt(d.fecha_pub)) : ""].filter(Boolean).join(" · ");
+    return `<article class="card b-${esc(d.brecha)}">
+      <div class="top"><span class="tag">${esc(B[d.brecha]||d.brecha)}</span><span>capturada ${esc(fmt(d.capturada))}</span></div>
+      <h3>${esc(d.titulo)}</h3>
+      <p>${esc(d.resumen)}</p>
+      ${d.emerge ? `<p class="emerge"><span>Lo que emerge</span>${esc(d.emerge)}</p>` : ""}
+      <div class="ref">${ref}</div>
+      ${s && s.nota ? `<div class="note">${esc(s.nota)}</div>` : ""}
+      <div class="actions"><button class="act" data-act="guardar" data-id="${esc(d.id)}" aria-pressed="${s?"true":"false"}">${s?"Guardada ✓":"Guardar"}</button></div>
+    </article>`;
+  }).join("");
+}
+
+function renderTabla(){
+  const wrap = $("#tablaWrap");
+  const rows = Object.entries(saved).sort((a,b) => (b[1].ts||0) - (a[1].ts||0));
+  if (!rows.length){ wrap.innerHTML = `<div class="empty"><h3>Todavía no guardaste semillas</h3>Tocá "Guardar" en cualquier semilla del campo y va a aparecer en esta tabla.</div>`; return; }
+  wrap.innerHTML = `<table><thead><tr><th>Semilla</th><th>Brecha</th><th>Lugar</th><th>Fuente</th><th>Guardada</th><th>Mi nota</th><th></th></tr></thead><tbody>${
+    rows.map(([id, s]) => { const url = safeUrl(s.url); return `<tr class="b-${esc(s.brecha)}">
+      <td class="t">${url ? `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(s.titulo)} ↗</a>` : esc(s.titulo)}</td>
+      <td><span class="tag">${esc(B[s.brecha]||s.brecha)}</span></td>
+      <td>${esc(s.lugar)}</td>
+      <td>${esc(s.fuente)}</td>
+      <td class="d">${esc(fmt(s.guardada))}</td>
+      <td><textarea id="mn-${esc(id)}" data-note="${esc(id)}" rows="2" placeholder="¿Qué te despierta?">${esc(s.nota)}</textarea><span class="saved-ok" id="ok-${esc(id)}"></span></td>
+      <td><button class="act" data-unsave="${esc(id)}">Quitar</button></td>
+    </tr>`; }).join("")
+  }</tbody></table>`;
+}
+
+document.querySelectorAll(".chip[data-b]").forEach(c => c.addEventListener("click", () => {
+  filtro = c.dataset.b;
+  document.querySelectorAll(".chip[data-b]").forEach(x => x.setAttribute("aria-pressed", x === c ? "true" : "false"));
+  render();
+}));
+$("#q").addEventListener("input", e => { q = e.target.value.trim().toLowerCase(); render(); });
+$("#field").addEventListener("click", e => {
+  const b = e.target.closest("[data-act='guardar']"); if (!b) return;
+  const d = docs.find(x => x.id === b.dataset.id); if (d) toggleSave(d);
+});
+$("#tablaWrap").addEventListener("click", e => {
+  const b = e.target.closest("[data-unsave]"); if (!b) return;
+  delete saved[b.dataset.unsave]; persist(); render(); renderTabla();
+});
+$("#tablaWrap").addEventListener("input", e => {
+  const t = e.target.closest("[data-note]"); if (!t || !saved[t.dataset.note]) return;
+  saved[t.dataset.note].nota = t.value; persist();
+  const ok = document.getElementById("ok-" + t.dataset.note); if (ok) ok.textContent = "Guardada";
+});
+$("#tablaWrap").addEventListener("change", () => render());
+
+fetch("data/semillas.json", {cache:"no-cache"}).then(r => r.ok ? r.json() : Promise.reject(r.status)).then(list => {
+  docs = (Array.isArray(list) ? list : []).sort((a,b) => String(b.capturada).localeCompare(String(a.capturada)));
+  if (!docs.length){ $("#field").innerHTML = `<div class="empty"><h3>La tierra está lista</h3>Mañana temprano llegan las primeras semillas del buscador.</div>`; }
+  render();
+}).catch(() => { $("#field").innerHTML = `<div class="empty"><h3>No se pudieron cargar las semillas</h3>Recargá la página en un momento.</div>`; });
+renderTabla();
+
+/* ---------- Voces del campo: aportes de la comunidad ---------- */
+let aportes = [], imgData = "";
+let adminToken = ls.get("semillas-admin", "");
+const isAdminView = () => Boolean(adminToken);
+
+function renderMuro(){
+  const muro = $("#muro");
+  if (!aportes.length){ muro.innerHTML = `<div class="empty"><h3>Todavía no hay voces</h3>La primera semilla puede ser la tuya.</div>`; return; }
+  muro.innerHTML = aportes.map(a => `<article class="voz-card${a.oculto ? " oculto" : ""}">
+    ${a.imagen && /^img-[a-z0-9-]+$/i.test(a.imagen) ? `<img src="/api/imagen/${a.imagen}" alt="${esc(a.texto ? a.texto.slice(0,80) : "Imagen compartida")}" loading="lazy">` : ""}
+    <div class="vb">
+      ${a.texto ? `<p>${esc(a.texto)}</p>` : ""}
+      <div class="who"><span>${esc(a.nombre || "Anónimo")}${a.lugar ? " · " + esc(a.lugar) : ""} · ${esc(fmt(a.creado))}</span>${isAdminView() ? `<button class="hide" data-mod="${esc(a.id)}" data-accion="${a.oculto ? "mostrar" : "ocultar"}">${a.oculto ? "Mostrar" : "Ocultar"}</button>` : ""}</div>
+    </div></article>`).join("");
+}
+async function loadAportes(){
+  try {
+    const r = await fetch(isAdminView() ? "/api/aportes?admin=1" : "/api/aportes", {headers: isAdminView() ? {"x-admin-token": adminToken} : {}});
+    if (r.status === 401){ adminToken = ""; ls.set("semillas-admin", ""); return loadAportes(); }
+    aportes = r.ok ? await r.json() : [];
+  } catch { aportes = []; }
+  renderMuro();
+}
+$("#muro").addEventListener("click", async e => {
+  const b = e.target.closest("[data-mod]"); if (!b) return;
+  b.disabled = true;
+  try {
+    await fetch("/api/aportes", {method:"POST", headers:{"content-type":"application/json","x-admin-token":adminToken}, body:JSON.stringify({accion:b.dataset.accion, id:b.dataset.mod})});
+  } catch {}
+  loadAportes();
+});
+
+// Achica la imagen en el navegador antes de subirla (máx. 1600 px, JPEG)
+function compress(file){
+  return new Promise((res, rej) => {
+    const img = new Image(), url = URL.createObjectURL(file);
+    img.onload = () => {
+      const max = 1600, k = Math.min(1, max / Math.max(img.width, img.height));
+      const c = document.createElement("canvas"); c.width = Math.round(img.width * k); c.height = Math.round(img.height * k);
+      c.getContext("2d").drawImage(img, 0, 0, c.width, c.height);
+      URL.revokeObjectURL(url); res(c.toDataURL("image/jpeg", 0.82));
+    };
+    img.onerror = () => { URL.revokeObjectURL(url); rej(); };
+    img.src = url;
+  });
+}
+async function setFile(f){
+  if (!f || !f.type.startsWith("image/")) return;
+  $("#aporteMsg").textContent = "";
+  try {
+    imgData = await compress(f);
+    const p = $("#preview"); p.src = imgData; p.hidden = false; $("#dropTxt").textContent = f.name;
+  } catch { $("#aporteMsg").textContent = "No se pudo leer esa imagen. Probá con otra en JPG o PNG."; }
+}
+$("#a-img").addEventListener("change", e => setFile(e.target.files[0]));
+const dz = $("#dropZone");
+dz.addEventListener("dragover", e => { e.preventDefault(); dz.classList.add("over"); });
+dz.addEventListener("dragleave", () => dz.classList.remove("over"));
+dz.addEventListener("drop", e => { e.preventDefault(); dz.classList.remove("over"); setFile(e.dataTransfer.files[0]); });
+
+$("#aporteForm").addEventListener("submit", async e => {
+  e.preventDefault();
+  const msg = $("#aporteMsg"), btn = $("#aporteBtn");
+  const texto = $("#a-texto").value.trim();
+  if (!texto && !imgData){ msg.textContent = "Escribí algo o sumá una imagen."; return; }
+  btn.disabled = true; msg.textContent = "Sembrando…";
+  try {
+    const r = await fetch("/api/aportes", {method:"POST", headers:{"content-type":"application/json"}, body:JSON.stringify({
+      texto, nombre:$("#a-nombre").value.trim(), lugar:$("#a-lugar").value.trim(), imagen:imgData, web:$("#a-web").value
+    })});
+    const data = await r.json().catch(() => ({}));
+    if (!r.ok) throw new Error(data.error || "No se pudo guardar. Probá de nuevo en un momento.");
+    e.target.reset(); imgData = ""; $("#preview").hidden = true; $("#dropTxt").textContent = "Sumar una imagen (opcional) · tocá o arrastrá";
+    msg.textContent = "Gracias. Tu semilla ya está en el campo.";
+    loadAportes();
+  } catch(err){ msg.textContent = err.message || "No se pudo guardar. Probá de nuevo en un momento."; }
+  finally { btn.disabled = false; }
+});
+
+/* Modo moderación: entrar con /#moderar */
+function checkAdmin(){
+  if (location.hash !== "#moderar") return;
+  $("#adminForm").hidden = false;
+  $("#adminForm").scrollIntoView({behavior:"smooth"});
+}
+$("#adminForm").addEventListener("submit", e => {
+  e.preventDefault();
+  adminToken = $("#adminToken").value.trim(); ls.set("semillas-admin", adminToken);
+  $("#adminMsg").textContent = adminToken ? "Modo moderación activo en este navegador." : "Modo moderación desactivado.";
+  loadAportes();
+});
+addEventListener("hashchange", checkAdmin);
+checkAdmin();
+loadAportes();
+</script>
+
+</body>
+</html>
