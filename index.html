@@ -380,7 +380,9 @@ function render(){
   if (!list.length){ field.innerHTML = `<div class="empty"><h3>Nada por acá todavía</h3>${filtro === "resuena" ? "Tocá \"Guardar\" en una semilla y va a aparecer acá." : "Probá con otro filtro o palabra."}</div>`; return; }
   field.innerHTML = list.map(d => {
     const url = safeUrl(d.url), s = saved[d.id];
-    const ref = [esc(d.lugar), url ? `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(d.fuente||"ver fuente")} ↗</a>` : esc(d.fuente), d.fecha_pub ? esc(fmt(d.fecha_pub)) : ""].filter(Boolean).join(" · ");
+    const parrafo = url.includes("#:~:text=");
+    const linkTxt = (parrafo ? "Leer el párrafo en " : "") + (d.fuente || "ver fuente") + (d.idioma === "en" ? " (en inglés)" : "");
+    const ref = [esc(d.lugar), url ? `<a href="${esc(url)}" target="_blank" rel="noopener" title="${parrafo ? "Abre la nota justo en la parte de esta semilla, resaltada" : "Abre la nota original"}">${esc(linkTxt)} ↗</a>` : esc(d.fuente), d.fecha_pub ? esc(fmt(d.fecha_pub)) : ""].filter(Boolean).join(" · ");
     return `<article class="card b-${esc(d.brecha)}">
       <div class="top"><span class="tag">${esc(B[d.brecha]||d.brecha)}</span><span>capturada ${esc(fmt(d.capturada))}</span></div>
       <h3>${esc(d.titulo)}</h3>

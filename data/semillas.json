@@ -35,8 +35,8 @@
     "lugar": "Amazonía, Ecuador",
     "origen": "buscador",
     "resumen": "En Ecuador, jóvenes de comunidades kichwas combinan el sistema agroforestal de la chakra con el saber de los mayores para cuidar el agua y la tierra.",
-    "titulo": "Jóvenes kichwas vuelven a la chakra",
-    "url": "https://thinklandscape.globallandscapesforum.org/es/101781/de-las-raices-ancestrales-soberanas-florecen-redes-de-cuidado-visiones-de-futuro-para-los-ecosistemas-latinoamericanos/"
+    "titulo": "Jóvenes kichwas cuidan la chakra con sus mayores",
+    "url": "https://thinklandscape.globallandscapesforum.org/es/101781/de-las-raices-ancestrales-soberanas-florecen-redes-de-cuidado-visiones-de-futuro-para-los-ecosistemas-latinoamericanos/#:~:text=En%20las%20zonas%20rurales%20de%20Ecuador,para%20cuidar%20el%20agua%20y%20la%20tierra"
   },
   {
     "id": "bioconstruccion-san-rafael",
@@ -49,7 +49,7 @@
     "origen": "buscador",
     "resumen": "Daniela Daza y su comunidad en San Rafael (Colombia) construyen con materiales naturales para impulsar un ecoturismo que restaura especies nativas.",
     "titulo": "Bioconstrucción y especies nativas en San Rafael",
-    "url": "https://thinklandscape.globallandscapesforum.org/es/101781/de-las-raices-ancestrales-soberanas-florecen-redes-de-cuidado-visiones-de-futuro-para-los-ecosistemas-latinoamericanos/"
+    "url": "https://thinklandscape.globallandscapesforum.org/es/101781/de-las-raices-ancestrales-soberanas-florecen-redes-de-cuidado-visiones-de-futuro-para-los-ecosistemas-latinoamericanos/#:~:text=Y%20en%20San%20Rafael%20%28Colombia%29,restauraci%C3%B3n%20de%20especies%20aut%C3%B3ctonas"
   },
   {
     "id": "bibliotecas-de-objetos",
@@ -62,7 +62,8 @@
     "origen": "buscador",
     "resumen": "En el mundo ya hay más de 2.000 bibliotecas de objetos (herramientas, utensilios, equipos), casi todas sostenidas por voluntarios. En Houston, una se va a integrar a un proyecto de vivienda asequible.",
     "titulo": "Más de 2.000 bibliotecas de objetos",
-    "url": "https://www.resilience.org/stories/2025-05-28/the-many-innovative-spheres-of-organized-sharing/"
+    "url": "https://www.resilience.org/stories/2025-05-28/the-many-innovative-spheres-of-organized-sharing/#:~:text=Around%20the%20world%2C%20there%20are%20over%202%2C000%20libraries%20of%20things,community%2Dfacing%20commercial%20space",
+    "idioma": "en"
   },
   {
     "id": "baterias-compartidas-oakland",
@@ -73,9 +74,10 @@
     "fuente": "Resilience.org",
     "lugar": "Oakland, EE.UU.",
     "origen": "buscador",
-    "resumen": "El People Power Battery Collective de Oakland armó, con Shareable, una red de baterías para que el barrio comparta electricidad en apagones o desastres. Desde entonces otros quince grupos replicaron la idea.",
+    "resumen": "El People Power Battery Collective de Oakland armó, con Shareable, una red de baterías de emergencia para mostrar cómo un barrio puede compartir electricidad en un apagón o un desastre. Desde entonces otros quince grupos armaron la suya.",
     "titulo": "Vecinos que comparten la luz en el apagón",
-    "url": "https://www.resilience.org/stories/2025-05-28/the-many-innovative-spheres-of-organized-sharing/"
+    "url": "https://www.resilience.org/stories/2025-05-28/the-many-innovative-spheres-of-organized-sharing/#:~:text=So%20Shareable%20partnered%20with,their%20own%20emergency%20battery%20networks",
+    "idioma": "en"
   },
   {
     "id": "aprospera-cerrado",
@@ -88,6 +90,6 @@
     "origen": "buscador",
     "resumen": "APROSPERA, una asociación de productores vinculada al Movimiento Sin Tierra, restaura zonas del Cerrado con especies nativas y arma cajas de comida para ciudades cercanas a Brasilia.",
     "titulo": "Restaurar el Cerrado y alimentar la ciudad",
-    "url": "https://thinklandscape.globallandscapesforum.org/es/101781/de-las-raices-ancestrales-soberanas-florecen-redes-de-cuidado-visiones-de-futuro-para-los-ecosistemas-latinoamericanos/"
+    "url": "https://thinklandscape.globallandscapesforum.org/es/101781/de-las-raices-ancestrales-soberanas-florecen-redes-de-cuidado-visiones-de-futuro-para-los-ecosistemas-latinoamericanos/#:~:text=A%20nuestra%20derecha%20hab%C3%ADa%20campos,residentes%20de%20las%20ciudades%20cercanas"
   }
 ]
