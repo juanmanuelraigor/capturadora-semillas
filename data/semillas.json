@@ -1,5 +1,48 @@
 [
   {
+    "id": "manglar-heron-proal-veracruz",
+    "titulo": "Ejidatarios devuelven el agua a su manglar en Veracruz",
+    "resumen": "En el ejido Herón Proal, entre Medellín y Alvarado (Veracruz), un grupo de ejidatarios trabaja para recuperar 76 hectáreas de manglar dañado. Reabrieron los canales naturales y volvieron a recorrer y cuidar sus parcelas.",
+    "desarrollo": "La tarea arrancó hace unos cuatro años, dentro de un proyecto de restauración de ríos en la cuenca Jamapa-Cotaxtla. Cuando empezaron, una plaga de insectos barrenadores afectaba entre un cuarto y un 40% del manglar del ejido, que además sufría inundaciones, ganado suelto y cambios de uso del suelo. La comunidad se propuso restaurarlo antes de que el avance inmobiliario de la Riviera Veracruzana lo arruinara más. Rehabilitar los canales hizo que las parcelas ya no queden anegadas ahogando a las plantas jóvenes, y ahora pueden llegar a zonas que antes eran inaccesibles para vigilar y controlar la entrada de vacas.",
+    "emerge": "El manglar deja de ser terreno a la espera de un desarrollo y vuelve a ser un cuerpo vivo que la comunidad cuida y hace respirar.",
+    "lugar": "Ejido Herón Proal, Medellín y Alvarado, Veracruz, México",
+    "fuente": "Mongabay Latam",
+    "url": "https://es.mongabay.com/2026/10/mexico-comunidades-restauran-cuenca-rio-jamapa-abastece-agua-millon-personas/#:~:text=un%20grupo%20de%20ejidatarios%20busca%20la%20restauraci%C3%B3n,las%20funciones%20que%20ten%C3%ADa%20naturalmente",
+    "fecha_pub": "2026-10-08",
+    "capturada": "2026-10-22",
+    "brecha": "ecologica",
+    "origen": "buscador"
+  },
+  {
+    "id": "bordadoras-thar-barmer",
+    "titulo": "Bordadoras de Barmer que son dueñas de su propia empresa",
+    "resumen": "En Barmer (Rajastán, India), mujeres bordadoras, muchas llegadas de Sindh, se organizaron en Thar Artisans, una compañía que es de ellas. Dejaron de depender de intermediarios y venden su bordado sindhi a precio justo.",
+    "desarrollo": "Thar Artisans se constituyó en 2020 con el apoyo de SURE, una organización local que forma artesanas desde los años 90. Tiene 700 socias con la misma cantidad de acciones cada una, y eligen a diez directoras que votan las decisiones del negocio. Antes muchas cobraban unas 150 rupias por día, por debajo del salario mínimo; Neeta Meghwal pasó de ganar entre 400 y 1.000 rupias por mes a unas 4.000. Aprenden marketing digital para llegar directo a compradores. Todavía cuesta sumar a más mujeres y los pedidos bajaron desde la pandemia.",
+    "emerge": "El oficio heredado deja de ser mano de obra barata para otros y empieza a ser un bien común que las mujeres gobiernan juntas.",
+    "lugar": "Barmer, Rajastán, India",
+    "fuente": "Shareable",
+    "url": "https://www.shareable.net/rajasthans-cooperatives-are-helping-migrant-women-artisans-escape-decades-of-exploitation/",
+    "idioma": "en",
+    "fecha_pub": "2026-08-24",
+    "capturada": "2026-10-22",
+    "brecha": "social",
+    "origen": "buscador"
+  },
+  {
+    "id": "escuelita-maya-kopchen",
+    "titulo": "Una escuelita de los sábados para que el maya siga vivo",
+    "resumen": "En Kopchen, un pueblo maya de Quintana Roo (México), el lingüista Rodrigo Petatillo Cham y un grupo de adolescentes enseñan la lengua a chicos cada sábado. Juegan, cantan, dibujan y crean sus propios materiales en maya.",
+    "desarrollo": "Empezó en 2011 como un taller en una casita y después se mudó al domo comunitario. Kopchen tiene alrededor de mil habitantes y en la escuelita participan unos 15 chicos, aunque no todos van cada semana. Jóvenes de 15 a 18 años ayudan a sostenerla: armaron una lotería maya con dibujos de los chicos, registran el tejido de canastas de bejuco, graban videos y traducen cuentos, y visitan casas para invitar a las familias. Pelean contra la vergüenza: en la escuela se enseña solo en español y a algunos chicos les dijeron que no hablen maya.",
+    "emerge": "La lengua de los abuelos deja de ser motivo de vergüenza y vuelve a ser juego, canto y orgullo compartido entre generaciones.",
+    "lugar": "Kopchen, Felipe Carrillo Puerto, Quintana Roo, México",
+    "fuente": "Generación Universitaria (El Universal)",
+    "url": "https://www.generacionuniversitaria.com.mx/campus/ensenanza-comunitaria-busca-reavivar-las-lenguas-originarias/#:~:text=Los%20s%C3%A1bados%20por%20la%20tarde%2C%20en%20Kopchen%2C%20una,el%20domo%20hacemos%20todas%20las%20actividades",
+    "fecha_pub": "2026-02-24",
+    "capturada": "2026-10-22",
+    "brecha": "espiritual",
+    "origen": "buscador"
+  },
+  {
     "id": "fideicomiso-tierra-south-tower-fresno",
     "titulo": "Un barrio de Fresno compra su propia esquina para que no se la lleven",
     "resumen": "En el Tower District de Fresno (California), vecinos organizados en un fideicomiso comunitario de tierras sacan inmuebles del mercado. Primero lograron una plaza y ahora compraron un local para una librería independiente.",
