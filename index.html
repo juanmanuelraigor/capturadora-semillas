@@ -39,13 +39,13 @@ body{background:var(--soil);color:var(--ink);font-family:var(--body);font-size:1
 .eyebrow{font-family:var(--mono);font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--seed)}
 
 /* TOP: banda corta con el cielo, las semillas arrancan enseguida */
-.top{position:relative;overflow:hidden;border-bottom:1px solid var(--line);background:radial-gradient(120% 90% at 50% 120%, #1E2A1F 0%, var(--soil) 65%)}
+.cielo{position:relative;overflow:hidden;border-bottom:1px solid var(--line);background:radial-gradient(120% 90% at 50% 120%, #1E2A1F 0%, var(--soil) 65%)}
 #sky{position:absolute;inset:0;width:100%;height:100%;display:block}
-.top-inner{position:relative;padding-block:clamp(36px,6vw,64px) clamp(28px,4vw,44px);display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:20px}
+.top-inner{position:relative;padding-block:clamp(36px,6vw,64px) clamp(64px,8vw,80px);display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:20px}
 .top-txt{min-width:0;display:flex;flex-direction:column;gap:8px}
-.top h1{font-family:var(--display);font-weight:400;font-size:clamp(34px,6vw,64px);line-height:1;margin:0;text-wrap:balance}
-.top .sub{margin:0;font-family:var(--display);font-size:clamp(17px,2.2vw,22px)}
-.top .sub .ash{color:var(--ash)} .top .sub .glow{color:var(--seed);text-shadow:0 0 30px rgba(228,183,92,.35)}
+.cielo h1{font-family:var(--display);font-weight:400;font-size:clamp(34px,6vw,64px);line-height:1;margin:0;text-wrap:balance}
+.cielo .sub{margin:0;font-family:var(--display);font-size:clamp(17px,2.2vw,22px)}
+.cielo .sub .ash{color:var(--ash)} .cielo .sub .glow{color:var(--seed);text-shadow:0 0 30px rgba(228,183,92,.35)}
 .btn{font:600 14px var(--body);padding:11px 18px;border-radius:999px;border:1px solid var(--ink);background:transparent;color:var(--ink);cursor:pointer;text-decoration:none;display:inline-flex;gap:8px;align-items:center}
 .btn.seed{background:var(--seed);border-color:var(--seed);color:var(--soil)}
 .campo{padding-block:28px clamp(48px,8vw,88px)!important}
@@ -180,7 +180,7 @@ footer{padding-block:32px;border-top:1px solid var(--line);font-family:var(--mon
 </head>
 <body>
 
-<header class="top" id="inicio">
+<header class="cielo" id="inicio">
   <canvas id="sky" aria-hidden="true"></canvas>
   <div class="gut"><div class="inner top-inner">
     <div class="top-txt">
@@ -294,10 +294,10 @@ footer{padding-block:32px;border-top:1px solid var(--line);font-family:var(--mon
   }
   const rnd = (a,b) => a + Math.random()*(b-a);
   function spawnAsh(y){ return {x:rnd(0,W), y:y ?? rnd(-H,0), r:rnd(.6,1.8), v:rnd(.15,.55), d:rnd(-.2,.2), a:rnd(.12,.4)}; }
-  function spawnSeed(y){ return {x:rnd(W*.04,W*.96), y:y ?? rnd(-H*.6,0), v:rnd(.35,.7), ph:rnd(0,6.28), land:rnd(H*.82,H*.97)}; }
+  function spawnSeed(y){ return {x:rnd(W*.04,W*.96), y:y ?? rnd(-H*.6,0), v:rnd(.35,.7), ph:rnd(0,6.28), land:rnd(H-30,H-6)}; }
   function sprout(x, y){
     const hue = ["130,199,156","231,157,143","168,178,238","228,183,92"][Math.floor(Math.random()*4)];
-    sprouts.push({x, y, h:0, max:rnd(18,46), lean:rnd(-.35,.35), c:hue, life:0});
+    sprouts.push({x, y, h:0, max:rnd(12,30), lean:rnd(-.35,.35), c:hue, life:0});
     if (sprouts.length > 70) sprouts.shift();
   }
   function init(){
@@ -306,7 +306,7 @@ footer{padding-block:32px;border-top:1px solid var(--line);font-family:var(--mon
     ash = Array.from({length:n}, () => spawnAsh(rnd(0,H)));
     seeds = Array.from({length:Math.max(6, Math.round(W/120))}, () => spawnSeed(rnd(0,H*.8)));
     sprouts = [];
-    for (let i=0;i<Math.round(W/60);i++){ sprout(rnd(W*.03,W*.97), rnd(H*.86,H*.98)); const s=sprouts[sprouts.length-1]; s.h=s.max*rnd(.4,1); s.life=1; }
+    for (let i=0;i<Math.round(W/60);i++){ sprout(rnd(W*.03,W*.97), rnd(H-24,H-4)); const s=sprouts[sprouts.length-1]; s.h=s.max*rnd(.4,1); s.life=1; }
   }
   function drawSprout(s){
     const tipX = s.x + Math.sin(s.lean)*s.h, tipY = s.y - s.h;
@@ -340,7 +340,7 @@ footer{padding-block:32px;border-top:1px solid var(--line);font-family:var(--mon
   }
   init(); frame(0);
   let to; addEventListener("resize", () => { clearTimeout(to); to = setTimeout(() => { init(); if (reduce) frame(0); }, 200); });
-  cv.parentElement.addEventListener("click", e => { if (e.target.closest("a,button")) return; const r = cv.getBoundingClientRect(); sprout(e.clientX - r.left, Math.min(H*.97, e.clientY - r.top + 40)); if (reduce) frame(0); });
+  cv.parentElement.addEventListener("click", e => { if (e.target.closest("a,button")) return; const r = cv.getBoundingClientRect(); sprout(e.clientX - r.left, Math.max(H-34, Math.min(H-4, e.clientY - r.top + 40))); if (reduce) frame(0); });
 })();
 
 /* ---------- Campo de semillas ---------- */
