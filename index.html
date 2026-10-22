@@ -38,19 +38,36 @@ body{background:var(--soil);color:var(--ink);font-family:var(--body);font-size:1
 .inner{max-width:1100px;margin:0 auto}
 .eyebrow{font-family:var(--mono);font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--seed)}
 
-/* HERO */
-.hero{position:relative;overflow:hidden;border-bottom:1px solid var(--line);background:radial-gradient(120% 70% at 50% 110%, #1E2A1F 0%, var(--soil) 60%)}
+/* TOP: banda corta con el cielo, las semillas arrancan enseguida */
+.top{position:relative;overflow:hidden;border-bottom:1px solid var(--line);background:radial-gradient(120% 90% at 50% 120%, #1E2A1F 0%, var(--soil) 65%)}
 #sky{position:absolute;inset:0;width:100%;height:100%;display:block}
-.hero .inner{position:relative;padding-block:clamp(72px,12vw,140px) clamp(64px,10vw,120px);display:flex;flex-direction:column;gap:22px}
-.hero h1{font-family:var(--display);font-weight:400;font-size:clamp(40px,8.4vw,96px);line-height:.98;margin:0;letter-spacing:-.01em;text-wrap:balance;max-width:13ch}
-.hero h1 .ash{color:var(--ash)}
-.hero h1 .glow{color:var(--seed);text-shadow:0 0 38px rgba(228,183,92,.35)}
-.hero .lede{max-width:56ch;font-size:clamp(16px,2vw,19px);color:var(--ink);opacity:.88;margin:0}
-.cta{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.top-inner{position:relative;padding-block:clamp(36px,6vw,64px) clamp(28px,4vw,44px);display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:20px}
+.top-txt{min-width:0;display:flex;flex-direction:column;gap:8px}
+.top h1{font-family:var(--display);font-weight:400;font-size:clamp(34px,6vw,64px);line-height:1;margin:0;text-wrap:balance}
+.top .sub{margin:0;font-family:var(--display);font-size:clamp(17px,2.2vw,22px)}
+.top .sub .ash{color:var(--ash)} .top .sub .glow{color:var(--seed);text-shadow:0 0 30px rgba(228,183,92,.35)}
 .btn{font:600 14px var(--body);padding:11px 18px;border-radius:999px;border:1px solid var(--ink);background:transparent;color:var(--ink);cursor:pointer;text-decoration:none;display:inline-flex;gap:8px;align-items:center}
 .btn.seed{background:var(--seed);border-color:var(--seed);color:var(--soil)}
-.live{font-family:var(--mono);font-size:12px;color:var(--muted)}
-.live b{color:var(--ink);font-weight:500}
+.campo{padding-block:28px clamp(48px,8vw,88px)!important}
+/* UX */
+.ux{padding-block:clamp(36px,6vw,56px)!important;border-top:1px solid var(--line)}
+.ux-inner{display:flex;gap:20px;align-items:flex-start;max-width:760px}
+.ux h2{font-family:var(--display);font-weight:400;font-size:clamp(22px,3vw,30px);line-height:1.15;margin:8px 0 8px;text-wrap:balance}
+.ux p{margin:0;color:var(--muted);max-width:58ch}
+.brote{flex:none;width:14px;height:14px;margin-top:4px;border-radius:50%;background:var(--seed);box-shadow:0 0 0 6px rgba(228,183,92,.14),0 0 24px rgba(228,183,92,.4)}
+/* SOBRE */
+.sobre{background:var(--soil-2);border-top:1px solid var(--line)}
+.trio{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(20px,4vw,44px);margin-top:18px}
+.trio article{border-top:1px solid var(--line);padding-top:16px;min-width:0}
+.trio h3{font-family:var(--display);font-weight:400;font-size:22px;margin:0 0 8px}
+.trio p{margin:0;color:var(--muted);font-size:14.5px}
+.trio em{font-style:normal;color:var(--seed)}
+.escucha{list-style:none;margin:14px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:6px;font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.escucha li{display:flex;align-items:center;gap:6px}
+.escucha li:not(:last-child)::after{content:"→";color:var(--ash)}
+.escucha .e1{color:var(--ash);text-decoration:line-through}
+.escucha .e4{color:var(--seed)}
+@media (max-width:760px){.trio{grid-template-columns:1fr}}
 
 /* ESCUCHAS */
 section{padding-block:clamp(56px,9vw,104px)}
@@ -163,97 +180,25 @@ footer{padding-block:32px;border-top:1px solid var(--line);font-family:var(--mon
 </head>
 <body>
 
-<header class="hero gut">
+<header class="top" id="inicio">
   <canvas id="sky" aria-hidden="true"></canvas>
-  <div class="inner">
-    <div class="eyebrow">Jardín de Gente · Capturadora de Semillas</div>
-    <h1><span class="ash">No se termina el mundo.</span> <span class="glow">Se termina un mundo.</span></h1>
-    <p class="lede">Mientras el relato dominante repite colapso, guerra y distopía, en barrios, montes y cooperativas ya están naciendo otras formas de vivir. Esta página las busca cada día y las junta acá, para entrenar la mirada que las ve.</p>
-    <div class="cta">
-      <a class="btn seed" href="#campo">Ver las semillas</a>
-      <a class="btn" href="#concepto">Qué es una semilla</a>
-      <a class="btn" href="#escucha">Por qué buscarlas</a>
-      <a class="btn" href="#voces">Sumar tu semilla</a>
-      <span class="live"><b id="heroCount">—</b> semillas capturadas · se actualiza cada mañana</span>
+  <div class="gut"><div class="inner top-inner">
+    <div class="top-txt">
+      <div class="eyebrow">Jardín de Gente · Capturadora de Semillas</div>
+      <h1>Semillas de vidas nuevas</h1>
+      <p class="sub"><span class="ash">No se termina el mundo.</span> <span class="glow">Se termina un mundo.</span></p>
     </div>
-  </div>
+    <div class="counter"><b id="count">0</b>semillas capturadas<br><span id="last"></span></div>
+  </div></div>
 </header>
-
-<section class="gut" id="escucha">
-  <div class="inner">
-    <div class="why">
-      <div>
-        <div class="eyebrow">Teoría U · los cuatro niveles de escucha</div>
-        <h2>Lo que escuchamos decide el futuro que vemos posible</h2>
-        <p>La mayor parte del tiempo escuchamos <strong>descargando</strong>: confirmamos lo que ya pensábamos. Y hoy lo que ya pensamos es que todo se viene abajo. Cada noticia lo confirma, cada scroll lo refuerza.</p>
-        <p>Ver semillas no es negar la crisis. Es <strong>abrir la escucha</strong> para registrar también lo que está emergiendo dentro de ella. Sin esa escucha abierta, el único futuro imaginable es el que nos cuentan.</p>
-      </div>
-      <ol class="path">
-        <li class="step s1"><span class="n">1</span><div><h3>Descargar</h3><p class="voz">«Ya sé cómo termina esto.»</p><p>Escucho para confirmar. El colapso es la única historia.</p></div></li>
-        <li class="step"><span class="n">2</span><div><h3>Escucha fáctica</h3><p class="voz">«Esto no encaja con lo que creía.»</p><p>Aparece un dato que desordena el relato: alguien está haciendo otra cosa.</p></div></li>
-        <li class="step"><span class="n">3</span><div><h3>Escucha empática</h3><p class="voz">«Puedo ver desde sus ojos.»</p><p>Me acerco a quienes sostienen esa semilla y entiendo desde dónde actúan.</p></div></li>
-        <li class="step s4"><span class="n">4</span><div><h3>Escucha generativa</h3><p class="voz">«Algo nuevo quiere nacer, y me incluye.»</p><p>Escucho desde el futuro que emerge. Ya no soy espectador del final, soy parte del comienzo.</p></div></li>
-      </ol>
-    </div>
-    <p class="umbral">La crisis no es el final de la historia. <em>Es el umbral.</em></p>
-  </div>
-</section>
-
-<section class="gut concepto" id="concepto">
-  <div class="inner">
-    <div class="eyebrow">El concepto</div>
-    <h2>¿Qué es una semilla?</h2>
-    <div class="concepto-grid">
-      <div class="def">
-        <p class="big">Una semilla es algo pequeño, concreto y real que <em>ya está pasando</em> y que contiene, en miniatura, otra forma de vivir.</p>
-        <p>No es una promesa ni una opinión: tiene personas, un lugar y una práctica. Todavía no cambió el mundo, pero adentro trae la información del mundo que podría venir. Como en la naturaleza, casi nunca se ve: crece bajo tierra mientras arriba todo parece ceniza.</p>
-        <p>En la Teoría U, las semillas son lo que aparece cuando dejamos de descargar y empezamos a percibir lo que quiere emerger. Mirarlas es un entrenamiento: cuantas más ves, más fácil es reconocerlas en tu propio barrio y en tu propia vida.</p>
-      </div>
-      <div class="criterio">
-        <h3>Cómo las buscamos</h3>
-        <p class="crit-intro">Cada mañana un buscador recorre medios de periodismo de soluciones, revistas y diarios de América Latina y el mundo, en español e inglés, y elige entre 2 y 4 semillas nuevas.</p>
-        <div class="si-no">
-          <div><h4 class="si">Entra si</h4><ul>
-            <li>Ya está ocurriendo, con personas y un lugar reales</li>
-            <li>Es colectivo o abre algo para otros</li>
-            <li>Muestra otra forma de habitar, cuidar, producir, aprender o dar sentido</li>
-            <li>Se puede leer en una fuente con link</li>
-          </ul></div>
-          <div><h4 class="no">Queda afuera</h4><ul>
-            <li>Negocios, startups, productos o inversiones</li>
-            <li>Opiniones o promesas sin experiencia concreta</li>
-            <li>Marketing de empresas con discurso verde</li>
-            <li>Lo que ya está en el campo</li>
-          </ul></div>
-        </div>
-        <p class="crit-intro">Después se clasifica en una de las tres brechas de u.lab y se resume con palabras propias: qué es, dónde pasa y qué vida nueva anuncia.</p>
-      </div>
-    </div>
-  </div>
-</section>
 
 <section class="campo gut" id="campo">
   <div class="inner">
-    <div class="campo-head">
-      <div>
-        <div class="eyebrow">El campo</div>
-        <h2>Semillas de vidas nuevas</h2>
-        <p>Cada semilla trae su referencia para que puedas ir a la fuente. Guardá las que te interesan y van a tu tabla personal, más abajo.</p>
-      </div>
-      <div class="counter"><b id="count">0</b>semillas<br><span id="last"></span></div>
-    </div>
-
-    <div class="brechas">
-      <div class="brecha" style="--c:var(--eco)"><strong>Brecha ecológica</strong>Yo y la naturaleza: regenerar suelo, agua y territorio.</div>
-      <div class="brecha" style="--c:var(--soc)"><strong>Brecha social</strong>Yo y el otro: cuidado, comunes, vivir juntos.</div>
-      <div class="brecha" style="--c:var(--esp)"><strong>Brecha espiritual-cultural</strong>Yo y mi Yo: sentido, imaginación, otras formas de ser.</div>
-    </div>
-
     <div class="controls" role="toolbar" aria-label="Filtrar semillas">
       <button class="chip" data-b="todas" aria-pressed="true">Todas</button>
-      <button class="chip" data-b="ecologica" aria-pressed="false"><i class="dot"></i>Ecológica</button>
-      <button class="chip" data-b="social" aria-pressed="false"><i class="dot"></i>Social</button>
-      <button class="chip" data-b="espiritual" aria-pressed="false"><i class="dot"></i>Espiritual-cultural</button>
+      <button class="chip" data-b="ecologica" aria-pressed="false" title="Yo y la naturaleza: regenerar suelo, agua y territorio"><i class="dot"></i>Ecológica</button>
+      <button class="chip" data-b="social" aria-pressed="false" title="Yo y el otro: cuidado, comunes, vivir juntos"><i class="dot"></i>Social</button>
+      <button class="chip" data-b="espiritual" aria-pressed="false" title="Yo y mi Yo: sentido, imaginación, otras formas de ser"><i class="dot"></i>Espiritual-cultural</button>
       <button class="chip" data-b="resuena" aria-pressed="false"><i class="dot"></i>Mis guardadas</button>
       <input id="q" type="search" placeholder="Buscar por lugar, tema, palabra…" aria-label="Buscar">
     </div>
@@ -265,14 +210,38 @@ footer{padding-block:32px;border-top:1px solid var(--line);font-family:var(--mon
   </div>
 </section>
 
-<section class="gut mias" id="mias">
-  <div class="inner">
-    <div class="eyebrow">Tu cosecha</div>
-    <h2>Mis semillas guardadas</h2>
-    <p class="mias-intro">Las semillas que guardás quedan acá, en este dispositivo y solo para vos. Sumales una nota con lo que te despiertan.</p>
-    <div class="tabla-wrap" id="tablaWrap">
-      <div class="empty"><h3>Todavía no guardaste semillas</h3>Tocá "Guardar" en cualquier semilla del campo y va a aparecer en esta tabla.</div>
+<section class="gut ux" id="cuidando">
+  <div class="inner ux-inner">
+    <span class="brote" aria-hidden="true"></span>
+    <div>
+      <div class="eyebrow">En construcción</div>
+      <h2>Estamos cuidando cómo se vive esta página</h2>
+      <p>Por ahora estamos enfocados en la experiencia de usuario: que encontrar una semilla, guardarla y sumar la tuya sea simple. La vamos a ir ajustando con lo que nos cuentes.</p>
     </div>
+  </div>
+</section>
+
+<section class="gut sobre" id="sobre">
+  <div class="inner">
+    <div class="eyebrow">La capturadora en tres ideas</div>
+    <div class="trio">
+      <article>
+        <h3>Qué es una semilla</h3>
+        <p>Algo chico, concreto y real que <em>ya está pasando</em>. Tiene personas, un lugar y una práctica, y trae en miniatura otra forma de vivir.</p>
+      </article>
+      <article>
+        <h3>Por qué buscarlas</h3>
+        <p>El relato del colapso se confirma solo. Ver semillas es abrir la escucha a lo que está naciendo adentro de la crisis.</p>
+        <ol class="escucha" aria-label="Los cuatro niveles de escucha de la Teoría U">
+          <li class="e1">Descargar</li><li>Fáctica</li><li>Empática</li><li class="e4">Generativa</li>
+        </ol>
+      </article>
+      <article>
+        <h3>Cómo llegan</h3>
+        <p>Cada mañana sumamos entre 2 y 4 experiencias de medios de América Latina y el mundo, cada una con su fuente. Negocios, startups y marketing verde quedan afuera.</p>
+      </article>
+    </div>
+    <p class="umbral">La crisis no es el final de la historia. <em>Es el umbral.</em></p>
   </div>
 </section>
 
@@ -282,7 +251,7 @@ footer{padding-block:32px;border-top:1px solid var(--line);font-family:var(--mon
       <div class="voces-intro">
         <div class="eyebrow">Voces del campo</div>
         <h2>¿Dónde viste una semilla?</h2>
-        <p>Una huerta en tu cuadra, una conversación que te cambió, un gesto de cuidado, una frase, un dibujo. Subí tu imagen o tu texto y sumalo al campo.</p>
+        <p>Una conversación que te cambió, un gesto de cuidado, una frase, un dibujo. Subí tu texto o tu imagen.</p>
         <form class="form aporte" id="aporteForm">
           <label class="full" for="a-texto">Tu semilla<textarea id="a-texto" rows="4" maxlength="1200" placeholder="Contá qué viste, dónde, por qué te parece que anuncia algo nuevo…"></textarea></label>
           <label for="a-nombre">Tu nombre (opcional)<input id="a-nombre" maxlength="60"></label>
@@ -299,7 +268,17 @@ footer{padding-block:32px;border-top:1px solid var(--line);font-family:var(--mon
   </div>
 </section>
 
-<div class="gut"><div class="inner"><form class="admin" id="adminForm" hidden><label for="adminToken" class="eyebrow">Moderación</label><input id="adminToken" type="password" placeholder="Clave de administración" autocomplete="off"><button class="btn" type="submit">Entrar</button><span class="live" id="adminMsg"></span></form></div></div>
+<section class="gut mias" id="mias">
+  <div class="inner">
+    <div class="eyebrow">Tu cosecha</div>
+    <h2>Mis semillas guardadas</h2>
+    <p class="mias-intro">Las semillas que guardás quedan acá, en este dispositivo y solo para vos. Sumales una nota con lo que te despiertan.</p>
+    <div class="tabla-wrap" id="tablaWrap">
+      <div class="empty"><h3>Todavía no guardaste semillas</h3>Tocá "Guardar" en cualquier semilla del campo y va a aparecer en esta tabla.</div>
+    </div>
+  </div>
+</section>
+
 <footer class="gut"><div class="inner">Inspirado en la Teoría U y u.lab (Presencing Institute). Un proyecto de Jardín de Gente.</div></footer>
 
 <script>
@@ -388,7 +367,7 @@ function toggleSave(d){
 
 function render(){
   const field = $("#field");
-  $("#count").textContent = docs.length; $("#heroCount").textContent = docs.length;
+  $("#count").textContent = docs.length;
   const last = docs.map(d=>d.capturada).filter(Boolean).sort().pop();
   $("#last").textContent = last ? "última captura: " + fmt(last) : "";
   if (!docs.length) return;
