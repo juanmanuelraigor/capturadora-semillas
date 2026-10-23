@@ -1,5 +1,48 @@
 [
   {
+    "id": "rio-tone-mirada-animal",
+    "titulo": "Ver el río con ojos de salmón para salvarlo",
+    "resumen": "En Somerset, Inglaterra, 18 voluntarios se pusieron en la piel de un salmón, un ciervo, un cernícalo, una nutria y una lombriz para recorrer el río Tone. De esa experiencia nació un mapa de amenazas y una campaña comunitaria de 30 años para restaurarlo.",
+    "desarrollo": "El estudio Risks Beyond Human Eyes lo ideó Phil Tovey, de ASRA, junto a la Universidad del Oeste de Inglaterra, con fondos de la Ecological Citizen Network. Cada voluntario se formó en la fisiología y los sentidos de uno de cinco animales y después recorrió el paisaje desde esa percepción. Uno, como salmón, nadó por agua contaminada y propuso apagar luces y quitar viejos azudes; otra, como ciervo, se desorientó por un montículo de tierra tras un alambrado. Los riesgos quedaron cargados en una base pública y la comunidad armó una campaña no violenta de 30 años por el río.",
+    "emerge": "Una ciudadanía que aprende a sentir el territorio desde los otros seres que lo habitan y cuida en consecuencia.",
+    "lugar": "Río Tone, Somerset, Inglaterra",
+    "fuente": "Positive News",
+    "url": "https://www.positive.news/society/volunteers-became-salmon-deer-and-earthworms-then-they-set-out-to-save-their-river/",
+    "idioma": "en",
+    "fecha_pub": "2026-10-19",
+    "capturada": "2026-10-23",
+    "brecha": "ecologica",
+    "origen": "buscador"
+  },
+  {
+    "id": "biblioteca-la-urdimbre-los-aromos",
+    "titulo": "La Urdimbre: una biblioteca levantada a pulmón por sus vecinos",
+    "resumen": "En Villa Los Aromos, Córdoba, un grupo de vecinos creó la Biblioteca Popular La Urdimbre en un pueblo sin ninguna biblioteca. Hoy cumple 10 años como espacio de libros, talleres, cine y fiestas.",
+    "desarrollo": "Los vecinos empezaron a reunirse hace unos doce años porque en Los Aromos no había biblioteca pública, escolar ni privada, y casi no había lugares de encuentro cultural. Primero ocuparon un hotel abandonado, pero el municipio los desalojó con la policía y los libros pasaron un tiempo repartidos en casas de vecinos. Después recibieron en donación los lotes donde hoy está el edificio, construido con trabajo comunitario y poca plata; la cocina y los baños todavía no están terminados. La sostiene una comisión de 15 personas y unos 150 socios, y es referencia cultural de la zona.",
+    "emerge": "Comunidades que, aun con poco, se dan a sí mismas un lugar para leer, encontrarse e imaginar juntas.",
+    "lugar": "Villa Los Aromos, Córdoba, Argentina",
+    "fuente": "Portal Tortuga",
+    "url": "https://diariotortuga.com/la-biblioteca-popular-la-urdimbre-cumple-10-anos-el-sueno-comunitario-que-crecio-en-villa-los-aromos/",
+    "fecha_pub": "2026-09-22",
+    "capturada": "2026-10-23",
+    "brecha": "espiritual",
+    "origen": "buscador"
+  },
+  {
+    "id": "mujeres-rurales-por-un-futuro",
+    "titulo": "Por un Futuro: 29 años de mujeres rurales juntándose",
+    "resumen": "En Tropas Viejas, cerca de Libertad (Uruguay), el grupo de mujeres rurales Por un Futuro sostiene desde 1997 un salón comunitario. Dejaron la producción artesanal y hoy apuestan a lo social: gimnasia, encuentros y fiestas para las familias del campo.",
+    "desarrollo": "El grupo se reunió por primera vez el 25 de septiembre de 1997 y tiene su salón sobre la Ruta 1, km 46, junto a la Escuela 35. Las propias integrantes lo repararon y pintaron. Hace más de 10 años, más de 20 mujeres de la zona hacen gimnasia ahí dos veces por semana. Como ya no les dan los tiempos para producir artesanías juntas, se reenfocaron en el encuentro: organizaron 'Mujeres con raíces, encuentro de familias rurales', con artistas locales, queseros de Guaycurú y vecinas de Estación González, para juntar fondos para muebles nuevos. Quieren repetirlo cada año y sumar talleres.",
+    "emerge": "El campo como trama de vínculos que se cuida a sí misma y no solo como lugar de producción.",
+    "lugar": "Tropas Viejas, Uruguay",
+    "fuente": "Prensa Mercosur (La Semana)",
+    "url": "https://prensamercosur.org/2026/10/22/mujeres-rurales-por-un-futuro-deja-el-enfoque-productivo-y-trabaja-desde-lo-social/",
+    "fecha_pub": "2026-10-22",
+    "capturada": "2026-10-23",
+    "brecha": "social",
+    "origen": "buscador"
+  },
+  {
     "id": "manglar-heron-proal-veracruz",
     "titulo": "Ejidatarios devuelven el agua a su manglar en Veracruz",
     "resumen": "En el ejido Herón Proal, entre Medellín y Alvarado (Veracruz), un grupo de ejidatarios trabaja para recuperar 76 hectáreas de manglar dañado. Reabrieron los canales naturales y volvieron a recorrer y cuidar sus parcelas.",
