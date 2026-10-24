@@ -433,7 +433,10 @@ $("#tablaWrap").addEventListener("input", e => {
 });
 $("#tablaWrap").addEventListener("change", () => render());
 
-fetch("data/semillas.json", {cache:"no-cache"}).then(r => r.ok ? r.json() : Promise.reject(r.status)).then(list => {
+/* Las semillas se leen directo de GitHub: así las nuevas aparecen sin publicar en Netlify. Si GitHub falla, usa la copia local. */
+const SEMILLAS_GH = "https://raw.githubusercontent.com/juanmanuelraigor/capturadora-semillas/main/data/semillas.json";
+const getJSON = u => fetch(u, {cache:"no-cache"}).then(r => r.ok ? r.json() : Promise.reject(r.status));
+getJSON(SEMILLAS_GH).catch(() => getJSON("data/semillas.json")).then(list => {
   docs = (Array.isArray(list) ? list : []).sort((a,b) => String(b.capturada).localeCompare(String(a.capturada)));
   if (!docs.length){ $("#field").innerHTML = `<div class="empty"><h3>La tierra está lista</h3>Mañana temprano llegan las primeras semillas del buscador.</div>`; }
   render();
