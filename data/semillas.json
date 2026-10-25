@@ -1,5 +1,47 @@
 [
   {
+    "id": "warmi-kewinas-tunari",
+    "titulo": "Warmi Kewiñas: mujeres quechua que siembran agua en el Tunari",
+    "resumen": "En el Parque Nacional Tunari, Cochabamba, mujeres quechua crían plantines de kewiña en viveros comunitarios y los plantan en las laderas. Reforestan el bosque andino que guarda el agua de la región.",
+    "desarrollo": "En la ladera norte, el grupo Warmi Kewiñas arrancó en 2022 con Faunagua y hoy suma más de 30 mujeres que manejan dos viveros: crían cada plantín unos nueve meses y plantan una vez al año. Ya van más de 467.000 kewiñas en 80 hectáreas, con sobrevivencia arriba del 85%. En la ladera sur, el programa de Armonía, desde 2020, plantó 1,25 millones. Al principio solo iban hombres a las capacitaciones y muchas mujeres no sabían leer; hoy hay clases de alfabetización, brigadas contra incendios y un centro de formación con guardería en construcción.",
+    "emerge": "Mujeres que eran invisibles en su comunidad se vuelven guardianas del agua de toda una ciudad.",
+    "lugar": "Parque Nacional Tunari, Cochabamba, Bolivia",
+    "fuente": "Mongabay Latam",
+    "url": "https://es.mongabay.com/2026/05/mujeres-kewina-indigenas-quechua-restauran-bosques-andinos-proteger-agua-bolivia/",
+    "fecha_pub": "2026-05-19",
+    "capturada": "2026-10-25",
+    "brecha": "ecologica",
+    "origen": "buscador"
+  },
+  {
+    "id": "barrio-cooperativo-sindical-durazno",
+    "titulo": "Durazno: 316 casas levantadas por ayuda mutua entre nueve cooperativas",
+    "resumen": "En Durazno, Uruguay, nueve cooperativas de trabajadores construyeron juntas el primer barrio cooperativo de vivienda sindical del país. Son 316 viviendas para unas mil personas, cada cooperativa con su salón comunal.",
+    "desarrollo": "El proceso empezó en mayo de 2021 con la primera cooperativa de la zona y se planificó en conjunto entre las nueve cooperativas, técnicos locales y el equipo del Programa de Vivienda Sindical. El Estado presta el 85% del costo y el 15% restante lo ponen las familias con su propio trabajo en obra, devolviendo el préstamo en 25 años. El 17 de octubre se inauguraron las 32 casas de la cooperativa Renacer. La llegada de tantas familias hizo que el barrio sume un liceo, y la intendencia proyecta una plaza y un parque lineal.",
+    "emerge": "Un barrio entero nace de la planificación colectiva y las manos de quienes lo van a habitar.",
+    "lugar": "Durazno, Uruguay",
+    "fuente": "Durazno Digital",
+    "url": "https://www.duraznodigital.uy/2026/10/de-la-mano-de-9-cooperativas-durazno.html",
+    "fecha_pub": "2026-10-19",
+    "capturada": "2026-10-25",
+    "brecha": "social",
+    "origen": "buscador"
+  },
+  {
+    "id": "escuela-saberes-ancestrales-coqui",
+    "titulo": "Coquí: las sabedoras del Pacífico enseñan a vivir con río y monte",
+    "resumen": "En Coquí, Chocó, sobre el golfo de Tribugá, una escuela de saberes ancestrales guiada por mujeres sabedoras transmite a chicos y chicas de 3 a 15 años las tradiciones de las comunidades negras y emberá.",
+    "desarrollo": "Nació como una educación alternativa, integral y pegada al territorio. Las mujeres mayores de la comunidad, guardianas de esos saberes, sostienen cinco áreas: agricultura y cocina tradicional, pesca, plantas medicinales, expresión musical y artesanías sostenibles. Cada año participan más de 25 chicos en 65 encuentros y dos intercambios con artistas y mayores de la zona. El autocuidado, la resiliencia y el vínculo respetuoso con la naturaleza son parte de lo que se aprende.",
+    "emerge": "La memoria de las abuelas vuelve a ser escuela y el territorio vuelve a ser maestro.",
+    "lugar": "Coquí, golfo de Tribugá, Chocó, Colombia",
+    "fuente": "CoCrea",
+    "url": "https://colombiacrea.org/2026/06/escuela-de-saberes-ancestrales-de-coqui/",
+    "fecha_pub": "2026-06-25",
+    "capturada": "2026-10-25",
+    "brecha": "espiritual",
+    "origen": "buscador"
+  },
+  {
     "id": "abuelos-maestros-amazonia-ecuador",
     "titulo": "Abuelos y sabios vuelven a enseñar en las escuelas amazónicas",
     "resumen": "Las nacionalidades waorani, siekopaai y a'i cofán de la Amazonía ecuatoriana armaron sus propios proyectos educativos. Mayores y sabios enseñan en el territorio junto a la lectura, la escritura y la matemática.",
