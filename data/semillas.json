@@ -1,5 +1,48 @@
 [
   {
+    "id": "corredor-darlington-montreal",
+    "titulo": "Montreal: vecinos cosen un corredor verde para que vuelvan los zorros",
+    "resumen": "El Corredor Ecológico Darlington une el Monte Royal con otros barrios de Montreal a fuerza de pequeños parches vivos. Lo cuidan cientos de vecinos que siembran macetas, jardines de lluvia y bosques comestibles.",
+    "desarrollo": "Nació en 2014, después de que los zorros rojos desaparecieran del Monte Royal y volvieran a verse hacia 2012. Como no se pueden tirar edificios ni calles, la idea de Alexandre Beaudoin fue armar una cadena de 'piedras de paso': micropraderas, microbosques, huertas y jardines de lluvia entre la infraestructura existente. Cada primavera los vecinos se anotan para cuidar macetas gigantes, y lo que dan las huertas lo cosecha la organización MultiCaf y lo vende barato a quienes lo necesitan. En 2023 se encuestó a 300 cuidadores: el 98% dijo sentirse más unido a lo vivo. Hace poco una zorra parió dos crías junto a una huerta del corredor.",
+    "emerge": "Una ciudad que se deja atravesar por la vida silvestre porque sus vecinos la cultivan juntos.",
+    "lugar": "Montreal, Quebec, Canadá",
+    "fuente": "Resilience (Rewilding Magazine)",
+    "url": "https://www.resilience.org/stories/2026-10-21/the-foxes-that-spawned-an-urban-rewilding-movement/",
+    "idioma": "en",
+    "fecha_pub": "2026-10-21",
+    "capturada": "2026-10-26",
+    "brecha": "ecologica",
+    "origen": "buscador"
+  },
+  {
+    "id": "cocineras-ollas-santa-fe",
+    "titulo": "Las cocineras que sostienen las ollas de Pompeya y Chalet",
+    "resumen": "En los barrios Nueva Pompeya y Chalet de Santa Fe, mujeres cocinan cada semana para sus vecinos en ollas populares. Lo hacen sin sueldo, con leña y entre otros trabajos, y convirtieron la cocina en una red de cuidado.",
+    "desarrollo": "En Nueva Pompeya, la olla de la CCC funciona martes y viernes: llegan antes de las nueve, cocinan con leña en una olla de 100 litros y reparten viandas entre las 11 y las 12:30. Norma Galarza lleva 15 años cocinando ahí y llega en bicicleta desde Coronel Dorrego. En el comedor Ester Ursini, de La Poderosa, María abre a las ocho, lava, pela verduras y enseña a cortar a quienes se suman. Muchas combinan la olla con changas, costura o trueque, y cocinan con lluvia o enfermas. Reclaman que se reconozca su trabajo como cocineras comunitarias.",
+    "emerge": "Un cuidado colectivo del alimento que las vecinas sostienen como un proyecto de familia ampliada.",
+    "lugar": "Santa Fe, Argentina",
+    "fuente": "Pausa",
+    "url": "https://www.pausa.com.ar/2026/08/cocineras-comunitarias-narraciones-de-dos-ollas-populares/",
+    "fecha_pub": "2026-08-27",
+    "capturada": "2026-10-26",
+    "brecha": "social",
+    "origen": "buscador"
+  },
+  {
+    "id": "cultura-comunitaria-cordoba",
+    "titulo": "Córdoba: murgas, teatros y orquestas de barrio tejidos en red",
+    "resumen": "El Encuentro de Cultura Comunitaria Córdoba reúne a más de 50 grupos barriales: murgas, teatros comunitarios, orquestas, bibliotecas y danzas. En agosto llevaron su arte al Teatro Real para mostrar lo que hacen todo el año.",
+    "desarrollo": "La red junta centros culturales, bibliotecas, murgas, orquestas y grupos de danza de toda la provincia. Vientos del Sur nació en 2006 para reunir a Villa El Libertador y mezcla murga rioplatense con cuarteto, títeres gigantes y fraternidades bolivianas. Orilleros de la Cañada hace teatro comunitario intergeneracional desde 2008 en el sudoeste de la ciudad, con obras sobre el río, el territorio y la memoria del barrio. La Red de Orquestas Barriales, autogestionada, enseña gratis cuerdas, vientos y piano en la periferia. El 23 de agosto todos compartieron un festival gratuito en el Teatro Real.",
+    "emerge": "El arte hecho entre vecinos como forma de darle identidad y sentido común al barrio.",
+    "lugar": "Córdoba, Argentina",
+    "fuente": "Enredacción",
+    "url": "https://enredaccion.com.ar/festival-la-cultura-comunitaria-es-real-una-jornada-de-arte-territorio-y-comunidad-en-el-teatro-real/",
+    "fecha_pub": "2026-08-19",
+    "capturada": "2026-10-26",
+    "brecha": "espiritual",
+    "origen": "buscador"
+  },
+  {
     "id": "warmi-kewinas-tunari",
     "titulo": "Warmi Kewiñas: mujeres quechua que siembran agua en el Tunari",
     "resumen": "En el Parque Nacional Tunari, Cochabamba, mujeres quechua crían plantines de kewiña en viveros comunitarios y los plantan en las laderas. Reforestan el bosque andino que guarda el agua de la región.",
