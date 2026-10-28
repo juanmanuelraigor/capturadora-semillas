@@ -1,5 +1,35 @@
 [
   {
+    "id": "renta-basica-ashaninka",
+    "titulo": "Renta básica que cuida el monte asháninka",
+    "resumen": "En tres comunidades asháninka de la Amazonía peruana, 211 personas recibieron durante dos años un ingreso sin condiciones. Lo usaron para sembrar, estudiar y ahorrar, y se sumaron a tareas colectivas de reforestación y cuidado de vertientes.",
+    "desarrollo": "El piloto lo diseñaron Cool Earth junto con dos organizaciones de mujeres indígenas, ONAMIAP y Omiaasec, y sumó talleres comunitarios sobre derechos indígenas, gobernanza y conservación. Cada persona decidía libremente en qué gastar unos 1.032 soles. La inseguridad alimentaria bajó del 73% al 26% y quienes tenían que salir a changas precarias pasaron del 43% al 18%. Cerca del 87% participó en acciones colectivas como reforestar y recuperar manantiales, y el 85% dijo que se fortaleció la autoorganización. No hubo grupo de control y el programa seguirá y buscará llegar a Colombia.",
+    "emerge": "Un pacto en el que la comunidad que cuida el bosque recibe confianza en vez de condiciones, y el monte en pie se vuelve sustento.",
+    "lugar": "Región asháninka, Amazonía, Perú",
+    "fuente": "University of Bath",
+    "url": "https://www.bath.ac.uk/announcements/world-first-basic-income-trial-boosts-indigenous-livelihoods-and-amazon-rainforest-protection/",
+    "idioma": "en",
+    "fecha_pub": "2026-10-20",
+    "capturada": "2026-10-28",
+    "brecha": "ecologica",
+    "origen": "buscador"
+  },
+  {
+    "id": "cal-bloke-manresa",
+    "titulo": "Cal Bloke: de bloque ocupado a cooperativa de vivienda",
+    "resumen": "En el barrio Vic-Remei de Manresa, once adultos y dos chicos que vivían hace una década en un edificio vacío de un fondo buitre lo compraron juntos. Hoy es una cooperativa en cesión de uso, sin especulación por 75 años.",
+    "desarrollo": "El bloque de siete viviendas se terminó en 2013 y quedó vacío; las familias entraron porque no podían pagar ningún alquiler. Durante años intentaron negociar y resistieron hasta cuatro intentos de desalojo. Cuando el fondo decidió vender, se organizaron con La Dinamo, el Ateneu Cooperatiu de la Catalunya Central y grupos por el derecho a la vivienda, y consiguieron un crédito del Institut Català de Finances. Cada piso costó menos de 100.000 euros y hoy pagan unos 400 euros mensuales entre todos para la deuda y el mantenimiento. Las decisiones se toman en conjunto y quieren replicar el modelo.",
+    "emerge": "La vivienda deja de ser mercancía y se vuelve un bien común que sostienen juntas las mismas familias que lo habitan.",
+    "lugar": "Manresa, Cataluña, España",
+    "fuente": "3CatInfo",
+    "url": "https://www.3cat.cat/3catinfo/cal-bloke-el-bloc-ocupat-que-sha-convertit-en-cooperativa-dhabitatge-en-un-cas-sense-precedents/noticia/3392232/",
+    "idioma": "ca",
+    "fecha_pub": "2026-02-01",
+    "capturada": "2026-10-28",
+    "brecha": "social",
+    "origen": "buscador"
+  },
+  {
     "id": "corredor-darlington-montreal",
     "titulo": "Montreal: vecinos cosen un corredor verde para que vuelvan los zorros",
     "resumen": "El Corredor Ecológico Darlington une el Monte Royal con otros barrios de Montreal a fuerza de pequeños parches vivos. Lo cuidan cientos de vecinos que siembran macetas, jardines de lluvia y bosques comestibles.",
