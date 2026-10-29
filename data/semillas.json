@@ -1,5 +1,48 @@
 [
   {
+    "id": "adivinanzas-nomatsigenga-cubantia",
+    "titulo": "Adivinanzas por altoparlante para volver a hablar nomatsigenga",
+    "resumen": "En Cubantia, comunidad nomatsigenga de la Amazonía peruana, una maestra y su grupo de cuarto grado graban adivinanzas tradicionales en su lengua y las pasan por el altoparlante del pueblo. Los mayores enseñan, los chicos escriben y la comunidad llama para adivinar.",
+    "desarrollo": "Arrancó en 2023, cuando la docente Silvia Luz Escobar Mincami notó que sus 18 alumnos callaban o lloraban por miedo a equivocarse, incluso en su propio idioma. Primero los ancianos les explicaron cómo cada adivinanza guarda saberes sobre animales y monte; después los chicos las escribieron, ensayaron y grabaron con celulares. El primer podcast salió el 26 de agosto de 2023 a las 4 de la mañana. Al principio solo cinco se animaban; en noviembre grababan los 18 y en diciembre ya nadie se negaba a hablar en público. La experiencia se volvió tesis y, en julio de 2026, un libro para otros maestros.",
+    "emerge": "Una escuela donde la lengua de los abuelos vuelve a sonar en la voz de los chicos y en el aire de todo el pueblo.",
+    "lugar": "Cubantia, Junín, Perú",
+    "fuente": "Prensa Mercosur (nota de Mongabay Latam)",
+    "url": "https://prensamercosur.org/2026/10/28/las-adivinanzas-ayudaron-a-los-ninos-indigenas-nomatsigenga-a-recuperar-su-lengua-en-la-amazonia-peruana/",
+    "fecha_pub": "2026-10-28",
+    "capturada": "2026-10-29",
+    "brecha": "espiritual",
+    "origen": "buscador"
+  },
+  {
+    "id": "refugios-estudiantes-y2y-aggie",
+    "titulo": "Estudiantes que abren refugio para sus pares sin techo",
+    "resumen": "En Estados Unidos, jóvenes universitarios sostienen refugios para otros jóvenes sin vivienda: Y2Y en el sótano de una iglesia de Cambridge y Aggie House junto a la Universidad de California en Davis. Los atienden, cocinan y acompañan como pares.",
+    "desarrollo": "Y2Y nació en 2015 de la mano de dos estudiantes de Harvard, preocupados por la inseguridad de los chicos en los refugios para adultos. Tiene 22 camas para personas de 18 a 24 años, que pueden quedarse hasta 30 días, y muchas son jóvenes LGBTQ+ o egresados del sistema de cuidado. Cada semana los huéspedes opinan en una asamblea, y estudiantes los ayudan con trámites de vivienda y servicios. Aggie House, abierta en 2021, ofrece departamentos a 200-300 dólares por mes hasta por un año, con voluntarios que hacen turnos nocturnos y cenas. Este verano, nueve huéspedes de Y2Y pasaron a alquileres o vivienda de transición; el límite es el tiempo de los voluntarios y la lista de espera.",
+    "emerge": "Una generación que no espera al Estado y se cuida entre pares, poniendo el cuerpo y la escucha donde el sistema expulsa.",
+    "lugar": "Cambridge, Massachusetts y Davis, California, Estados Unidos",
+    "fuente": "Reasons to be Cheerful",
+    "url": "https://reasonstobecheerful.world/young-adults-are-building-safe-spaces-for-unhoused-peers/",
+    "idioma": "en",
+    "fecha_pub": "2026-10-13",
+    "capturada": "2026-10-29",
+    "brecha": "social",
+    "origen": "buscador"
+  },
+  {
+    "id": "fincas-recuperadas-mendoza",
+    "titulo": "Fincas recuperadas: 500 hectáreas campesinas sin agrotóxicos",
+    "resumen": "En Mendoza, la Unión de Trabajadores Rurales Sin Tierra y una federación de diez cooperativas trabajan tierras abandonadas como fincas recuperadas. Unas mil familias producen verdura, fruta, cabras y conservas de forma agroecológica.",
+    "desarrollo": "La UST surgió en Lavalle durante la crisis de 2001 bajo el lema de tierra y agua para vivir en el campo, y en Jocolí empezó a trabajar tierras improductivas en 2003. Cada familia tiene su parcela, pero comparten riego, herramientas, máquinas y una parcela común de alfalfa para las cabras. Fabrican sus propios bioinsumos, forman a jóvenes en un centro campesino y venden por un almacén propio en la ciudad. Llegaron a mandar unos 28.500 kilos de alimentos por semana a Buenos Aires. El gran límite es el agua: la megasequía redujo los turnos de riego a la mitad.",
+    "emerge": "Tierra ociosa que vuelve a dar comida sana cuando la trabaja la comunidad y no la especulación.",
+    "lugar": "Lavalle y otros departamentos, Mendoza, Argentina",
+    "fuente": "Agencia de Noticias Tierra Viva",
+    "url": "https://agenciatierraviva.com.ar/red-de-fincas-recuperadas-en-mendoza-alimentos-sanos-en-500-hectareas-de-agroecologia-campesina/",
+    "fecha_pub": "2024-10-11",
+    "capturada": "2026-10-29",
+    "brecha": "ecologica",
+    "origen": "buscador"
+  },
+  {
     "id": "renta-basica-ashaninka",
     "titulo": "Renta básica que cuida el monte asháninka",
     "resumen": "En tres comunidades asháninka de la Amazonía peruana, 211 personas recibieron durante dos años un ingreso sin condiciones. Lo usaron para sembrar, estudiar y ahorrar, y se sumaron a tareas colectivas de reforestación y cuidado de vertientes.",
