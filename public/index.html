@@ -434,7 +434,7 @@ $("#tablaWrap").addEventListener("input", e => {
 $("#tablaWrap").addEventListener("change", () => render());
 
 /* Las semillas se leen directo de GitHub: así las nuevas aparecen sin publicar en Netlify. Si GitHub falla, usa la copia local. */
-const SEMILLAS_GH = "https://raw.githubusercontent.com/juanmanuelraigor/capturadora-semillas/main/data/semillas.json";
+const SEMILLAS_GH = "https://raw.githubusercontent.com/juanmanuelraigor/capturadora-semillas/main/public/data/semillas.json";
 const getJSON = u => fetch(u, {cache:"no-cache"}).then(r => r.ok ? r.json() : Promise.reject(r.status));
 getJSON(SEMILLAS_GH).catch(() => getJSON("data/semillas.json")).then(list => {
   docs = (Array.isArray(list) ? list : []).sort((a,b) => String(b.capturada).localeCompare(String(a.capturada)));
@@ -480,10 +480,17 @@ function compress(file){
   return new Promise((res, rej) => {
     const img = new Image(), url = URL.createObjectURL(file);
     img.onload = () => {
-      const max = 1600, k = Math.min(1, max / Math.max(img.width, img.height));
-      const c = document.createElement("canvas"); c.width = Math.round(img.width * k); c.height = Math.round(img.height * k);
-      c.getContext("2d").drawImage(img, 0, 0, c.width, c.height);
-      URL.revokeObjectURL(url); res(c.toDataURL("image/jpeg", 0.82));
+      // Baja tamaño y calidad hasta que la imagen pese menos de ~1 MB
+      let max = 1600, q = 0.82, out = "";
+      for (let i = 0; i < 5; i++){
+        const k = Math.min(1, max / Math.max(img.width, img.height));
+        const c = document.createElement("canvas"); c.width = Math.round(img.width * k); c.height = Math.round(img.height * k);
+        c.getContext("2d").drawImage(img, 0, 0, c.width, c.height);
+        out = c.toDataURL("image/jpeg", q);
+        if (out.length < 1400000) break;
+        max = Math.round(max * 0.8); q = Math.max(0.6, q - 0.06);
+      }
+      URL.revokeObjectURL(url); res(out);
     };
     img.onerror = () => { URL.revokeObjectURL(url); rej(); };
     img.src = url;
