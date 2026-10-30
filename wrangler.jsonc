@@ -1,0 +1,18 @@
+{
+  // Capturadora de Semillas — Cloudflare Worker con archivos estáticos (public/) y API (src/worker.js)
+  "name": "capturadora-semillas",
+  "main": "src/worker.js",
+  "compatibility_date": "2025-09-01",
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "capturadora",
+      "database_id": "ce972475-727b-4fe3-b62a-b4e8d9a04992"
+    }
+  ],
+  "observability": { "enabled": true }
+}
