@@ -1,5 +1,48 @@
 [
   {
+    "id": "seed-bombs-palisades",
+    "titulo": "Bombas de semillas para que florezca lo quemado en Los Ángeles",
+    "resumen": "Una familia que perdió su casa en el incendio de Palisades armó un proyecto de bombas de semillas nativas. Escuelas, vecinos y comercios las fabrican juntos y las reparten entre sobrevivientes de Altadena, Palisades y Malibú.",
+    "desarrollo": "Dana Goodyear y sus hijos Rummy y Willa empezaron tras el fuego de enero de 2025, que obligó a evacuar a unas 200.000 personas. La Theodore Payne Foundation diseñó una mezcla de nativas: amapolas, girasoles que absorben plomo y trigo sarraceno que fija el suelo. Las semillas se envuelven en compost y arcilla y se tiran en terrenos donde todavía no se puede entrar. La escuela Crossroads de Santa Mónica lo hizo proyecto de toda la comunidad y ya repartieron 10.000 bombas. Para la familia, juntarse a fabricarlas y compartir historias pesa tanto como las semillas.",
+    "emerge": "El duelo colectivo se vuelve siembra: una comunidad que se recompone cuidando el suelo herido.",
+    "lugar": "Los Ángeles, California, Estados Unidos",
+    "fuente": "Reasons to be Cheerful",
+    "url": "https://reasonstobecheerful.world/california-fires-seed-bomb-project/",
+    "idioma": "en",
+    "fecha_pub": "2026-10-01",
+    "capturada": "2026-10-31",
+    "brecha": "ecologica",
+    "origen": "buscador"
+  },
+  {
+    "id": "walden-xxi-sant-feliu",
+    "titulo": "Walden XXI: envejecer en comunidad en un viejo hotel",
+    "resumen": "En Sant Feliu de Guíxols, la cooperativa Sostre Cívic transformó un hotel abandonado en viviendas en cesión de uso para personas mayores. Unas 40 personas diseñaron juntas los espacios y la forma de convivir.",
+    "desarrollo": "La idea nació hacia 2018, cuando el municipio habilitó convertir hoteles en desuso en vivienda sénior, y las obras arrancaron en junio de 2024. El edificio es de la cooperativa: cada socio aporta una entrada recuperable y una cuota mensual, y tiene derecho a vivir ahí de por vida, sin poder vender ni especular. Hay 31 departamentos y más del 20% del edificio es común: cocina, comedor, biblioteca, talleres, huertos y terrazas. Se inauguró el 29 de octubre de 2026 con unas 200 personas. El gran límite es el costo, que muchas jubilaciones no alcanzan a cubrir.",
+    "emerge": "La vejez deja de ser soledad o institución y se vuelve vida compartida, autogestionada y de cuidado mutuo.",
+    "lugar": "Sant Feliu de Guíxols, Cataluña, España",
+    "fuente": "ElNacional.cat",
+    "url": "https://www.elnacional.cat/es/sociedad/envejecer-en-comunidad-catalunya-estrena-walden-xxi-primera-vivienda-cooperativa-senior-en-cesion-uso_1718131_102.html",
+    "fecha_pub": "2026-10-30",
+    "capturada": "2026-10-31",
+    "brecha": "social",
+    "origen": "buscador"
+  },
+  {
+    "id": "lengua-iskonawa-chachibai",
+    "titulo": "Una maestra iskonawa hace volver a hablar a su lengua",
+    "resumen": "En la comunidad nativa Chachibai, en Ucayali, la docente Gesica Pérez enseña iskonawa a niñas y niños de primaria. Es una de las lenguas más amenazadas de Perú: quedan apenas 22 hablantes.",
+    "desarrollo": "Gesica aprendió la lengua de sus padres y, cuando en 2017 se oficializó el alfabeto iskonawa de 18 letras, decidió estudiar educación intercultural bilingüe en la Universidad Intercultural de la Amazonía. En 2025 la contrataron en la escuela 65224 de Chachibai, designada para revitalizar la lengua. Hace más de un año da sesiones con materiales escritos en iskonawa y cuadernillos ilustrados con relatos y saberes del monte. Ella insiste en que la lengua tiene que vivir también en la casa, en la chacra y en toda la comunidad.",
+    "emerge": "Una lengua al borde del silencio vuelve a la boca de los chicos y, con ella, una forma de nombrar el mundo.",
+    "lugar": "Comunidad nativa Chachibai, Callería, Ucayali, Perú",
+    "fuente": "TVPerú",
+    "url": "https://www.tvperu.gob.pe/noticias/cultural/ucayali-maestra-impulsa-la-revitalizacion-de-la-lengua-iskonawa-desde-escuela-rural",
+    "fecha_pub": "2026-07-04",
+    "capturada": "2026-10-31",
+    "brecha": "espiritual",
+    "origen": "buscador"
+  },
+  {
     "id": "faros-comunitarios-nueva-orleans",
     "titulo": "Faros solares en templos para cuando se corta la luz",
     "resumen": "Iglesias, sinagogas, mezquitas y centros barriales de Nueva Orleans se volvieron 'faros comunitarios' con paneles solares y baterías. Cuando hay apagón, ahí se refugian, cargan equipos y se organizan los vecinos.",
