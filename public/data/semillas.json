@@ -1,5 +1,34 @@
 [
   {
+    "id": "bancos-semillas-gran-cumbal",
+    "titulo": "Chicos pastos que custodian las papas de sus abuelos en Cumbal",
+    "resumen": "En el resguardo indígena del Gran Cumbal, en Nariño, Colombia, escuelas rurales y familias pastos arman bancos comunitarios de semillas nativas. Los niños son custodios: aprenden a reconocer, sembrar y guardar variedades casi olvidadas.",
+    "desarrollo": "El trabajo arrancó en 2023 y el resguardo votó en asamblea a favor de los bancos de semillas. El banco central tiene una parte viva, con 68 especies de papa en unos 7.000 m², y una casa, Yar Pue Cumbe, donde las semillas se guardan y se anotan en cuadernos. La idea es prestarlas: quien recibe semillas devuelve el doble. La escuelita de Romerillo, con seis alumnos y un solo maestro, tiene su propia huerta y chicos custodios. Ya reúnen más de 30 especies de alimentos, 30 de frutales y unas 100 aromáticas y medicinales; el plan es una red de nueve bancos.",
+    "emerge": "Una infancia que vuelve a ser guardiana de la memoria viva de la tierra y de la comida de su pueblo.",
+    "lugar": "Cumbal, Nariño, Colombia",
+    "fuente": "El Tiempo",
+    "url": "https://www.eltiempo.com/colombia/cali/ellos-son-los-guardianes-de-bancos-de-semillas-para-combatir-el-hambre-y-preservar-una-cultura-indigena-en-el-suroccidente-del-pais-hacen-prestamos-3512240",
+    "fecha_pub": "2025-11-27",
+    "capturada": "2026-11-03",
+    "brecha": "ecologica",
+    "origen": "buscador"
+  },
+  {
+    "id": "rye-resurgence-san-luis-valley",
+    "titulo": "Centeno para cuidar el agua en el valle de San Luis",
+    "resumen": "En el valle de San Luis, un desierto de altura en el sur de Colorado, productores, un distrito de agua, molinos y panaderías se juntaron para volver a sembrar centeno. Es un cultivo que pide la mitad de agua que la alfalfa y protege el suelo en invierno.",
+    "desarrollo": "Sarah y Michael Jones volvieron en 2017 a la chacra familiar de papas y empezaron a probar granos. En 2023, tras una tormenta de polvo, Sarah y Heather Dutton, del distrito de conservación del agua, lanzaron el Rye Resurgence Project. El centeno funciona como cobertura invernal y como cosecha: necesita 10 a 12 pulgadas de agua por acre contra 24 a 26 de la alfalfa. El proyecto conecta a los productores con molinos, panaderías y destilerías locales. Hoy se siembran entre 3.000 y 5.000 acres por año, se vendieron más de 770.000 libras y suman más de 100 socios, aunque la nieve este año llegó apenas al 13% de lo normal.",
+    "emerge": "Una comunidad rural que aprende a producir alimento al ritmo del agua que hay, y no contra ella.",
+    "lugar": "Valle de San Luis, Colorado, Estados Unidos",
+    "fuente": "Reasons to be Cheerful",
+    "url": "https://reasonstobecheerful.world/colorado-farming-rye-resurgence-project/",
+    "idioma": "en",
+    "fecha_pub": "2026-05-19",
+    "capturada": "2026-11-03",
+    "brecha": "ecologica",
+    "origen": "buscador"
+  },
+  {
     "id": "bosque-bolsillo-chuyaca-osorno",
     "titulo": "Setecientos vecinos y un bosque de bolsillo en Osorno",
     "resumen": "En el Parque Chuyaca de Osorno, vecinos y voluntarios junto a la Fundación Cerro Arriba plantaron un bosque nativo denso con el método Miyawaki. Ahora vuelven a cuidarlo, cubriendo el suelo con paja y compost.",
