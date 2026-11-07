@@ -1,5 +1,48 @@
 [
   {
+    "id": "envirocare-thembisa-kaalspruit",
+    "titulo": "Un vecino de Thembisa sueña un jardín botánico junto a su río",
+    "resumen": "En Thembisa, Sudáfrica, Samuel Mashimbi y un puñado de voluntarios de EnviroCare Thembisa cuidan el arroyo Kaalspruit. Limpian basurales, denuncian derrames cloacales y enseñan a los chicos a querer el río.",
+    "desarrollo": "Mashimbi, nacido en Thembisa, cofundó EnviroCare Thembisa en 2021 para frenar la contaminación del Kaalspruit. Recorre los desagües, avisa a la municipalidad de cada derrame y junta voluntarios con guantes y bolsas para limpiar los puntos de basura. Ya relevaron más de 40 lugares donde las cloacas desbordan hacia patios y río. Entre 1990 y 2022 el humedal perdió casi tres cuartos de su vegetación, y ranas, cangrejos y peces desaparecieron. También da clases de cuidado ambiental en la escuela primaria Nyiko. El sueño es un jardín botánico con cientos de árboles nativos, pero primero hay que cortar la cloaca.",
+    "emerge": "Un río herido empieza a tener guardianes que lo miran como casa común y no como zanja.",
+    "lugar": "Thembisa, Gauteng, Sudáfrica",
+    "fuente": "GroundUp",
+    "url": "https://groundup.org.za/article/thembisa-residents-dream-to-turn-a-polluted-riverbank-into-a-botanical-garden/",
+    "idioma": "en",
+    "fecha_pub": "2026-11-06",
+    "capturada": "2026-11-07",
+    "brecha": "ecologica",
+    "origen": "buscador"
+  },
+  {
+    "id": "biblioteca-matienzo-bibliopalooza",
+    "titulo": "Los vecinos de Matienzo rescataron su biblioteca del cierre",
+    "resumen": "En barrio Matienzo, Córdoba, un grupo de vecinos recuperó la Biblioteca Popular Teniente Benjamín Matienzo, cerrada desde la pandemia. Hoy la sostienen con talleres, ferias y una fiesta con libros gratis.",
+    "desarrollo": "La biblioteca nació en los años 80 de la mano de Blancanieves Camilotti y quedó cerrada durante años tras la pandemia. Vecinos armaron una comisión, la pusieron en condiciones y la volvieron a abrir. Sofía Campano, Luz Chávez y Mariel Acevedo están entre quienes la mueven hoy. Funciona en la esquina de Lagunilla y Fleming, con talleres regulares de arte y música. El 31 de octubre hicieron la Bibliopalooza: la tercera feria de emprendedores del barrio, música en vivo, muestra de talleres y regalo de libros junto a la UNC. Siguen sumando voluntarios.",
+    "emerge": "Un barrio que se niega a perder su lugar de encuentro y lo reabre entre todos.",
+    "lugar": "Barrio Matienzo, Córdoba, Argentina",
+    "fuente": "El Monterizo",
+    "url": "https://elmonterizo.com/la-biblioteca-que-los-vecinos-rescataron-del-cierre-abre-sus-puertas-con-libros-gratis-para-todos",
+    "fecha_pub": "2026-10-29",
+    "capturada": "2026-11-07",
+    "brecha": "social",
+    "origen": "buscador"
+  },
+  {
+    "id": "mesas-diaguitas-escuelas-molinos",
+    "titulo": "Comunidades diaguitas escriben qué se enseña en sus escuelas",
+    "resumen": "En el departamento de Molinos, Salta, comunidades del pueblo diaguita kallchaki se reúnen en mesas de trabajo para llevar su lengua, su mirada y sus saberes a las escuelas. Participan mayores, jóvenes, mujeres y autoridades.",
+    "desarrollo": "El proceso arrancó en 2023 por iniciativa de las propias comunidades, con mesas previas en Cachi, San Carlos y Chicoana. Ahora se hicieron la octava, novena y décima mesa en Cuchiyaco, La Puerta y El Churcal, reuniendo parajes como Aguadita, Cieneguilla, Cabrería y Patapampa. La idea es construir juntos lineamientos curriculares en cinco ejes: organización comunitaria, economía para el bien común, saberes y naturaleza, lenguas y educación. Se habló de pastoreo, siembra, tejido, conservación de alimentos, medicina tradicional y de la torna y el trueque como formas de reciprocidad. Acompañan la UNSa y áreas provinciales; los lineamientos siguen en construcción.",
+    "emerge": "La escuela empieza a escucharse desde el territorio y la memoria de su pueblo.",
+    "lugar": "Molinos, Salta, Argentina",
+    "fuente": "HolaSalta",
+    "url": "https://holasalta.com/post/comunidades-diaguitas-trabajan-para-incorporar-sus-saberes-ancestrales-a-las-escuelas/",
+    "fecha_pub": "2026-11-03",
+    "capturada": "2026-11-07",
+    "brecha": "espiritual",
+    "origen": "buscador"
+  },
+  {
     "id": "escuela-kichwa-yachaykuna",
     "titulo": "Una escuela kichwa que se aprende caminando la montaña",
     "resumen": "Jóvenes y dirigentes de tres federaciones kichwa de San Martín, Perú, armaron la escuela Yachaykuna Yuyay Wasi (\"aprender a pensar\"). Se forman en territorio, por senderos ancestrales, para sostener su camino hacia el autogobierno.",
