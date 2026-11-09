@@ -1,5 +1,35 @@
 [
   {
+    "id": "humedal-chaita-bikita",
+    "titulo": "Veinte aldeas de Bikita cercaron su humedal para que vuelva a brotar",
+    "resumen": "En el distrito de Bikita, en Zimbabue, vecinos de veinte aldeas se juntaron para proteger un humedal de unas ocho hectáreas. Lo cercaron, le hicieron un cortafuego y ahora dejan que la vegetación nativa se recupere sola.",
+    "desarrollo": "La iniciativa de rehabilitación del humedal de la aldea Chaita arrancó en 2025 en el Distrito 19B, bajo la jefatura de Mazungunye, y está pensada hasta 2027. Más de 200 vecinos de veinte aldeas pusieron su trabajo sin cobrar: levantaron un alambrado de ocho hilos para frenar los cultivos, el pastoreo y la tala, y abrieron un cortafuego contra los incendios. El humedal es una de las principales fuentes de agua de la zona y alimenta los arroyos. El presidente del proyecto, Amato Chaita, cuenta que la fase de protección ya terminó; ahora quieren sumar huertas y cosechar agua para las casas y el ganado. Tienen el apoyo de la ONG Christian Care.",
+    "emerge": "Una comunidad que deja de ver el humedal como recurso para explotar y empieza a cuidarlo como fuente común de su vida.",
+    "lugar": "Bikita, Masvingo, Zimbabue",
+    "fuente": "EnviroPress Zimbabwe",
+    "url": "https://enviropresszim.com/restoring-life-and-water-bikita-villagers-rally-to-protect-wetland/",
+    "idioma": "en",
+    "fecha_pub": "2026-08-01",
+    "capturada": "2026-11-09",
+    "brecha": "ecologica",
+    "origen": "buscador"
+  },
+  {
+    "id": "apagon-pardelas-corvo",
+    "titulo": "Una isla entera apaga la luz para que las pardelas lleguen al mar",
+    "resumen": "En Corvo, la isla más chica de las Azores, todos los otoños se apaga el alumbrado público durante varias noches. Así los pichones de pardela cenicienta no se desorientan con las luces y pueden volar hacia el océano.",
+    "desarrollo": "Los pichones salen del nido de noche y las luces los confunden: terminan caídos en calles y patios. Desde 2019 la Sociedad Portuguesa para el Estudio de las Aves (SPEA) y el municipio de Corvo organizan el apagón, que este año fue de las 21 a las 4 durante cinco noches. Cada temporada decenas de voluntarios rescatan a las aves perdidas, a veces en cajas de cartón, y las devuelven al mar. En una encuesta de SPEA a 207 habitantes de la isla, el apoyo fue unánime. Se calcula que desde 2015 se salvaron más de 30.000 pichones en las Azores, unos 6.000 solo en Corvo.",
+    "emerge": "Un pueblo que acepta la oscuridad compartida como gesto de hospitalidad hacia otra especie.",
+    "lugar": "Isla de Corvo, Azores, Portugal",
+    "fuente": "Good News Network",
+    "url": "https://www.goodnewsnetwork.org/islands-near-portugal-turn-off-lights-to-protect-seabird-fledglings-every-oct/",
+    "idioma": "en",
+    "fecha_pub": "2026-11-01",
+    "capturada": "2026-11-09",
+    "brecha": "ecologica",
+    "origen": "buscador"
+  },
+  {
     "id": "smoketown-clt-louisville",
     "titulo": "Los vecinos de Smoketown le ganaron la tierra a los especuladores",
     "resumen": "En Smoketown, un barrio histórico negro de Louisville, los vecinos armaron un fideicomiso comunitario de tierras. La comunidad conserva el suelo y las casas se venden a precio accesible para siempre.",
