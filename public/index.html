@@ -7,17 +7,17 @@
 <meta property="og:title" content="Capturadora de Semillas · Jardín de Gente">
 <meta property="og:description" content="No se termina el mundo. Se termina un mundo. Semillas de vidas nuevas, capturadas cada día.">
 <meta property="og:type" content="website">
-<meta name="theme-color" content="#0E130F">
+<meta name="theme-color" content="#070D1C">
 <title>Capturadora de Semillas</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Figtree:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
-/* Layout: noche de tierra. Ceniza que cae arriba (el relato del colapso) y semillas que brotan abajo. Recorrido de las 4 escuchas, luego el campo de semillas que crece cada día. Una sola atmósfera oscura, elegida a propósito. */
+/* Layout: noche azul profundo, brote luminoso con su red de raíces (la imagen de Jardín de Gente). Ceniza que cae arriba (el relato del colapso) y semillas que brotan abajo. Recorrido de las 4 escuchas, luego el campo de semillas que crece cada día. Una sola atmósfera oscura, elegida a propósito. */
 :root{
-  --soil:#0E130F; --soil-2:#151C17; --soil-3:#1D2620; --line:#2B362E;
-  --ink:#ECE8DC; --muted:#9BA69C; --ash:#6E746C;
-  --seed:#E4B75C; --seed-dim:#3B3020;
+  --soil:#070D1C; --soil-2:#0A1226; --soil-3:#101B36; --line:#22315A;
+  --ink:#EAF0FA; --muted:#97A6C4; --ash:#62718F;
+  --seed:#E4B75C; --seed-dim:#2C2A1C; --luz:#9FD0FF;
   --eco:#82C79C; --soc:#E79D8F; --esp:#A8B2EE;
   --display:"Young Serif",Georgia,"Times New Roman",serif;
   --body:"Figtree",system-ui,-apple-system,"Segoe UI",sans-serif;
@@ -38,17 +38,51 @@ body{background:var(--soil);color:var(--ink);font-family:var(--body);font-size:1
 .inner{max-width:1100px;margin:0 auto}
 .eyebrow{font-family:var(--mono);font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--seed)}
 
-/* TOP: banda corta con el cielo, las semillas arrancan enseguida */
-.cielo{position:relative;overflow:hidden;border-bottom:1px solid var(--line);background:radial-gradient(120% 90% at 50% 120%, #1E2A1F 0%, var(--soil) 65%)}
+/* PORTADA: brote luminoso y raíces; las semillas arrancan apenas termina */
+.cielo{position:relative;overflow:hidden;border-bottom:1px solid var(--line);min-height:clamp(600px,80svh,780px);display:flex;flex-direction:column;background:radial-gradient(70% 60% at 76% 74%, #14306E 0%, rgba(20,48,110,0) 62%),linear-gradient(#040814 0%, #0A1532 74%, #070D1F 100%)}
 #sky{position:absolute;inset:0;width:100%;height:100%;display:block}
-.top-inner{position:relative;padding-block:clamp(36px,6vw,64px) clamp(64px,8vw,80px);display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:20px}
-.top-txt{min-width:0;display:flex;flex-direction:column;gap:8px}
-.cielo h1{font-family:var(--display);font-weight:400;font-size:clamp(34px,6vw,64px);line-height:1;margin:0;text-wrap:balance}
-.cielo .sub{margin:0;font-family:var(--display);font-size:clamp(17px,2.2vw,22px)}
+.top-inner{position:relative;padding-block:clamp(36px,6vw,72px) 28px;flex:1;display:flex;flex-direction:column;justify-content:flex-start}
+.top-txt{min-width:0;display:flex;flex-direction:column;gap:14px;max-width:560px}
+.cielo h1{font-family:var(--display);font-weight:400;font-size:clamp(40px,7.4vw,84px);line-height:.98;margin:0;text-wrap:balance;text-shadow:0 2px 30px rgba(4,8,20,.8)}
+.cielo .sub{margin:0;font-family:var(--display);font-size:clamp(18px,2.4vw,24px)}
 .cielo .sub .ash{color:var(--ash)} .cielo .sub .glow{color:var(--seed);text-shadow:0 0 30px rgba(228,183,92,.35)}
+.cielo .cuento{margin:4px 0 0;max-width:46ch;font-size:clamp(15.5px,1.6vw,17.5px);color:var(--ink);opacity:.9;text-shadow:0 1px 18px rgba(4,8,20,.9)}
+.cta{display:flex;flex-wrap:wrap;gap:10px;margin-top:8px}
+.cielo .counter{text-align:left;margin-top:6px}
+.cielo .counter b{display:inline;font-size:inherit;font-family:var(--mono);color:var(--seed);font-weight:500}
+@media (max-width:819px){.cielo{min-height:0}.top-inner{padding-bottom:212px}}
 .btn{font:600 14px var(--body);padding:11px 18px;border-radius:999px;border:1px solid var(--ink);background:transparent;color:var(--ink);cursor:pointer;text-decoration:none;display:inline-flex;gap:8px;align-items:center}
 .btn.seed{background:var(--seed);border-color:var(--seed);color:var(--soil)}
-.campo{padding-block:28px clamp(48px,8vw,88px)!important}
+.btn.glass{background:rgba(10,20,48,.55);border-color:var(--line);backdrop-filter:blur(6px)}
+.campo{padding-block:30px clamp(40px,6vw,64px)!important}
+.campo-top{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:6px 16px;margin-bottom:14px}
+.campo-top h2{font-family:var(--display);font-weight:400;font-size:clamp(24px,3.4vw,34px);line-height:1.1;margin:0}
+.campo-top span{font-family:var(--mono);font-size:11.5px;color:var(--muted)}
+.mas{display:flex;justify-content:center;margin-top:22px}
+/* SEMILLA EXPRÉS */
+.expres{border-top:1px solid var(--line);background:radial-gradient(60% 80% at 20% 50%, rgba(20,48,110,.55) 0%, rgba(20,48,110,0) 70%)}
+.expres-grid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:clamp(24px,5vw,64px);align-items:center}
+.expres h2,.news h2{font-family:var(--display);font-weight:400;font-size:clamp(30px,4.6vw,50px);line-height:1.05;margin:10px 0 12px;text-wrap:balance}
+.expres-txt>p,.news-txt>p{color:var(--muted);margin:0 0 22px;max-width:44ch}
+.ruleta-wrap{position:relative;width:min(240px,62vw);aspect-ratio:1;margin-top:8px}
+.puntero{position:absolute;left:50%;top:-6px;transform:translateX(-50%);width:0;height:0;border-left:9px solid transparent;border-right:9px solid transparent;border-top:16px solid var(--seed);z-index:2;filter:drop-shadow(0 0 8px rgba(228,183,92,.6))}
+.ruleta{position:absolute;inset:0;border-radius:50%;border:0;padding:0;background:none;cursor:pointer;color:var(--soil);-webkit-tap-highlight-color:transparent}
+.ruleta-disco{position:absolute;inset:0;border-radius:50%;background:repeating-conic-gradient(var(--eco) 0 29deg,var(--soil) 29deg 30deg,var(--soc) 30deg 59deg,var(--soil) 59deg 60deg,var(--esp) 60deg 89deg,var(--soil) 89deg 90deg);box-shadow:0 0 0 1px var(--line),0 0 60px rgba(90,160,255,.28);transition:transform 2.4s cubic-bezier(.12,.72,.1,1)}
+.ruleta-disco::after{content:"";position:absolute;inset:17%;border-radius:50%;background:var(--soil-2);box-shadow:inset 0 0 0 1px var(--line)}
+.ruleta-centro{position:absolute;inset:31%;border-radius:50%;background:var(--seed);display:grid;place-items:center;font:600 15px var(--body);box-shadow:0 0 0 6px rgba(228,183,92,.16),0 0 34px rgba(228,183,92,.45)}
+.ruleta:disabled{cursor:wait}
+.ruleta:hover:not(:disabled) .ruleta-centro{transform:scale(1.05)}
+.expres-out .card{padding:24px 24px 16px}
+.expres-out .card h3{font-size:clamp(23px,3vw,30px)}
+.expres-out .mas-txt{color:var(--muted);opacity:1;font-size:14px}
+.expres-out .empty{padding:56px 20px}
+/* NEWSLETTER */
+.news{background:var(--soil-2);border-top:1px solid var(--line)}
+.news-grid{display:grid;grid-template-columns:minmax(0,6fr) minmax(0,6fr);gap:clamp(24px,5vw,56px);align-items:center}
+.news iframe{width:100%;height:320px;border:1px solid var(--line);border-radius:14px;background:var(--soil-3);display:block}
+.news .alt{font-size:13px;color:var(--muted);margin:10px 0 0}
+.news .alt a,footer a{color:var(--ink);text-decoration-color:var(--seed);text-underline-offset:3px}
+@media (max-width:760px){.expres-grid,.news-grid{grid-template-columns:1fr}.ruleta-wrap{margin-inline:auto}}
 /* UX */
 .ux{padding-block:clamp(36px,6vw,56px)!important;border-top:1px solid var(--line)}
 .ux-inner{display:flex;gap:20px;align-items:flex-start;max-width:760px}
@@ -174,6 +208,8 @@ td textarea{min-width:200px;font-size:13.5px;padding:7px 9px;resize:vertical}
 .muro .empty{column-span:all}
 @media (max-width:760px){.voces-grid,.concepto-grid,.si-no{grid-template-columns:1fr}}
 footer{padding-block:32px;border-top:1px solid var(--line);font-family:var(--mono);font-size:11.5px;color:var(--muted)}
+footer .inner{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px 24px}
+footer nav{display:flex;flex-wrap:wrap;gap:6px 18px}
 @media (max-width:760px){.why{grid-template-columns:1fr}.brechas,.form{grid-template-columns:1fr}.counter{text-align:left}}
 @media (prefers-reduced-motion:no-preference){.card{animation:sprout .5s ease both}@keyframes sprout{from{transform:translateY(6px)}to{transform:none}}}
 </style>
@@ -182,18 +218,25 @@ footer{padding-block:32px;border-top:1px solid var(--line);font-family:var(--mon
 
 <header class="cielo" id="inicio">
   <canvas id="sky" aria-hidden="true"></canvas>
-  <div class="gut"><div class="inner top-inner">
+  <div class="gut top-inner"><div class="inner" style="width:100%">
     <div class="top-txt">
       <div class="eyebrow">Jardín de Gente · Capturadora de Semillas</div>
       <h1>Semillas de vidas nuevas</h1>
       <p class="sub"><span class="ash">No se termina el mundo.</span> <span class="glow">Se termina un mundo.</span></p>
+      <p class="cuento">Mientras el colapso sucede todos los días, también pasa esto: gente que se junta, cuida y prueba otra forma de vivir. Cada mañana salimos a buscarlas y dejamos acá las que encontramos.</p>
+      <div class="cta">
+        <a class="btn seed" href="#campo">Ver las semillas ↓</a>
+        <a class="btn glass" href="#expres">Semilla exprés</a>
+        <a class="btn glass" href="#newsletter">Newsletter</a>
+      </div>
+      <div class="counter"><b id="count">0</b> semillas capturadas <span id="last"></span></div>
     </div>
-    <div class="counter"><b id="count">0</b>semillas capturadas<br><span id="last"></span></div>
   </div></div>
 </header>
 
 <section class="campo gut" id="campo">
   <div class="inner">
+    <div class="campo-top"><h2>Recién capturadas</h2><span id="hoyTxt"></span></div>
     <div class="controls" role="toolbar" aria-label="Filtrar semillas">
       <button class="chip" data-b="todas" aria-pressed="true">Todas</button>
       <button class="chip" data-b="ecologica" aria-pressed="false" title="Yo y la naturaleza: regenerar suelo, agua y territorio"><i class="dot"></i>Ecológica</button>
@@ -203,9 +246,40 @@ footer{padding-block:32px;border-top:1px solid var(--line);font-family:var(--mon
       <input id="q" type="search" placeholder="Buscar por lugar, tema, palabra…" aria-label="Buscar">
     </div>
 
-
     <div class="field" id="field">
       <div class="empty"><h3>La tierra está lista</h3>Acá aparecen las semillas que el buscador encuentra cada mañana. También podés sembrar una a mano.</div>
+    </div>
+    <div class="mas" id="masWrap" hidden><button class="btn" id="masBtn" type="button">Ver más semillas</button></div>
+  </div>
+</section>
+
+<section class="gut expres" id="expres">
+  <div class="inner expres-grid">
+    <div class="expres-txt">
+      <div class="eyebrow">Semilla exprés</div>
+      <h2>Tocá la ruleta y llevate una</h2>
+      <p>¿Tenés un minuto? Girala y te toca al azar una de las semillas que ya capturamos.</p>
+      <div class="ruleta-wrap">
+        <span class="puntero" aria-hidden="true"></span>
+        <button class="ruleta" id="ruleta" type="button" aria-label="Girar la ruleta"><span class="ruleta-disco" id="disco"></span><span class="ruleta-centro" id="ruletaTxt">Girar</span></button>
+      </div>
+    </div>
+    <div class="expres-out" id="expresOut" aria-live="polite">
+      <div class="empty"><h3>Tu semilla va a caer acá</h3>Tocá la ruleta.</div>
+    </div>
+  </div>
+</section>
+
+<section class="gut news" id="newsletter">
+  <div class="inner news-grid">
+    <div class="news-txt">
+      <div class="eyebrow">Newsletter</div>
+      <h2>Que te llegue al mail</h2>
+      <p>El newsletter de Jardín de Gente: lo que vamos encontrando, directo en tu casilla. Dejá tu mail y listo.</p>
+    </div>
+    <div>
+      <iframe src="https://jardindegente.substack.com/embed" title="Suscribirte al newsletter de Jardín de Gente" loading="lazy" scrolling="no"></iframe>
+      <p class="alt">¿No te aparece el formulario? <a href="https://jardindegente.substack.com/subscribe" target="_blank" rel="noopener">Suscribite desde Substack ↗</a></p>
     </div>
   </div>
 </section>
@@ -265,6 +339,7 @@ footer{padding-block:32px;border-top:1px solid var(--line);font-family:var(--mon
         <div class="empty"><h3>Todavía no hay voces</h3>La primera semilla puede ser la tuya.</div>
       </div>
     </div>
+    <form class="admin" id="adminForm" hidden><input id="adminToken" type="password" placeholder="Clave de moderación" aria-label="Clave de moderación"><button class="btn" type="submit">Entrar</button><span class="msg" id="adminMsg"></span></form>
   </div>
 </section>
 
@@ -279,54 +354,129 @@ footer{padding-block:32px;border-top:1px solid var(--line);font-family:var(--mon
   </div>
 </section>
 
-<footer class="gut"><div class="inner">Inspirado en la Teoría U y u.lab (Presencing Institute). Un proyecto de Jardín de Gente.</div></footer>
+<footer class="gut"><div class="inner"><span>Inspirado en la Teoría U y u.lab (Presencing Institute). Un proyecto de Jardín de Gente.</span><nav aria-label="Jardín de Gente"><a href="https://jardin.jardindegente.workers.dev" target="_blank" rel="noopener">Jardín de Gente</a><a href="https://jardindegente.substack.com" target="_blank" rel="noopener">Newsletter</a><a href="https://www.instagram.com/jardindegente.lab/" target="_blank" rel="noopener">Instagram</a></nav></div></footer>
 
 <script>
-/* ---------- Cielo: ceniza que cae y semillas que brotan ---------- */
+/* ---------- Portada: brote luminoso con su red de raíces, ceniza que cae y semillas que brotan ---------- */
 (() => {
   const cv = document.getElementById("sky"), ctx = cv.getContext("2d");
   const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
-  let W, H, dpr, ash = [], seeds = [], sprouts = [];
+  let W, H, dpr, G, cx, SH, X0 = 0, ancho = true, ash = [], seeds = [], sprouts = [], roots = [], rutas = [], pulsos = [], t0 = 0;
+  const rnd = (a,b) => a + Math.random()*(b-a);
+  const clamp = (v,a,b) => Math.max(a, Math.min(b, v));
   function size(){
     dpr = Math.min(devicePixelRatio || 1, 2);
     W = cv.clientWidth; H = cv.clientHeight;
     cv.width = W * dpr; cv.height = H * dpr; ctx.setTransform(dpr,0,0,dpr,0,0);
+    ancho = W >= 820;
+    if (ancho){ G = H * .68; cx = W * .74; SH = Math.min(H * .3, 190); X0 = W * .52; }
+    else { // en celular el brote crece debajo del texto, sin taparlo
+      const tb = document.querySelector(".top-txt").getBoundingClientRect().bottom - cv.getBoundingClientRect().top;
+      SH = 82; G = Math.max(tb + SH + 28, H - 104); cx = W * .5; X0 = 0;
+    }
   }
-  const rnd = (a,b) => a + Math.random()*(b-a);
-  function spawnAsh(y){ return {x:rnd(0,W), y:y ?? rnd(-H,0), r:rnd(.6,1.8), v:rnd(.15,.55), d:rnd(-.2,.2), a:rnd(.12,.4)}; }
-  function spawnSeed(y){ return {x:rnd(W*.04,W*.96), y:y ?? rnd(-H*.6,0), v:rnd(.35,.7), ph:rnd(0,6.28), land:rnd(H-30,H-6)}; }
+  function spawnAsh(y){ return {x:rnd(0,W), y:y ?? rnd(-H,0), r:rnd(.6,1.8), v:rnd(.15,.55), d:rnd(-.2,.2), a:rnd(.1,.34)}; }
+  function spawnSeed(y){ return {x:rnd(X0 + W*.04, W*.96), y:y ?? rnd(-H*.6,0), v:rnd(.35,.7), ph:rnd(0,6.28), land:rnd(G-3,G+3)}; }
   function sprout(x, y){
     const hue = ["130,199,156","231,157,143","168,178,238","228,183,92"][Math.floor(Math.random()*4)];
-    sprouts.push({x, y, h:0, max:rnd(12,30), lean:rnd(-.35,.35), c:hue, life:0});
-    if (sprouts.length > 70) sprouts.shift();
+    sprouts.push({x, y, h:0, max:rnd(10,24), lean:rnd(-.35,.35), c:hue, life:0});
+    if (sprouts.length > 60) sprouts.shift();
+  }
+  function buildRoots(){
+    roots = []; rutas = [];
+    const maxD = W >= 820 ? 5 : 4, fondo = H - G;
+    const grow = (x, y, ang, len, depth, parent) => {
+      const pts = [[x,y]]; let a = ang;
+      for (let i=0;i<4;i++){ a = clamp(a + rnd(-.3,.3), -1.4, 1.4); x += Math.sin(a)*len/4; y += Math.cos(a)*len/4; pts.push([x,y]); }
+      const id = roots.push({pts, depth, parent, w:Math.max(.7, 2.8 - depth*.5)}) - 1;
+      let hijos = 0;
+      if (depth < maxD && y < H - 10){
+        const k = depth < 2 ? 3 : 2;
+        for (let j=0;j<k;j++){ grow(x, y, a + (j - (k-1)/2) * rnd(.55,.95), len * rnd(.62,.84), depth+1, id); hijos++; }
+      }
+      if (!hijos){ // camino de la punta hasta el brote, para los pulsos de luz
+        const ruta = []; let r = id;
+        while (r != null){ for (let i=roots[r].pts.length-1;i>=0;i--) ruta.push(roots[r].pts[i]); r = roots[r].parent; }
+        rutas.push(ruta);
+      }
+    };
+    [-.75, -.1, .6].forEach(a => grow(cx, G, a + rnd(-.1,.1), fondo * rnd(.42,.56), 0, null));
+    pulsos = Array.from({length: Math.min(9, rutas.length)}, () => ({r:Math.floor(rnd(0,rutas.length)), p:rnd(0,1), v:rnd(.0025,.0055)}));
   }
   function init(){
     size();
-    const n = Math.round(W*H/5500);
-    ash = Array.from({length:n}, () => spawnAsh(rnd(0,H)));
-    seeds = Array.from({length:Math.max(6, Math.round(W/120))}, () => spawnSeed(rnd(0,H*.8)));
+    ash = Array.from({length:Math.round(W*G/6500)}, () => spawnAsh(rnd(0,G)));
+    seeds = Array.from({length:Math.max(5, Math.round(W/150))}, () => spawnSeed(rnd(0,G*.8)));
     sprouts = [];
-    for (let i=0;i<Math.round(W/60);i++){ sprout(rnd(W*.03,W*.97), rnd(H-24,H-4)); const s=sprouts[sprouts.length-1]; s.h=s.max*rnd(.4,1); s.life=1; }
+    for (let i=0;i<Math.round(W/90);i++){ sprout(rnd(X0 + W*.03, W*.97), rnd(G-2,G+3)); const s=sprouts[sprouts.length-1]; s.h=s.max*rnd(.4,1); s.life=1; }
+    buildRoots(); t0 = performance.now();
   }
   function drawSprout(s){
     const tipX = s.x + Math.sin(s.lean)*s.h, tipY = s.y - s.h;
-    ctx.strokeStyle = `rgba(${s.c},${.55*s.life})`; ctx.lineWidth = 1.4;
+    ctx.strokeStyle = `rgba(${s.c},${.55*s.life})`; ctx.lineWidth = 1.3;
     ctx.beginPath(); ctx.moveTo(s.x, s.y); ctx.quadraticCurveTo(s.x, s.y - s.h*.6, tipX, tipY); ctx.stroke();
-    if (s.h > 10){
+    if (s.h > 9){
       ctx.fillStyle = `rgba(${s.c},${.6*s.life})`;
-      ctx.beginPath(); ctx.ellipse(tipX-4, tipY+3, 4.5, 2, -.6, 0, 6.28); ctx.fill();
-      ctx.beginPath(); ctx.ellipse(tipX+4, tipY+3, 4.5, 2, .6, 0, 6.28); ctx.fill();
+      ctx.beginPath(); ctx.ellipse(tipX-4, tipY+3, 4.2, 1.9, -.6, 0, 6.28); ctx.fill();
+      ctx.beginPath(); ctx.ellipse(tipX+4, tipY+3, 4.2, 1.9, .6, 0, 6.28); ctx.fill();
     }
-    const g = ctx.createRadialGradient(tipX, tipY, 0, tipX, tipY, 14);
-    g.addColorStop(0, `rgba(${s.c},${.25*s.life})`); g.addColorStop(1, `rgba(${s.c},0)`);
-    ctx.fillStyle = g; ctx.beginPath(); ctx.arc(tipX, tipY, 14, 0, 6.28); ctx.fill();
+  }
+  function drawRoots(ms){
+    ctx.lineCap = "round"; ctx.lineJoin = "round";
+    for (const r of roots){
+      const f = reduce ? 1 : clamp((ms - 300 - r.depth*420) / 700, 0, 1);
+      if (f <= 0) continue;
+      const n = r.pts.length - 1, hasta = f * n;
+      ctx.beginPath(); ctx.moveTo(r.pts[0][0], r.pts[0][1]);
+      for (let i=1;i<=n;i++){
+        if (i <= hasta) ctx.lineTo(r.pts[i][0], r.pts[i][1]);
+        else { const k = hasta - (i-1); if (k > 0) ctx.lineTo(r.pts[i-1][0] + (r.pts[i][0]-r.pts[i-1][0])*k, r.pts[i-1][1] + (r.pts[i][1]-r.pts[i-1][1])*k); break; }
+      }
+      ctx.strokeStyle = `rgba(90,160,255,${.1 - r.depth*.012})`; ctx.lineWidth = r.w * 5; ctx.stroke();
+      ctx.strokeStyle = `rgba(170,215,255,${.75 - r.depth*.1})`; ctx.lineWidth = r.w; ctx.stroke();
+    }
+    if (reduce || ms < 2600) return;
+    for (const p of pulsos){
+      p.p += p.v; if (p.p >= 1){ p.p = 0; p.r = Math.floor(rnd(0, rutas.length)); }
+      const ruta = rutas[p.r], pos = p.p * (ruta.length - 1), i = Math.floor(pos), k = pos - i;
+      const a = ruta[i], b = ruta[Math.min(i+1, ruta.length-1)], x = a[0] + (b[0]-a[0])*k, y = a[1] + (b[1]-a[1])*k;
+      const g = ctx.createRadialGradient(x,y,0,x,y,9);
+      g.addColorStop(0,"rgba(235,246,255,.95)"); g.addColorStop(.35,"rgba(140,200,255,.45)"); g.addColorStop(1,"rgba(140,200,255,0)");
+      ctx.fillStyle = g; ctx.beginPath(); ctx.arc(x,y,9,0,6.28); ctx.fill();
+    }
+  }
+  function hoja(x, y, L, rot, lado){
+    ctx.save(); ctx.translate(x,y); ctx.scale(lado,1); ctx.rotate(rot);
+    ctx.beginPath(); ctx.moveTo(0,0); ctx.bezierCurveTo(L*.25,-L*.5, L*.85,-L*.42, L,-L*.05); ctx.bezierCurveTo(L*.8,L*.28, L*.3,L*.22, 0,0);
+    const g = ctx.createLinearGradient(0,0,L,0); g.addColorStop(0,"rgba(150,205,255,.95)"); g.addColorStop(1,"rgba(240,250,255,.98)");
+    ctx.fillStyle = g; ctx.fill(); ctx.restore();
+  }
+  function drawBrote(ms, t){
+    const g1 = reduce ? 1 : clamp((ms - 500) / 1700, 0, 1), e = 1 - Math.pow(1 - g1, 3), sh = SH * e;
+    const halo = ctx.createRadialGradient(cx, G - SH*.7, 0, cx, G - SH*.7, SH*2.4);
+    halo.addColorStop(0, `rgba(90,160,255,${.3*e})`); halo.addColorStop(1, "rgba(90,160,255,0)");
+    ctx.fillStyle = halo; ctx.beginPath(); ctx.arc(cx, G - SH*.7, SH*2.4, 0, 6.28); ctx.fill();
+    // línea de tierra
+    const lg = ctx.createLinearGradient(0,0,W,0); lg.addColorStop(0,"rgba(120,170,255,0)"); lg.addColorStop(clamp(X0/W,0,.9),"rgba(120,170,255,0)"); lg.addColorStop(clamp(cx/W,.05,.95),"rgba(150,200,255,.5)"); lg.addColorStop(1,"rgba(120,170,255,0)");
+    ctx.strokeStyle = lg; ctx.lineWidth = 1; ctx.beginPath(); ctx.moveTo(0,G); ctx.lineTo(W,G); ctx.stroke();
+    if (sh < 2) return;
+    const sway = reduce ? 0 : Math.sin(t/1500) * SH * .025;
+    const tipX = cx + SH*.06 + sway, tipY = G - sh;
+    ctx.save(); ctx.shadowColor = "rgba(110,180,255,.95)"; ctx.shadowBlur = 26;
+    ctx.strokeStyle = "rgba(215,238,255,.96)"; ctx.lineWidth = Math.max(2.2, SH*.028); ctx.lineCap = "round";
+    ctx.beginPath(); ctx.moveTo(cx, G); ctx.quadraticCurveTo(cx - SH*.12, G - sh*.55, tipX, tipY); ctx.stroke();
+    const lf = clamp((g1 - .45) / .55, 0, 1), L = SH * .5 * (1 - Math.pow(1 - lf, 3));
+    if (L > 1){ hoja(tipX, tipY, L, -.55, 1); hoja(tipX, tipY, L*.86, -.5, -1); }
+    ctx.restore();
   }
   function frame(t){
+    const ms = t - t0;
     ctx.clearRect(0,0,W,H);
+    drawRoots(ms); drawBrote(ms, t);
     for (const p of ash){
       p.y += p.v; p.x += p.d + Math.sin((t/2000)+p.y/60)*.15;
-      if (p.y > H*.9){ Object.assign(p, spawnAsh(-5)); }
-      ctx.fillStyle = `rgba(150,156,148,${p.a})`; ctx.beginPath(); ctx.arc(p.x,p.y,p.r,0,6.28); ctx.fill();
+      if (p.y > G - 4){ Object.assign(p, spawnAsh(-5)); }
+      ctx.fillStyle = `rgba(160,172,196,${p.a})`; ctx.beginPath(); ctx.arc(p.x,p.y,p.r,0,6.28); ctx.fill();
     }
     for (const s of seeds){
       s.y += s.v; s.x += Math.sin(t/900 + s.ph)*.35;
@@ -338,10 +488,12 @@ footer{padding-block:32px;border-top:1px solid var(--line);font-family:var(--mon
     for (const s of sprouts){ if (s.h < s.max) s.h += .25; if (s.life < 1) s.life = Math.min(1, s.life + .02); drawSprout(s); }
     if (!reduce) requestAnimationFrame(frame);
   }
-  init(); frame(0);
-  let to; addEventListener("resize", () => { clearTimeout(to); to = setTimeout(() => { init(); if (reduce) frame(0); }, 200); });
-  cv.parentElement.addEventListener("click", e => { if (e.target.closest("a,button")) return; const r = cv.getBoundingClientRect(); sprout(e.clientX - r.left, Math.max(H-34, Math.min(H-4, e.clientY - r.top + 40))); if (reduce) frame(0); });
+  init(); frame(performance.now());
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(() => { if (!ancho){ init(); if (reduce) frame(performance.now()); } });
+  let to, lastW = W; addEventListener("resize", () => { clearTimeout(to); to = setTimeout(() => { if (cv.clientWidth === lastW && Math.abs(cv.clientHeight - H) < 90) return; init(); lastW = W; if (reduce) frame(performance.now()); }, 200); });
+  cv.parentElement.addEventListener("click", e => { if (e.target.closest("a,button")) return; const r = cv.getBoundingClientRect(), x = e.clientX - r.left; if (x < X0) return; sprout(x, G + rnd(-2,3)); if (reduce) frame(performance.now()); });
 })();
+
 
 /* ---------- Campo de semillas ---------- */
 const B = {ecologica:"Ecológica", social:"Social", espiritual:"Espiritual-cultural"};
@@ -362,38 +514,71 @@ function persist(){ ls.set("semillas-guardadas", saved); }
 function toggleSave(d){
   if (saved[d.id]) delete saved[d.id];
   else saved[d.id] = {titulo:d.titulo||"", brecha:d.brecha||"", lugar:d.lugar||"", fuente:d.fuente||"", url:d.url||"", guardada:new Date().toISOString().slice(0,10), ts:Date.now(), nota:""};
-  persist(); render(); renderTabla();
+  persist(); render(); renderTabla(); renderExpres();
 }
 
+const PASO = 9; let limite = PASO;
+function cardHTML(d, expres){
+  const url = safeUrl(d.url), s = saved[d.id];
+  const parrafo = url.includes("#:~:text=");
+  const linkTxt = (parrafo ? "Leer el párrafo en " : "") + (d.fuente || "ver fuente") + (d.idioma === "en" ? " (en inglés)" : "");
+  const ref = [esc(d.lugar), url ? `<a href="${esc(url)}" target="_blank" rel="noopener" title="${parrafo ? "Abre la nota justo en la parte de esta semilla, resaltada" : "Abre la nota original"}">${esc(linkTxt)} ↗</a>` : esc(d.fuente), d.fecha_pub ? esc(fmt(d.fecha_pub)) : ""].filter(Boolean).join(" · ");
+  return `<article class="card b-${esc(d.brecha)}">
+    <div class="top"><span class="tag">${esc(B[d.brecha]||d.brecha)}</span><span>capturada ${esc(fmt(d.capturada))}</span></div>
+    <h3>${esc(d.titulo)}</h3>
+    <p>${esc(d.resumen)}</p>
+    ${expres && d.desarrollo ? `<p class="mas-txt">${esc(d.desarrollo)}</p>` : ""}
+    ${d.emerge ? `<p class="emerge"><span>Lo que emerge</span>${esc(d.emerge)}</p>` : ""}
+    <div class="ref">${ref}</div>
+    ${s && s.nota ? `<div class="note">${esc(s.nota)}</div>` : ""}
+    <div class="actions"><button class="act" data-act="guardar" data-id="${esc(d.id)}" aria-pressed="${s?"true":"false"}">${s?"Guardada ✓":"Guardar"}</button>${expres ? `<button class="act" data-act="otra">Otra semilla ↻</button>` : ""}</div>
+  </article>`;
+}
 function render(){
-  const field = $("#field");
+  const field = $("#field"), mas = $("#masWrap");
   $("#count").textContent = docs.length;
   const last = docs.map(d=>d.capturada).filter(Boolean).sort().pop();
-  $("#last").textContent = last ? "última captura: " + fmt(last) : "";
+  $("#last").textContent = last ? "· última captura: " + fmt(last) : "";
   if (!docs.length) return;
+  const hoy = docs.filter(d => d.capturada === last).length;
+  $("#hoyTxt").textContent = last ? `${hoy} ${hoy === 1 ? "nueva" : "nuevas"} el ${fmt(last)}` : "";
   const list = docs.filter(d => {
     if (filtro === "resuena" && !saved[d.id]) return false;
     if (filtro !== "todas" && filtro !== "resuena" && d.brecha !== filtro) return false;
     if (q){ const t = [d.titulo,d.resumen,d.emerge,d.lugar,d.fuente].join(" ").toLowerCase(); if (!t.includes(q)) return false; }
     return true;
   });
-  if (!list.length){ field.innerHTML = `<div class="empty"><h3>Nada por acá todavía</h3>${filtro === "resuena" ? "Tocá \"Guardar\" en una semilla y va a aparecer acá." : "Probá con otro filtro o palabra."}</div>`; return; }
-  field.innerHTML = list.map(d => {
-    const url = safeUrl(d.url), s = saved[d.id];
-    const parrafo = url.includes("#:~:text=");
-    const linkTxt = (parrafo ? "Leer el párrafo en " : "") + (d.fuente || "ver fuente") + (d.idioma === "en" ? " (en inglés)" : "");
-    const ref = [esc(d.lugar), url ? `<a href="${esc(url)}" target="_blank" rel="noopener" title="${parrafo ? "Abre la nota justo en la parte de esta semilla, resaltada" : "Abre la nota original"}">${esc(linkTxt)} ↗</a>` : esc(d.fuente), d.fecha_pub ? esc(fmt(d.fecha_pub)) : ""].filter(Boolean).join(" · ");
-    return `<article class="card b-${esc(d.brecha)}">
-      <div class="top"><span class="tag">${esc(B[d.brecha]||d.brecha)}</span><span>capturada ${esc(fmt(d.capturada))}</span></div>
-      <h3>${esc(d.titulo)}</h3>
-      <p>${esc(d.resumen)}</p>
-      ${d.emerge ? `<p class="emerge"><span>Lo que emerge</span>${esc(d.emerge)}</p>` : ""}
-      <div class="ref">${ref}</div>
-      ${s && s.nota ? `<div class="note">${esc(s.nota)}</div>` : ""}
-      <div class="actions"><button class="act" data-act="guardar" data-id="${esc(d.id)}" aria-pressed="${s?"true":"false"}">${s?"Guardada ✓":"Guardar"}</button></div>
-    </article>`;
-  }).join("");
+  if (!list.length){ mas.hidden = true; field.innerHTML = `<div class="empty"><h3>Nada por acá todavía</h3>${filtro === "resuena" ? "Tocá \"Guardar\" en una semilla y va a aparecer acá." : "Probá con otro filtro o palabra."}</div>`; return; }
+  field.innerHTML = list.slice(0, limite).map(d => cardHTML(d)).join("");
+  const quedan = list.length - limite;
+  mas.hidden = quedan <= 0;
+  if (quedan > 0) $("#masBtn").textContent = `Ver más semillas (quedan ${quedan})`;
 }
+
+/* ---------- Semilla exprés: la ruleta saca al azar una semilla ya capturada ---------- */
+let actual = null, giro = 0, girando = false; const vistas = new Set();
+const SEG = {ecologica:0, social:1, espiritual:2};
+function renderExpres(){ if (actual) $("#expresOut").innerHTML = cardHTML(actual, true); }
+function girar(){
+  if (girando || !docs.length) return;
+  let pool = docs.filter(d => !vistas.has(d.id));
+  if (!pool.length){ vistas.clear(); pool = docs.filter(d => !actual || d.id !== actual.id); if (!pool.length) pool = docs; }
+  const d = pool[Math.floor(Math.random()*pool.length)]; vistas.add(d.id);
+  // la ruleta frena en un gajo del color de la brecha que salió
+  const k = (SEG[d.brecha] ?? 0) + 3 * Math.floor(Math.random()*4);
+  const destino = 360 - (k*30 + 15) + (Math.random()*16 - 8);
+  giro = Math.ceil(giro/360)*360 + 360*4 + destino;
+  const quieto = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const disco = $("#disco"), btn = $("#ruleta");
+  if (quieto) disco.style.transition = "none";
+  disco.style.transform = `rotate(${giro}deg)`;
+  girando = true; btn.disabled = true; $("#ruletaTxt").textContent = "…";
+  setTimeout(() => {
+    actual = d; renderExpres(); girando = false; btn.disabled = false; $("#ruletaTxt").textContent = "Otra";
+    if (innerWidth <= 760) $("#expresOut").scrollIntoView({behavior: quieto ? "auto" : "smooth", block:"nearest"});
+  }, quieto ? 0 : 2450);
+}
+
 
 function renderTabla(){
   const wrap = $("#tablaWrap");
@@ -413,18 +598,22 @@ function renderTabla(){
 }
 
 document.querySelectorAll(".chip[data-b]").forEach(c => c.addEventListener("click", () => {
-  filtro = c.dataset.b;
+  filtro = c.dataset.b; limite = PASO;
   document.querySelectorAll(".chip[data-b]").forEach(x => x.setAttribute("aria-pressed", x === c ? "true" : "false"));
   render();
 }));
-$("#q").addEventListener("input", e => { q = e.target.value.trim().toLowerCase(); render(); });
-$("#field").addEventListener("click", e => {
+$("#q").addEventListener("input", e => { q = e.target.value.trim().toLowerCase(); limite = PASO; render(); });
+const onGuardar = e => {
   const b = e.target.closest("[data-act='guardar']"); if (!b) return;
   const d = docs.find(x => x.id === b.dataset.id); if (d) toggleSave(d);
-});
+};
+$("#field").addEventListener("click", onGuardar);
+$("#expresOut").addEventListener("click", e => { if (e.target.closest("[data-act='otra']")) girar(); else onGuardar(e); });
+$("#masBtn").addEventListener("click", () => { limite += 12; render(); });
+$("#ruleta").addEventListener("click", girar);
 $("#tablaWrap").addEventListener("click", e => {
   const b = e.target.closest("[data-unsave]"); if (!b) return;
-  delete saved[b.dataset.unsave]; persist(); render(); renderTabla();
+  delete saved[b.dataset.unsave]; persist(); render(); renderTabla(); renderExpres();
 });
 $("#tablaWrap").addEventListener("input", e => {
   const t = e.target.closest("[data-note]"); if (!t || !saved[t.dataset.note]) return;
@@ -433,7 +622,7 @@ $("#tablaWrap").addEventListener("input", e => {
 });
 $("#tablaWrap").addEventListener("change", () => render());
 
-/* Las semillas se leen directo de GitHub: así las nuevas aparecen sin publicar en Netlify. Si GitHub falla, usa la copia local. */
+/* Las semillas se leen directo de GitHub, así las nuevas aparecen al instante. Si GitHub falla, usa la copia publicada con el sitio. */
 const SEMILLAS_GH = "https://raw.githubusercontent.com/juanmanuelraigor/capturadora-semillas/main/public/data/semillas.json";
 const getJSON = u => fetch(u, {cache:"no-cache"}).then(r => r.ok ? r.json() : Promise.reject(r.status));
 getJSON(SEMILLAS_GH).catch(() => getJSON("data/semillas.json")).then(list => {
