@@ -1,5 +1,48 @@
 [
   {
+    "id": "cooperativa-tres-de-noviembre-arguello",
+    "titulo": "Cuarenta años de casas levantadas a mano en Argüello",
+    "resumen": "La Cooperativa Tres de Noviembre, en Argüello (Córdoba), juntó a familias de distintos puntos de la provincia para construir sus viviendas desde los cimientos. Hoy, a 40 años, sigue autogestionada y sostiene educación, talleres y un comedor para mayores.",
+    "desarrollo": "Nació por impulso de los frailes dominicos de Santo Domingo y de una fundadora a la que el barrio recuerda como la señora María. Las familias levantaron la infraestructura entre todas y hoy el barrio tiene tres manzanas con 38 casas, un salón comunitario y un espacio de juegos. Desde 2013, con Karina Brizuela en la presidencia, consiguieron asfalto y mejoras del salón gestionando ante municipio y provincia. Funcionan ahí el programa COPA de primaria y secundaria gratis para adultos, talleres de oficios, un gabinete psicopedagógico y un comedor de los viernes para personas mayores. Ya tienen un lote vecino pensado para 40 viviendas más para los hijos de los socios.",
+    "emerge": "Un barrio que se sigue construyendo en común de una generación a la siguiente, sin esperar que nadie se lo dé hecho.",
+    "lugar": "Argüello, Córdoba, Argentina",
+    "fuente": "La Ranchada",
+    "url": "https://laranchada.com.ar/40-anos-de-la-cooperativa-tres-de-noviembre-historia-de-autogestion-y-desarrollo-comunitario-en-cordoba/",
+    "fecha_pub": "2026-11-09",
+    "capturada": "2026-11-10",
+    "brecha": "social",
+    "origen": "buscador"
+  },
+  {
+    "id": "murga-de-la-estacion-teatro-vecinos-posadas",
+    "titulo": "Vecinos actores: el teatro comunitario vuelve a juntarse en Posadas",
+    "resumen": "La Murga de la Estación, grupo de teatro comunitario de Posadas, recibió en su galpón a elencos vecinales de Oberá y de Areguá (Paraguay). Fue el segundo encuentro de teatro comunitario del Mercosur, el primero desde 2015.",
+    "desarrollo": "El encuentro se hizo el 17 y 18 de octubre de 2026 en el galpón nuevo de la Murga, inaugurado a comienzos de año, con funciones a la gorra. Participaron Kazajum (de la Cántaro Bioescuela de Areguá), la Murga del Monte de Oberá y la propia Murga de la Estación, dirigida hace diez años por la actriz Sara Motta. En estos elencos actúan muchos vecinos de todas las edades y cada grupo pone en escena las historias de su lugar. Todo se sostuvo de forma autogestiva: el grupo paraguayo juntó la plata del viaje con funciones, rifas y comidas, y los grupos de Brasil no pudieron viajar esta vez.",
+    "emerge": "Barrios que se cuentan a sí mismos en escena y se encuentran con otros pueblos para imaginar juntos.",
+    "lugar": "Posadas, Misiones, Argentina",
+    "fuente": "El Monterizo",
+    "url": "https://elmonterizo.com/posadas-recibe-al-teatro-de-vecinos-el-encuentro-que-vuelve-despues-de-una-decada",
+    "fecha_pub": "2026-10-14",
+    "capturada": "2026-11-10",
+    "brecha": "espiritual",
+    "origen": "buscador"
+  },
+  {
+    "id": "roots-florence-villa-winter-haven",
+    "titulo": "Cultivar y compartir: la huerta abierta de Florence Villa",
+    "resumen": "En el barrio Florence Villa de Winter Haven (Florida), la organización vecinal Roots of Florence Villa está armando una huerta comunitaria donde quien ayuda a cultivar se lleva lo que necesita. Al lado sumaron una despensa abierta las 24 horas.",
+    "desarrollo": "La idea surgió frente a la suba de los precios de los alimentos, que dejaba la verdura fresca fuera del alcance de muchas familias. La impulsa Marissa Fenton, fundadora de Roots of Florence Villa, y el trabajo arrancó en agosto con voluntarios que prepararon la tierra y colocaron el primer tramo de cerco. Funciona bajo la lógica de cultivar y dar: los vecinos siembran, cuidan y cosechan juntos, y la despensa libre invita a tomar lo necesario y dejar lo que se pueda. Ya empezó la primera siembra y esperan la primera cosecha en primavera. Su mayor desafío es darse a conocer y sumar más manos y apoyos.",
+    "emerge": "El alimento vuelve a ser un bien que se cultiva y se reparte entre vecinos, no solo algo que se compra.",
+    "lugar": "Florence Villa, Winter Haven, Florida, Estados Unidos",
+    "fuente": "Daily Ridge",
+    "url": "https://dailyridge.com/2026/11/04/community-garden-takes-root-in-florence-villa-to-provide-residents-fresh-healthy-produce/",
+    "idioma": "en",
+    "fecha_pub": "2026-11-04",
+    "capturada": "2026-11-10",
+    "brecha": "ecologica",
+    "origen": "buscador"
+  },
+  {
     "id": "humedal-chaita-bikita",
     "titulo": "Veinte aldeas de Bikita cercaron su humedal para que vuelva a brotar",
     "resumen": "En el distrito de Bikita, en Zimbabue, vecinos de veinte aldeas se juntaron para proteger un humedal de unas ocho hectáreas. Lo cercaron, le hicieron un cortafuego y ahora dejan que la vegetación nativa se recupere sola.",
