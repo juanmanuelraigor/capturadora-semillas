@@ -1,5 +1,35 @@
 [
   {
+    "id": "hubs-emergencia-seattle",
+    "titulo": "Seattle: esquinas vecinas que se preparan juntas para la emergencia",
+    "resumen": "En Seattle, una red de voluntarios sostiene 68 \"hubs\" de emergencia: puntos de encuentro barriales donde los vecinos comparten información, recursos y habilidades cuando todo se corta.",
+    "desarrollo": "Nació tras el temporal de diciembre de 2006, cuando vecinos de West Seattle se juntaron cada mañana en parques y esquinas para ayudarse durante más de una semana sin luz. Después lo formalizaron y se extendió a Magnolia y Wallingford, con apoyo de la ciudad para el equipamiento. Cada hub tiene un cofre impermeable en un lugar público y cuatro toldos: información, necesidades y recursos, personas y oficios, y guías en varios idiomas. Ann Forrest y Cindi Barker coordinan la red hace ocho años; hacen simulacros cada verano. Cuesta sostener voluntarios y llegar a barrios postergados.",
+    "emerge": "La seguridad deja de ser algo que se espera de arriba y pasa a tejerse entre vecinos que se conocen antes de la crisis.",
+    "lugar": "Seattle, Washington, Estados Unidos",
+    "fuente": "Resilience.org",
+    "url": "https://www.resilience.org/stories/2026-11-06/how-seattles-emergency-hubs-build-a-disaster-prepared-community/",
+    "idioma": "en",
+    "fecha_pub": "2026-11-06",
+    "capturada": "2026-11-12",
+    "brecha": "social",
+    "origen": "buscador"
+  },
+  {
+    "id": "repair-cafe-shelter-island",
+    "titulo": "Shelter Island: arreglar juntos lo que se rompe",
+    "resumen": "En la biblioteca de Shelter Island, Nueva York, un Repair Café reúne a vecinos voluntarios que reparan con la gente lámparas, ropa, muñecas y electrodomésticos en vez de tirarlos.",
+    "desarrollo": "Kyle Karen lo puso en marcha hace unos cuatro años, sumándose a la red de Repair Cafés nacida en Países Bajos. Lo sostienen voluntarios como el electricista Greg Raymond, Pamela Pospisil, que aprendió a reparar con su padre, y Mark Lindemann, ex técnico de IBM. La idea es reparar al lado del dueño para que el saber vuelva a circular; lo que no se devuelve se dona. En la jornada del 31 de octubre arreglaron entre varios una lámpara de veinte años y la sala aplaudió al encenderla. Estudiantes de la secundaria pueden sumarse como servicio comunitario.",
+    "emerge": "Frente a la cultura de lo descartable, una comunidad recupera el oficio de cuidar las cosas y de aprender unos de otros.",
+    "lugar": "Shelter Island, Nueva York, Estados Unidos",
+    "fuente": "Shelter Island Reporter",
+    "url": "https://shelterislandreporter.timesreview.com/2026/11/02/the-pleasure-of-fixing-whats-broken-a-community-works-together-at-the-repair-cafe/",
+    "idioma": "en",
+    "fecha_pub": "2026-11-02",
+    "capturada": "2026-11-12",
+    "brecha": "social",
+    "origen": "buscador"
+  },
+  {
     "id": "cooperativa-tres-de-noviembre-arguello",
     "titulo": "Cuarenta años de casas levantadas a mano en Argüello",
     "resumen": "La Cooperativa Tres de Noviembre, en Argüello (Córdoba), juntó a familias de distintos puntos de la provincia para construir sus viviendas desde los cimientos. Hoy, a 40 años, sigue autogestionada y sostiene educación, talleres y un comedor para mayores.",
