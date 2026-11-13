@@ -1,5 +1,34 @@
 [
   {
+    "id": "semilla-comunal-vivero-tandil",
+    "titulo": "Semilla Comunal: el vivero cooperativo nacido de huertas barriales",
+    "resumen": "En Tandil, ocho integrantes de la cooperativa Semilla Comunal sostienen un vivero agroecológico donde crían plantines de huerta, nativas y árboles de vereda. Para la mayoría es su único ingreso y también un lugar para enseñar a cuidar la tierra.",
+    "desarrollo": "Arrancó en 2019 como desprendimiento de las huertas comunitarias que el MTE impulsaba en barrios como La Movediza y Villa Aguirre, y siguió produciendo alimentos durante la pandemia. Hoy trabajan en un lote alquilado de unos 900 m², arman sus propios invernaderos y hacen tierra mejorada con compost de material chipeado. Hace cuatro años sumaron plantas nativas. Son cinco mujeres y tres hombres; varias compañeras se fueron cuando cayeron los programas sociales y un robo los dejó sin herramientas. Igual reciben escuelas y estudiantes, dan talleres y algunos guardan semillas propias en sus casas.",
+    "emerge": "Un trabajo digno que se gana cuidando la tierra y multiplicando semillas en común.",
+    "lugar": "Tandil, Buenos Aires, Argentina",
+    "fuente": "El Eco de Tandil",
+    "url": "https://www.eleco.com.ar/campo/el-vivero-donde-la-magia-primaveral-sucede-en-forma-cooperativa",
+    "fecha_pub": "2026-11-09",
+    "capturada": "2026-11-13",
+    "brecha": "ecologica",
+    "origen": "buscador"
+  },
+  {
+    "id": "tool-library-oshkosh",
+    "titulo": "Oshkosh: vecinos que se prestan herramientas y construyen juntos",
+    "resumen": "En Oshkosh, Wisconsin, un grupo de voluntarios abrió una biblioteca de herramientas y taller compartido donde los vecinos de tres condados piden prestado gratis. Se gobierna como cooperativa: socios y voluntarios deciden por igual.",
+    "desarrollo": "La idea surgió entre personas que se cruzaron en un Repair Café local; tras un año de preparación abrió en septiembre de 2025. Hoy tiene unos 140 socios y más de 550 objetos para prestar, de hidrolavadoras a una impresora 3D, con préstamos de una o dos semanas sin costo. En junio de 2026 marcó su récord con 51 préstamos. Las reuniones mensuales son abiertas, las decisiones grandes se votan y las cuentas se publican. Hay talleres gratuitos de costura, Linux o bicicletas, y armaron juntos un micro refugio para mostrar alternativas ante la falta de vivienda.",
+    "emerge": "Lo que antes cada uno compraba solo, ahora se comparte y se aprende en comunidad.",
+    "lugar": "Oshkosh, Wisconsin, Estados Unidos",
+    "fuente": "Wisconsin Watch",
+    "url": "https://wisconsinwatch.org/2026/07/wisconsin-oshkosh-tool-library-neighbors-build-together-winnebago-outagamie-fond-du-lac/",
+    "idioma": "en",
+    "fecha_pub": "2026-07-30",
+    "capturada": "2026-11-13",
+    "brecha": "social",
+    "origen": "buscador"
+  },
+  {
     "id": "hubs-emergencia-seattle",
     "titulo": "Seattle: esquinas vecinas que se preparan juntas para la emergencia",
     "resumen": "En Seattle, una red de voluntarios sostiene 68 \"hubs\" de emergencia: puntos de encuentro barriales donde los vecinos comparten información, recursos y habilidades cuando todo se corta.",
