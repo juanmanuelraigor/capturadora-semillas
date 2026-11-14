@@ -1,5 +1,34 @@
 [
   {
+    "id": "biblioteca-semillas-rivera",
+    "titulo": "Una biblioteca que presta semillas criollas en Rivera",
+    "resumen": "En Rivera, al norte de Uruguay, productoras, estudiantes y docentes de la Udelar sostienen una biblioteca de semillas nativas y criollas. Se llevan semillas, siembran y devuelven parte de la cosecha para que sigan girando.",
+    "desarrollo": "Arrancó de a poco en 2020, en plena pandemia, con un fondo de Extensión de la Udelar, y tomó fuerza en los últimos dos años. Las guardianas de semillas, en su mayoría mujeres productoras, aportan variedades con notas sobre sabor, sequía o plagas. Ya juntaron más de cien variedades, recuperaron el chícharo y encontraron maíces como el catete. Trabajan con la red Semillas Fronterizas, la UTU agraria y escuelas rurales con huertas. Sin financiamiento continuo, lo sostienen a pulmón y les falta espacio.",
+    "emerge": "La semilla vuelve a ser un bien común que circula de mano en mano y guarda la memoria del territorio.",
+    "lugar": "Rivera, Uruguay",
+    "fuente": "Mate Amargo",
+    "url": "https://www.mateamargo.org.uy/2026/11/01/leer-la-semilla/",
+    "fecha_pub": "2026-11-01",
+    "capturada": "2026-11-14",
+    "brecha": "ecologica",
+    "origen": "buscador"
+  },
+  {
+    "id": "rhizopora-manglar-sarawet",
+    "titulo": "Las mujeres de Sarawet que replantan el manglar",
+    "resumen": "En Sarawet, un pueblo costero de Célebes del Norte (Indonesia), el grupo de mujeres Rhizopora restaura el manglar. Juntan propágulos, crían plantines, monitorean la costa y enseñan a sus vecinos a plantar.",
+    "desarrollo": "Empezó en 2022, cuando nueve mujeres que recibían asistencia social fueron invitadas a capacitarse en restauración de manglares; desde entonces las coordina Wisye Sahambangung, pescadora. Venden plantines y cangrejos de barro, tienen un fondo de ahorro y préstamo propio y levantaron su sede con sus manos. En 2026 plantaron 30.000 mangles en ocho meses junto a ONG locales. Enfrentan celos, poca plata y barro hasta el pecho, pero los pescadores ya ven más peces y hoy integran el monitoreo comunitario del manglar.",
+    "emerge": "Cuidar el manglar se vuelve a la vez sustento, autonomía y orgullo compartido para las mujeres del pueblo.",
+    "lugar": "Sarawet, Célebes del Norte, Indonesia",
+    "fuente": "Mongabay",
+    "url": "https://news.mongabay.com/2026/10/indonesian-women-cash-in-on-mangrove-restoration-interview-with-community-leader-wisye-sahambangung/",
+    "idioma": "en",
+    "fecha_pub": "2026-10-17",
+    "capturada": "2026-11-14",
+    "brecha": "ecologica",
+    "origen": "buscador"
+  },
+  {
     "id": "semilla-comunal-vivero-tandil",
     "titulo": "Semilla Comunal: el vivero cooperativo nacido de huertas barriales",
     "resumen": "En Tandil, ocho integrantes de la cooperativa Semilla Comunal sostienen un vivero agroecológico donde crían plantines de huerta, nativas y árboles de vereda. Para la mayoría es su único ingreso y también un lugar para enseñar a cuidar la tierra.",
