@@ -1,5 +1,48 @@
 [
   {
+    "id": "noko-rebel-gardeners-minneapolis",
+    "titulo": "Noko Rebel Gardeners: vecinos que cultivan para donar en Minneapolis",
+    "resumen": "En el barrio Nokomis East de Minneapolis, más de cuarenta vecinos arman canteros en sus casas para cultivar verduras y regalarlas. Lo hacen para que la comida llegue a las familias del barrio que pasan necesidad.",
+    "desarrollo": "Todo arrancó en una reunión vecinal a comienzos de 2026: Caroline Hallstrom, jardinera certificada, preguntó quién se animaba a cultivar en casa para donar y se levantaron unas cincuenta manos. Construyeron más de veinte canteros con madera reciclada, donaciones de comercios locales y grupos de trueque, y sumando los que ya tenían los vecinos llegaron a unos treinta. Llenaron más de cien baldes de tierra donada en el estacionamiento de una iglesia y los repartieron casa por casa durante tres días. Seis jardineros expertos acompañan con análisis de suelo y consejos. A fines de junio ya habían donado casi 45 kilos de alimentos y apuntan a llegar a unos 680 al cierre de la temporada.",
+    "emerge": "La huerta del fondo de casa se vuelve despensa compartida del barrio.",
+    "lugar": "Nokomis East, Minneapolis, Estados Unidos",
+    "fuente": "Nokomis East Neighborhood Association",
+    "url": "https://www.nokomiseast.org/post/noko-rebel-gardeners-growing-food-growing-community",
+    "idioma": "en",
+    "fecha_pub": "2026-07-13",
+    "capturada": "2026-11-15",
+    "brecha": "social",
+    "origen": "buscador"
+  },
+  {
+    "id": "micro-reserva-almagro",
+    "titulo": "Almagro quiere su micro reserva en un baldío con medio siglo de monte",
+    "resumen": "El colectivo vecinal Relieve y otros grupos de Almagro, en Buenos Aires, empujan un proyecto para que un terreno abandonado se convierta en una pequeña reserva urbana. El lote tiene árboles y plantas que crecieron solos durante más de cincuenta años.",
+    "desarrollo": "El terreno de Acuña de Figueroa 981 mide unos 230 metros cuadrados, es del Estado nacional y fue puesto a remate varias veces: la última, en febrero de 2026, quedó desierta sin ofertas. Los vecinos aprovecharon para presentar en la Legislatura porteña un proyecto de Micro Reserva, que propone que la Ciudad se lo compre a la Nación o lo compense con deudas entre ambas jurisdicciones. Argumentan que el barrio tiene un solo espacio verde y que ese baldío ya es un pequeño refugio de naturaleza. Juntaron miles de firmas, la Junta Comunal 5 declaró la iniciativa de interés comunal y empezaron a reunirse con legisladores de distintos bloques.",
+    "emerge": "Un barrio que defiende el monte espontáneo como un bien común.",
+    "lugar": "Almagro, Ciudad de Buenos Aires, Argentina",
+    "fuente": "Tiempo Argentino",
+    "url": "https://www.tiempoar.com.ar/ta_article/tras-el-tercer-remate-fallido-de-un-lote-vecinos-de-almagro-presentan-otro-proyecto-para-crear-una-reserva-urbana/",
+    "fecha_pub": "2026-03-10",
+    "capturada": "2026-11-15",
+    "brecha": "ecologica",
+    "origen": "buscador"
+  },
+  {
+    "id": "huertas-comunitarias-chile-diez-anos",
+    "titulo": "Diez años sembrando huertas en barrios, escuelas y refugios de Chile",
+    "resumen": "La Fundación Huertas Comunitarias instala huertas junto a juntas de vecinos, escuelas y hogares de personas en situación de calle en cinco regiones de Chile. En una década levantó más de 110 huertas.",
+    "desarrollo": "Nació después de que sus impulsoras hicieran un voluntariado en África y vieran cómo una huerta podía organizar a una comunidad en torno a la comida, la educación y el ambiente. Trabaja en tres líneas: escuelas, donde basurales se vuelven aulas al aire libre; rehabilitación y terapia, en hogares y con personas ciegas o sordas; y territorio, junto a juntas de vecinos. Recuperó más de 13.000 metros cuadrados de terrenos abandonados y se cosecharon cerca de 395.000 kilos de alimentos. Miden el capital social del barrio antes y después de cada huerta. Su gran dificultad es la falta de fondos estables; ahora quieren llegar a Arica, donde las comunidades ya pidieron huertas.",
+    "emerge": "La tierra recuperada como excusa para que un barrio vuelva a organizarse.",
+    "lugar": "Santiago y otras regiones, Chile",
+    "fuente": "El Desconcierto",
+    "url": "https://eldesconcierto.cl/hoja-ruta/diez-anos-huertas-comunitarias-110-proyectos-y-casi-400000-kilos-alimentos-cosechados-n5462049",
+    "fecha_pub": "2026-09-07",
+    "capturada": "2026-11-15",
+    "brecha": "ecologica",
+    "origen": "buscador"
+  },
+  {
     "id": "biblioteca-semillas-rivera",
     "titulo": "Una biblioteca que presta semillas criollas en Rivera",
     "resumen": "En Rivera, al norte de Uruguay, productoras, estudiantes y docentes de la Udelar sostienen una biblioteca de semillas nativas y criollas. Se llevan semillas, siembran y devuelven parte de la cosecha para que sigan girando.",
