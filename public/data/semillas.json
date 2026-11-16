@@ -1,5 +1,33 @@
 [
   {
+    "id": "ollas-vida-digna-montevideo",
+    "titulo": "Siete años de ollas populares que se piensan juntas",
+    "resumen": "La Coordinadora Popular y Solidaria Ollas por Vida Digna reúne a ollas, merenderos y colectivos solidarios de Montevideo. Este noviembre hicieron su cuarto encuentro para mirar lo andado y proyectar nuevas formas de organización barrial.",
+    "desarrollo": "Las ollas y merenderos de la coordinadora vienen funcionando casi siete años sin cortar. Junto a un equipo de investigadores de la Facultad de Ciencias Sociales hicieron, entre 2025 y 2026, un relevamiento de cuántas iniciativas existen y qué redes se tejieron a su alrededor. El cuarto encuentro, el sábado 14 de noviembre en esa facultad, buscó llevar esos resultados a una discusión colectiva. Su vocero, Esteban Corrales, cuenta que no son solo lugares donde se comparte comida sino espacios de vínculo y sostén en el barrio, y que la reflexión es política en un sentido no partidario: hacerse cargo de los problemas del territorio frente a la violencia y los discursos de odio.",
+    "emerge": "Del plato compartido nace una forma de organización vecinal que se estudia a sí misma para seguir cuidando.",
+    "lugar": "Montevideo, Uruguay",
+    "fuente": "Caras y Caretas",
+    "url": "https://www.carasycaretas.com.uy/sociedad/ollas-populares-siete-anos-trabajo-barrial-y-un-encuentro-proyectar-futuro-n100979",
+    "fecha_pub": "2026-11-11",
+    "capturada": "2026-11-16",
+    "brecha": "social",
+    "origen": "buscador"
+  },
+  {
+    "id": "huerta-esperancita-el-frutillar",
+    "titulo": "La Esperancita: una huerta entre abuelas, estudiantes y escuelas",
+    "resumen": "Detrás del Centro de Abuelos La Esperanza, en el barrio El Frutillar de Bariloche, estudiantes de la UNRN, investigadores, gente del INTA y las abuelas del centro recuperaron un terreno abandonado. Hoy es una huerta comunitaria intergeneracional abierta a escuelas y vecinos.",
+    "desarrollo": "La huerta nació a mediados de 2022 desde el programa de una ONG local; cuando el grupo se separó y llegó al Centro en 2023, el terreno estaba tomado por la retama y con basura enterrada. Ese año limpiaron, armaron compost y consiguieron una canilla, y en 2024 el impulso de los estudiantes trajo talleres con escuelas sobre soberanía alimentaria y agua, semillas criollas y riego por goteo. Ya tiene seis bancales, frutas finas, aromáticas, árboles nativos del vivero universitario y un invernadero en construcción. Todavía faltan cerco, riego automático y herramientas para personas con movilidad reducida, y el trabajo se teje con la Red de Huerteros/as de Bariloche.",
+    "emerge": "Un suelo abandonado vuelve a dar vida cuando las abuelas y los jóvenes se ponen a sembrar juntos.",
+    "lugar": "Barrio El Frutillar, Bariloche, Río Negro, Argentina",
+    "fuente": "Al Margen",
+    "url": "https://almargen.org.ar/huertas-comunitarias-para-sembrar-esperanza/",
+    "fecha_pub": "2025-12-22",
+    "capturada": "2026-11-16",
+    "brecha": "ecologica",
+    "origen": "buscador"
+  },
+  {
     "id": "noko-rebel-gardeners-minneapolis",
     "titulo": "Noko Rebel Gardeners: vecinos que cultivan para donar en Minneapolis",
     "resumen": "En el barrio Nokomis East de Minneapolis, más de cuarenta vecinos arman canteros en sus casas para cultivar verduras y regalarlas. Lo hacen para que la comida llegue a las familias del barrio que pasan necesidad.",
