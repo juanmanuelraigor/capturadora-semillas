@@ -1,5 +1,48 @@
 [
   {
+    "id": "sostre-civic-cesion-uso-barcelona",
+    "titulo": "Sostre Cívic: casas que son de quien las habita, no del mercado",
+    "resumen": "Sostre Cívic es una cooperativa sin fines de lucro de Cataluña que levanta edificios en cesión de uso: el inmueble es colectivo y cada socio tiene derecho a vivir ahí de por vida. En Barcelona, bloques como Cirerers y Ca l'Ordit ya muestran cómo funciona.",
+    "desarrollo": "Nació hace más de veinte años inspirada en las cooperativas del norte de Europa y hoy suma más de 2.700 socios y unos 30 proyectos, la mitad ya habitados, con más de 200 hogares ocupados. En Cirerers viven unas 50 personas desde 2022: se juntan en asamblea mensual, tienen comisiones, biblioteca de objetos, talleres de bici y carpintería y cocina común. Ca l'Ordit suma 62 viviendas para unas 90 personas de bajos ingresos, sobre suelo municipal cedido. Se entra con un aporte de 12.000 a 24.000 euros y la cuota mensual queda hasta 40% por debajo del alquiler de mercado. El obstáculo: todavía hay poco suelo público y financiación para crecer.",
+    "emerge": "Una forma de habitar donde la casa deja de ser mercancía y el hogar se agranda hacia lo compartido.",
+    "lugar": "Barcelona, Cataluña, España",
+    "fuente": "Euronews",
+    "url": "https://es.euronews.com/2026/11/13/sostre-civic-impulsa-la-vivienda-cooperativa-como-respuesta-a-la-crisis-de-vivienda-en-esp",
+    "fecha_pub": "2026-11-13",
+    "capturada": "2026-11-17",
+    "brecha": "social",
+    "origen": "buscador"
+  },
+  {
+    "id": "alihuen-bosque-miyawaki-chepu",
+    "titulo": "Chepu: chicos de escuela plantan un bosque de bolsillo nativo",
+    "resumen": "Alumnos de 1° a 8° de la Escuela Alla Mapu plantaron 250 árboles y arbustos nativos en Alihuen, un área de conservación en Chepu, Chiloé. Es parte de una restauración comunitaria que ya lleva casi veinte años.",
+    "desarrollo": "La jornada fue el 23 de octubre de 2026 y usó el método Miyawaki, que planta muchas especies juntas para acelerar el regreso del bosque: ulmo, canelo, mañío, matico, chilco y luma. Alihuen son más de 70 hectáreas que sus dueños decidieron recuperar tras incendios y potreros degradados, protegidas con un derecho real de conservación junto a Fundación Tierra Austral. En casi dos décadas pasaron más de 200 voluntarios y se plantaron cerca de 45.000 árboles nativos. El bosque restaurado ya conecta parches con el Parque Nacional Chiloé y se ven pudúes. Los chicos que plantaron otros años vuelven a ver crecer sus árboles.",
+    "emerge": "Una infancia que aprende el territorio con las manos en la tierra y ve crecer el bosque que plantó.",
+    "lugar": "Chepu, Ancud, Chiloé, Chile",
+    "fuente": "El Desconcierto",
+    "url": "https://eldesconcierto.cl/hoja-ruta/ejemplo-seguir-estudiantes-escuela-chiloe-plantan-250-arboles-y-arbustos-nativos-n5463554",
+    "fecha_pub": "2026-10-28",
+    "capturada": "2026-11-17",
+    "brecha": "ecologica",
+    "origen": "buscador"
+  },
+  {
+    "id": "lokono-karaburi-moruca",
+    "titulo": "Karaburi vuelve a hablar lokono, de los abuelos a los chicos",
+    "resumen": "En Karaburi, una aldea de Moruca, Guyana, vecinos de todas las edades se juntaron cinco días para reaprender el lokono, su lengua originaria. Es parte de un ciclo comunitario que también recupera cestería y danzas.",
+    "desarrollo": "El taller se hizo del 24 al 28 de agosto de 2026, impulsado por el concejal local Earl Rodrigues, preocupado porque las costumbres se pierdan antes de llegar a los jóvenes. Participaron entre 15 y 20 personas, desde chicos hasta mayores. Enseñó un sacerdote de la aldea de Wakapoa junto a su nieta: escritura, pronunciación, contar del uno al tres y saludos. Los participantes rescataron palabras de la casa, como las de ají y mandioca. La semana anterior habían trabajado la fibra para canastos y lo siguiente eran las danzas tradicionales.",
+    "emerge": "Una comunidad que se reencuentra con su lengua como quien vuelve a casa.",
+    "lugar": "Karaburi, Moruca, Guyana",
+    "fuente": "Guyana Chronicle",
+    "url": "https://guyanachronicle.com/2026/09/04/karaburi-residents-participate-in-workshop-to-rediscover-indigenous-language-traditions/",
+    "idioma": "en",
+    "fecha_pub": "2026-09-04",
+    "capturada": "2026-11-17",
+    "brecha": "espiritual",
+    "origen": "buscador"
+  },
+  {
     "id": "ollas-vida-digna-montevideo",
     "titulo": "Siete años de ollas populares que se piensan juntas",
     "resumen": "La Coordinadora Popular y Solidaria Ollas por Vida Digna reúne a ollas, merenderos y colectivos solidarios de Montevideo. Este noviembre hicieron su cuarto encuentro para mirar lo andado y proyectar nuevas formas de organización barrial.",
