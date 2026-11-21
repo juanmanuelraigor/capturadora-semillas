@@ -1,5 +1,48 @@
 [
   {
+    "id": "verde-aroma-manzanares",
+    "titulo": "Verde Aroma: doce mujeres y una huerta junto a la vía",
+    "resumen": "En Manzanares, cerca de Pilar, doce mujeres armaron la cooperativa Verde Aroma: cultivan aromáticas y medicinales en el predio de la biblioteca popular de la estación y las transforman en tinturas, jabones y sahumos.",
+    "desarrollo": "Después de la pandemia retomaron una huerta comunitaria que estaba abandonada y con el tiempo se formalizaron como cooperativa autogestiva. Desde 2021 las acompaña la asociación SEDECA con apoyo técnico. Trabajan una parcela de 12 por 9 metros con riego por goteo y un deshidratador solar; se juntan dos veces por semana a producir, cada quince días a coordinar y una vez al mes en asamblea. Venden en ferias, dan talleres en una primaria y quieren replicar la experiencia con adolescentes. El avance inmobiliario y una ola de calor fuerte les complicaron el camino.",
+    "emerge": "Un saber de plantas que se vuelve trabajo compartido, autonomía y comunidad entre mujeres del conurbano.",
+    "lugar": "Manzanares, Pilar, Buenos Aires, Argentina",
+    "fuente": "Bichos de Campo",
+    "url": "https://bichosdecampo.com/en-manzanares-en-el-periurbano-de-buenos-aires-12-mujeres-de-bajos-recursos-conformaron-un-proyecto-productivo-y-social-a-partir-del-cultivo-de-plantas-aromaticas-y-medicinales/",
+    "fecha_pub": "2026-06-28",
+    "capturada": "2026-11-21",
+    "brecha": "social",
+    "origen": "buscador"
+  },
+  {
+    "id": "budi-anumka-lago-budi",
+    "titulo": "Budi Anumka: viveros y memoria lafkenche en el lago Budi",
+    "resumen": "Tres comunidades mapuche lafkenche que rodean el lago Budi, en la Araucanía chilena, sostienen una red de viveros de plantas nativas y un archivo comunitario de saberes tradicionales.",
+    "desarrollo": "La Asociación Ambiental Budi Anumka nació del trabajo comunitario en 2019 y reúne a Malalhue-Chanko, Allipen y Llaguepulli. Desde 2021 lleva un archivo de conocimientos tradicionales que guía qué especies cultivar en sus tres viveros: maqui, boldo, matico, murta. Hacen talleres con chicos en el vivero de una escuela comunitaria y crearon un juego de cartas botánico que ya se usa en todos los cursos y circula por otras escuelas. Restauran espacios bioculturales y huertas colectivas frente a la pérdida de territorio, de hablantes de mapudungun y de saberes.",
+    "emerge": "La memoria de un pueblo vuelve a brotar como planta, juego y escuela en manos de sus niños.",
+    "lugar": "Lago Budi, Araucanía, Chile",
+    "fuente": "Cultural Survival",
+    "url": "https://www.culturalsurvival.org/es/news/budi-anumka-un-tejido-vivo-de-memoria-cuidado-y-futuro-para-los-pueblos-mapuche-lafquenche-en",
+    "fecha_pub": "2026-02-05",
+    "capturada": "2026-11-21",
+    "brecha": "espiritual",
+    "origen": "buscador"
+  },
+  {
+    "id": "mujeres-sarayaku-semillas",
+    "titulo": "Las mujeres de Sarayaku vuelven a sembrar la selva",
+    "resumen": "En el territorio indígena de Sarayaku, en la Amazonía ecuatoriana, grupos rotativos de mujeres recorren la selva juntando semillas nativas y reforestan de forma selectiva con plantas medicinales, frutales y maderables.",
+    "desarrollo": "Empezaron a fines de 2023, cuando las inundaciones y el cambio climático venían alterando las chakras y muchas plantas clave se habían alejado de las casas. Cada dos meses salen en grupos que se turnan a recolectar semillas, cuidar viveros y plantar, y se forman en compostaje y conservación. Hasta fines de 2025 juntaron más de 250.000 semillas y plantaron más de 200.000 ejemplares, también en senderos y escuelas. Lograron que el wayuri, con el que se techan las casas tradicionales, vuelva a crecer cerca. En 2025 se concentraron en que sobreviva lo plantado y planean crecer en 2026.",
+    "emerge": "Una selva que se cuida desde el saber de las mujeres y vuelve a acercarse a la vida cotidiana.",
+    "lugar": "Sarayaku, Ecuador",
+    "fuente": "Noticias Ambientales",
+    "url": "https://noticiasambientales.com/environment-en/women-of-sarayaku-restore-the-amazon-rainforest-with-seeds-ancestral-knowledge-and-selective-reforestation-for-the-future/",
+    "idioma": "en",
+    "fecha_pub": "2026-01-05",
+    "capturada": "2026-11-21",
+    "brecha": "ecologica",
+    "origen": "buscador"
+  },
+  {
     "id": "civic-standard-hardwick",
     "titulo": "The Civic Standard: un living room para todo Hardwick",
     "resumen": "En Hardwick, un pueblo de 2.900 habitantes en Vermont (EE.UU.), The Civic Standard abre un living room público con cenas gratis, teatro hecho por vecinos y talleres de arte. Su directora, Rose Friedman, dice que no es un modelo a copiar sino una práctica de escuchar.",
