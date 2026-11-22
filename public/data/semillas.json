@@ -1,5 +1,48 @@
 [
   {
+    "id": "apr-mashue-agua-bosque",
+    "titulo": "Mashué: el pueblo que pagó por su agua plantando bosque nativo",
+    "resumen": "En Mashué, comuna de La Unión (Los Ríos, Chile), el comité de agua potable rural restaura el bosque nativo de las cuencas para que vuelvan los ríos. Lo financian los mismos vecinos con un aporte en cada boleta de agua.",
+    "desarrollo": "En 1998 se secaron los pozos y esteros, y las familias llegaron a acarrear agua en carreta de bueyes. Desde 2013 los socios del APR suman voluntariamente 50 pesos por metro cúbico consumido, y ese fondo paga la restauración de la cuenca. Negociaron con forestales que liberaran franjas junto a los ríos a cambio de que los vecinos planten y cerquen. Con esa base atraen recursos regionales e internacionales, acompañan con agroecología a quienes ceden parte de su tierra y llevan a alumnos rurales al campo. Hoy son sitio de aprendizaje y su modelo se comparte con Liquiñe.",
+    "emerge": "Una comunidad que entiende el agua como algo que se cuida entre todos y se devuelve al bosque.",
+    "lugar": "Mashué, La Unión, Región de Los Ríos, Chile",
+    "fuente": "El Desconcierto",
+    "url": "https://eldesconcierto.cl/2025/10/25/mashue-el-pueblo-del-sur-de-chile-que-se-seco-en-el-89-y-que-recupera-su-agua-plantando-arboles-nativos",
+    "fecha_pub": "2025-10-25",
+    "capturada": "2026-11-22",
+    "brecha": "ecologica",
+    "origen": "buscador"
+  },
+  {
+    "id": "documenters-akron",
+    "titulo": "Documenters de Akron: vecinos que cuentan lo que pasa en su ciudad",
+    "resumen": "En Akron, Ohio (EE.UU.), más de 400 vecinos entrenados por el medio sin fines de lucro Signal Akron asisten a reuniones de gobierno local y escriben resúmenes públicos. Recuperan la información local y la confianza entre la gente.",
+    "desarrollo": "El modelo nació en Chicago con City Bureau, que convocó a residentes para revisar documentos policiales, y hoy hay unos 25 programas en el país. Signal Akron lo lanzó hace unos tres años: cada documentador cobra cerca de 90 dólares por reunión, elige las que le quedan cómodas y su resumen se publica tras una edición liviana. Tienen entre 19 y 84 años y cubren todos los códigos postales del área, unas doce reuniones por semana. El límite es la plata: sobran reuniones y voluntarios, y las zonas rurales quedan menos cubiertas.",
+    "emerge": "Un periodismo hecho por los propios vecinos, que vuelve a tejer confianza en tiempos de polarización.",
+    "lugar": "Akron, Ohio, Estados Unidos",
+    "fuente": "Reasons to be Cheerful",
+    "url": "https://reasonstobecheerful.world/want-the-news-to-unite-people-let-them-report-it",
+    "idioma": "en",
+    "fecha_pub": "2026-10-26",
+    "capturada": "2026-11-22",
+    "brecha": "social",
+    "origen": "buscador"
+  },
+  {
+    "id": "tejedoras-guaranies-mbaapo",
+    "titulo": "Tejedoras guaraníes: el saber del telar, reconocido como oficio",
+    "resumen": "Tejedoras guaraníes de Santa Rosa (Chuquisaca), Chimeo (Tarija) e Isoso (Santa Cruz), en Bolivia, lograron que su saber textil heredado sea certificado como oficio. Además arman diccionarios del tejido en lengua guaraní.",
+    "desarrollo": "El proceso arrancó en un taller de mayo de 2025 impulsado por el IPDRS junto a las tejedoras, siguió con relevamientos en las comunidades desde septiembre y en febrero de 2026 quedó oficializada la norma 'Mbaapo regua – artesana/o en textil guaraní'. En noviembre el primer grupo recibió sus certificados en La Paz, con la Asamblea del Pueblo Guaraní presente. No es una capacitación: valida lo que se transmite de generación en generación. En Santa Rosa, una antigua misión funciona como espacio de música, arte y tejido.",
+    "emerge": "Saberes ancestrales que dejan de ser invisibles y se vuelven dignidad y autonomía para las comunidades.",
+    "lugar": "Santa Rosa (Chuquisaca), Chimeo (Tarija) e Isoso (Santa Cruz), Bolivia",
+    "fuente": "Opinión Bolivia",
+    "url": "https://www.opinion.com.bo/pais/ministerio-educacion-certifica-conocimientos-tejedoras-guaranies-arte-textil/20261113155101999122.html",
+    "fecha_pub": "2026-11-13",
+    "capturada": "2026-11-22",
+    "brecha": "espiritual",
+    "origen": "buscador"
+  },
+  {
     "id": "verde-aroma-manzanares",
     "titulo": "Verde Aroma: doce mujeres y una huerta junto a la vía",
     "resumen": "En Manzanares, cerca de Pilar, doce mujeres armaron la cooperativa Verde Aroma: cultivan aromáticas y medicinales en el predio de la biblioteca popular de la estación y las transforman en tinturas, jabones y sahumos.",
