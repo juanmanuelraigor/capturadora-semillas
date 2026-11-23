@@ -1,5 +1,48 @@
 [
   {
+    "id": "la-casa-al-lado-berisso",
+    "titulo": "La Casa al Lado: vecinos reviven una vieja Casa del Niño",
+    "resumen": "En Berisso, un grupo de vecinas y vecinos encabezado por Jimena Coronel está recuperando el edificio de la ex Casa del Niño Providencia. Quieren volver a abrirlo como centro cultural y recreativo para chicos del barrio.",
+    "desarrollo": "Las obras arrancaron hace alrededor de un mes en el edificio de calle 170 entre 30 y 31, donde antes se cuidaba a hijos de familias trabajadoras con apoyo escolar y comida. La idea es empezar de a poco: dos horas por turno con arte, música, deporte y merienda. Lo más urgente es arreglar el techo, la canaleta y la instalación eléctrica. Buena parte del material llegó donado, como chapas y pintura (un vecino aportó 40 litros), y otros ayudan con limpieza, rifas y difusión. Organizaron una peña en el Club Villa Paula para juntar fondos y planean formar una asociación civil.",
+    "emerge": "Un barrio que no espera que le devuelvan un espacio de cuidado: lo levanta con sus propias manos.",
+    "lugar": "Berisso, Buenos Aires, Argentina",
+    "fuente": "FM 3 Ciudades",
+    "url": "https://fmtresciudades.com.ar/2026/10/05/la-casa-al-lado-vecinos-impulsan-la-recuperacion-de-un-espacio-para-la-comunidad/",
+    "fecha_pub": "2026-10-05",
+    "capturada": "2026-11-23",
+    "brecha": "social",
+    "origen": "buscador"
+  },
+  {
+    "id": "pune-river-revival-arboles",
+    "titulo": "Pune: vecinos que cuentan árboles para salvar un bosque sagrado",
+    "resumen": "Voluntarios del movimiento Pune River Revival recorren los fines de semana las orillas de los ríos Mula y Mutha, en India, registrando cada árbol. Con esos datos defienden la arboleda sagrada Ram-Mula Devrai frente a un megaproyecto de costanera.",
+    "desarrollo": "El grupo nació como respuesta al plan oficial de urbanizar la ribera, con un costo estimado de unos 500 millones de dólares. Primero mapeaban a mano; desde 2024 lo hacen de forma sistemática con la app de ciencia ciudadana iNaturalist. La arboleda, en la confluencia del Ram y el Mula, tiene cerca de mil árboles centenarios y cientos de especies animales. Además organizan caminatas para observar mariposas e insectos y concursos de pintura de árboles. Según el voluntario Raghunandan Patil, hoy ese tramo corre mucho menos riesgo, y el municipio acepta sus datos como complemento de su censo.",
+    "emerge": "La ciudadanía convertida en guardiana atenta de lo vivo, que mira, nombra y cuida cada árbol de su río.",
+    "lugar": "Pune, Maharashtra, India",
+    "fuente": "Mongabay",
+    "url": "https://news.mongabay.com/short-article/2026/11/in-india-volunteers-map-riverside-trees-to-make-a-case-for-urban-conservation/",
+    "idioma": "en",
+    "fecha_pub": "2026-11-13",
+    "capturada": "2026-11-23",
+    "brecha": "ecologica",
+    "origen": "buscador"
+  },
+  {
+    "id": "encuentro-teatro-comunitario-parana",
+    "titulo": "300 vecinos en escena: el teatro comunitario se encuentra en Paraná",
+    "resumen": "El 12° Encuentro Nacional de Teatro Comunitario reúne en Santa Fe y Paraná a grupos vecinales de varias provincias. Unas 300 personas del lugar actúan, iluminan, visten y maquillan en obras, talleres y charlas gratuitas.",
+    "desarrollo": "El encuentro empezó el 20 de noviembre y lo organizan el Grupo Detripacorazón de Santa Fe y la Biblioteca Popular Caminantes de Paraná. Hay unas 25 actividades, todas a la gorra, en escuelas, plazas y salas. Llegan elencos porteños como Res o no Res de Mataderos, Matemurga de Villa Crespo y la Orquesta Atípica Catalinas Sur. Adhemar Bianchi, de Catalinas Sur, da una charla sobre la historia del teatro comunitario en Argentina. El grupo Caminantes presenta una obra que cuenta cómo nació su biblioteca de la organización vecinal en la crisis de 2001.",
+    "emerge": "Barrios que se cuentan a sí mismos sobre un escenario y vuelven arte su propia memoria.",
+    "lugar": "Paraná, Entre Ríos y Santa Fe, Argentina",
+    "fuente": "Análisis Digital",
+    "url": "https://www.analisisdigital.com.ar/cultura/2026/11/22/el-teatro-comunitario-continua-en-parana-con-una-jornada-especial-este-lunes",
+    "fecha_pub": "2026-11-22",
+    "capturada": "2026-11-23",
+    "brecha": "espiritual",
+    "origen": "buscador"
+  },
+  {
     "id": "apr-mashue-agua-bosque",
     "titulo": "Mashué: el pueblo que pagó por su agua plantando bosque nativo",
     "resumen": "En Mashué, comuna de La Unión (Los Ríos, Chile), el comité de agua potable rural restaura el bosque nativo de las cuencas para que vuelvan los ríos. Lo financian los mismos vecinos con un aporte en cada boleta de agua.",
