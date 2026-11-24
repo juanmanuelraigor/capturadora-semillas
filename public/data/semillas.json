@@ -1,5 +1,33 @@
 [
   {
+    "id": "biblioteca-estacion-talleres-km5",
+    "titulo": "Una biblioteca que se quemó y la ciudad volvió a llenar de libros",
+    "resumen": "La Biblioteca Popular Estación Talleres, del Km. 5 de Comodoro Rivadavia, perdió su edificio en un incendio. Vecinos de toda la ciudad y de otros pueblos respondieron con un Bibliofest solidario y una ola de donaciones.",
+    "desarrollo": "Según su presidente, Alejandro Ruta, el fuego se llevó cerca de 4.000 libros y la gente donó una cantidad parecida, más una impresora, un mueble y una computadora en camino. Antes del incendio la biblioteca abría de 9 a 21, con 14 talleres para unas 160 personas entre chicos y grandes, préstamo de libros, internet y lugar de estudio. Ahora el material se guarda en la vecinal y en casas particulares para poder clasificarlo. Todavía no hay pericias oficiales ni fecha para un nuevo local, y no quieren otro espacio prestado. Con las enciclopedias que sobran piensan armar una red con escuelas del interior.",
+    "emerge": "Una comunidad que entiende la biblioteca como casa común y la reconstruye entre todos cuando el fuego la destruye.",
+    "lugar": "Km. 5, Comodoro Rivadavia, Chubut, Argentina",
+    "fuente": "Diario Crónica",
+    "url": "https://www.diariocronica.com.ar/noticias/2026/11/21/179253-tras-el-incendio-la-biblioteca-estacion-talleres-recibio-donaciones-que-superaron-sus-expectativas",
+    "fecha_pub": "2026-11-21",
+    "capturada": "2026-11-24",
+    "brecha": "social",
+    "origen": "buscador"
+  },
+  {
+    "id": "escuela-semillas-risaralda",
+    "titulo": "La Escuela de Semillas que siembra sin venenos en Risaralda",
+    "resumen": "En zonas rurales de Risaralda, Colombia, la Escuela de Semillas enseña a producir sin agrotóxicos y cuida semillas nativas y criollas. Además arma un mercado agroecológico que une a quienes cultivan con quienes comen.",
+    "desarrollo": "Nació de procesos comunitarios rurales preocupados por los químicos fumigados cerca de escuelas y casas, que exponían a chicos, embarazadas y vecinos. Empezó compartiendo saberes campesinos sobre siembra limpia, cuidado del suelo y recuperación de semillas, y con el tiempo sumó formación, trueque de semillas y mercados. La impulsa Jorge Montoya, el 'Mensajero de Semillas', junto a los colectivos Tupinambá y Cadera, con apoyo de la Sociedad de Mejoras. Las mujeres rurales encabezan huertas, intercambios y la enseñanza a chicos y jóvenes. Cada tercer viernes del mes hay mercado agroecológico en el Parque La Rebeca.",
+    "emerge": "Un territorio que recupera su soberanía alimentaria guardando las semillas propias y volviendo a cultivar en armonía con el suelo.",
+    "lugar": "Risaralda, Colombia",
+    "fuente": "La Patria",
+    "url": "https://www.lapatria.com/eje-cafetero/el-proyecto-de-risaralda-que-rescata-semillas-nativas-y-conecta-productores-con",
+    "fecha_pub": "2026-04-13",
+    "capturada": "2026-11-24",
+    "brecha": "ecologica",
+    "origen": "buscador"
+  },
+  {
     "id": "la-casa-al-lado-berisso",
     "titulo": "La Casa al Lado: vecinos reviven una vieja Casa del Niño",
     "resumen": "En Berisso, un grupo de vecinas y vecinos encabezado por Jimena Coronel está recuperando el edificio de la ex Casa del Niño Providencia. Quieren volver a abrirlo como centro cultural y recreativo para chicos del barrio.",
