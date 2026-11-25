@@ -1,5 +1,34 @@
 [
   {
+    "id": "bloc-la-rosa-gracia",
+    "titulo": "Bloc La Rosa: inquilinos de Gràcia compran sus edificios",
+    "resumen": "Unos cuarenta vecinos de dos edificios contiguos en Gràcia, Barcelona, se organizaron como Bloc La Rosa para comprar sus casas en conjunto antes de que se las quede un fondo. Quieren convertirlas en vivienda cooperativa, sin dueños individuales.",
+    "desarrollo": "Todo arrancó en septiembre de 2026, cuando los inquilinos de Ros de Olano 20 y Planeta 11 supieron que los bloques ya tenían comprador: un fondo inmobiliario. Se apoyaron en Sostre Cívic, el Sindicat de Llogateres y el Sindicat d'Habitatge de Gràcia y usaron el derecho de tanteo y retracto, que frenó la venta y les dio dos meses. Ya juntaron una parte sustancial del dinero y le piden al Ayuntamiento el 30% restante: a cambio, la ciudad sumaría 17 viviendas y 3 locales al parque público. El plazo vence a principios de diciembre y el desgaste es fuerte, pero el grupo sostiene que la pelea es de barrio.",
+    "emerge": "La vivienda deja de ser mercancía y vuelve a ser un bien común que los vecinos cuidan juntos.",
+    "lugar": "Gràcia, Barcelona, España",
+    "fuente": "Infobae",
+    "url": "https://www.infobae.com/espana/2026/11/24/vecinos-de-barcelona-se-unen-para-comprar-sus-edificios-evitar-ser-expulsados-por-un-fondo-inmobiliario-y-sacar-todas-estas-viviendas-del-mercado-especulativo/",
+    "fecha_pub": "2026-11-24",
+    "capturada": "2026-11-25",
+    "brecha": "social",
+    "origen": "buscador"
+  },
+  {
+    "id": "global-gardens-albany-park",
+    "titulo": "Global Gardens: refugiados que siembran su tierra en Chicago",
+    "resumen": "En Albany Park, Chicago, unas 300 personas refugiadas de nueve países cultivan 68 parcelas en tierra del Park District. Siembran las verduras de sus lugares de origen para sus familias, la feria del barrio y un comedor solidario.",
+    "desarrollo": "La huerta lleva 14 años; la fundó Linda Seyler como granja de capacitación y hoy, con Haley LeRand al frente, ofrece gratis tierra, agua y semillas a quienes ya traen el saber de sus tierras. Tres de cada cuatro vienen de Myanmar, y también hay familias de Burundi, Afganistán, Bután, Etiopía, Congo y Ucrania. Cultivan sin agroquímicos, reusan palés para tutores y sombra, y nueve familias venden en ferias y por canastas: este año calculan más de 100.000 dólares entre todas. Lo que sobra va a Common Pantry. Hay clases de cocina, comidas compartidas y conciertos, y todo esto sigue en pie en un barrio golpeado por las redadas migratorias.",
+    "emerge": "Quienes perdieron su tierra vuelven a echar raíces y hacen de una huerta un hogar compartido.",
+    "lugar": "Albany Park, Chicago, Estados Unidos",
+    "fuente": "Civil Eats",
+    "url": "https://civileats.com/2026/11/12/at-global-gardens-in-chicago-refugees-grow-novel-crops-and-community/",
+    "idioma": "en",
+    "fecha_pub": "2026-11-12",
+    "capturada": "2026-11-25",
+    "brecha": "ecologica",
+    "origen": "buscador"
+  },
+  {
     "id": "biblioteca-estacion-talleres-km5",
     "titulo": "Una biblioteca que se quemó y la ciudad volvió a llenar de libros",
     "resumen": "La Biblioteca Popular Estación Talleres, del Km. 5 de Comodoro Rivadavia, perdió su edificio en un incendio. Vecinos de toda la ciudad y de otros pueblos respondieron con un Bibliofest solidario y una ola de donaciones.",
