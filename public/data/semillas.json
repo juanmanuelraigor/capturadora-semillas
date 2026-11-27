@@ -1,5 +1,48 @@
 [
   {
+    "id": "asamblea-villa-pueyrredon",
+    "titulo": "La asamblea que volvió a tejer el barrio en Villa Pueyrredón",
+    "resumen": "Desde 2021, vecinas y vecinos de Villa Pueyrredón, en Buenos Aires, se juntan en asamblea horizontal y autoconvocada. Sostienen una merienda solidaria semanal en la estación, ciclos de cine debate y juegos callejeros.",
+    "desarrollo": "Arrancó en agosto de 2021 con una primera asamblea en la plaza de la estación del Mitre. Todos los martes a las 18:30 sirven café, mate cocido, leche y facturas a quienes la están pasando mal, con donaciones de panaderías y comercios del barrio. Dicen que lo central no es la comida sino escuchar y acompañar, y la convocatoria crece aunque llueva. También organizan cine debate y se sumaron a la Cumbre de Juegos Callejeros, que corta una calle para jugar a la rayuela, el trompo o la soga. Se apoyan en el trabajo voluntario y tejen red con otras organizaciones de la zona.",
+    "emerge": "Un barrio que deja de ser un lugar de paso y vuelve a ser una trama de cuidado entre vecinos.",
+    "lugar": "Villa Pueyrredón, Ciudad de Buenos Aires, Argentina",
+    "fuente": "El Barrio Pueyrredón",
+    "url": "https://elbarriopueyrredon.com.ar/asamblea-de-villa-pueyrredon-reconstruir-los-lazos-desde-el-barrio/",
+    "fecha_pub": "2026-08-24",
+    "capturada": "2026-11-27",
+    "brecha": "social",
+    "origen": "buscador"
+  },
+  {
+    "id": "club-talandira-mamba-malawi",
+    "titulo": "Las mujeres de Talandira que hacen brotar frutales en Malawi",
+    "resumen": "En la aldea de Mamba, en Malawi, un club de mujeres se organizó para cuidar el suelo y cultivar. En dos años levantaron plantaciones de banana, mango y cítricos, y ahora tienen agua propia para crecer.",
+    "desarrollo": "El club Talandira se formó en 2025 dentro de un proyecto de resiliencia y seguridad alimentaria que enfrenta la deforestación y restaura suelos. En unos dos años plantaron bananos, mangos, naranjos y mandarinos. El límite era el agua: tenían un único pozo poco profundo y largas caminatas para acarrearla. Con apoyo del Centro Jesuita de Ecología y Desarrollo se construyó una perforación con bomba solar. Con ese agua planean ampliar los bananales, sumar frutales mejorados y diversificar con verduras, maíz y papas para comer y vender.",
+    "emerge": "Comunidades rurales que, organizadas entre mujeres, convierten tierra degradada en huerto y sustento.",
+    "lugar": "Aldea de Mamba, Malawi",
+    "fuente": "Irish Jesuits International",
+    "url": "https://iji.ie/2026/11/23/water-brings-life-to-talandira-womens-club",
+    "idioma": "en",
+    "fecha_pub": "2026-11-23",
+    "capturada": "2026-11-27",
+    "brecha": "ecologica",
+    "origen": "buscador"
+  },
+  {
+    "id": "infancias-vivienda-cooperativa-cataluna",
+    "titulo": "Crecer en una cooperativa: cuando los vecinos son familia",
+    "resumen": "Niñas y niños de Cal Paler (Cardedeu), La Balma y La Borda (Barcelona) cuentan cómo es criarse en vivienda cooperativa en cesión de uso. Comparten salas, cocina y cuidados con sus vecinos.",
+    "desarrollo": "En estas cooperativas el edificio es de todos y cada familia tiene derecho a vivir allí de por vida pagando una cuota accesible, sin poder vender, alquilar ni heredar el piso. La Balma y La Borda fueron de las primeras en traer el modelo a Cataluña; Cal Paler abrió hace pocos meses, con lavadero compartido, sala de ensayo y cocina común donde se cocina para ochenta. Hay unos 30 proyectos ya habitados y más de 70 contando los que están en obra o en formación. Los chicos ganan autonomía, resuelven sus conflictos entre ellos y tienen adultos de referencia más allá de su casa.",
+    "emerge": "Una infancia que crece en comunidad, con la vivienda como bien común y no como mercancía.",
+    "lugar": "Cardedeu y Barcelona, Cataluña, España",
+    "fuente": "Ara",
+    "url": "https://es.ara.cat/criaturas/ojala-casas-fueran-lugar-vecinos-son-familia_130_5915568.html",
+    "fecha_pub": "2026-11-19",
+    "capturada": "2026-11-27",
+    "brecha": "social",
+    "origen": "buscador"
+  },
+  {
     "id": "repair-cafe-eco-village-koreatown",
     "titulo": "El taller mecánico que ahora arregla cosas (y vínculos)",
     "resumen": "En Koreatown, Los Ángeles, un grupo de vecinos organiza un repair café en el antiguo taller mecánico de la Eco Village. La gente trae lo roto y voluntarios lo reparan gratis, enseñando a hacerlo.",
